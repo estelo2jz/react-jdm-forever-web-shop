@@ -3,7 +3,9 @@ import { useParams } from 'react-router-dom'
 import { DataContext } from './DataProvider'
 import Colors from './Colors'
 import Sizes from './Sizes'
-import DetailsThumb from './DetailsThumb'
+import DetailsThumb from './DetailsThumb';
+import DetailsThumbTwo from './Details/DetailsThumbTwo';
+import DetailsContact from './Details/DetailsContact';
 import { Link } from 'react-router-dom'
 
 import './Details/Details.scss';
@@ -44,8 +46,8 @@ export default function Details() {
               </div>
             </div>
             <div className="box-details">
-              <div className="box-">
-                <div className="img-container" onMouseMove={handleMouseMove}
+              <div className="box-img">
+                <div className="box-img-container" onMouseMove={handleMouseMove}
                   style={{ backgroundImage: `url(${product.images[index]})` }} ref={imgDiv}
                   onMouseLeave={() => imgDiv.current.style.backgroundPosition = `center`}
                 />
@@ -57,50 +59,59 @@ export default function Details() {
               {/* <Colors colors={product.colors} />
               <Sizes sizes={product.sizes} /> */}
               <div className="box-specs-container">
-                <p>
+                <p className="box-specs-items">
                   <span>YEAR</span>
-                  <span></span>
-                  {product.year}
+                  <span>
+                    {product.year}
+                  </span>
                 </p>
-                <p>
+                <p className="box-specs-items">
                   <span>MAKE</span>
-                  <span></span>
-                  {product.make}
+                  <span>
+                    {product.make}
+                  </span>
                 </p>
-                <p>
+                <p className="box-specs-items">
                   <span>MODEL</span>
-                  <span></span>
-                  {product.model}
+                  <span>
+                    {product.model}
+                  </span>
                 </p>
-                <p>
+                <p className="box-specs-items">
                   <span>BODY COLOR</span>
-                  <span></span>
-                  {product.bodyColor}
+                  <span>
+                    {product.bodyColor}
+                  </span>
                 </p>
-                <p>
+                <p className="box-specs-items">
                   <span>STOCK</span>
-                  <span></span>
-                  {product.stockNumber}
+                  <span>
+                    {product.stockNumber}
+                  </span>
                 </p>
-                <p>
+                <p className="box-specs-items">
                   <span>VIN</span>
-                  <span></span>
-                  {product.vin}
+                  <span>
+                    {product.vin}
+                  </span>
                 </p>
-                <p>
+                <p className="box-specs-items">
                   <span>MILEs</span>
-                  <span></span>
-                  {product.miles}
+                  <span>
+                    {product.miles}
+                  </span>
                 </p>
-                <p>
+                <p className="box-specs-items">
                   <span>ENGINE SIZE</span>
-                  <span></span>
-                  {product.engineSize}
+                  <span>
+                    {product.engineSize}
+                  </span>
                 </p>
-                <p>
+                <p className="box-specs-items">
                   <span>TRANSMISSION TYPE</span>
-                  <span></span>
-                  {product.transmissionType}
+                  <span>
+                    {product.transmissionType}
+                  </span>
                 </p>
               </div>
               {/* <DetailsThumb images={product.images} setIndex={setIndex} /> */}
@@ -108,7 +119,7 @@ export default function Details() {
                 Add to cart
               </Link> */}
             </div>
-
+            <DetailsContact />
           </div>
         ))
       }

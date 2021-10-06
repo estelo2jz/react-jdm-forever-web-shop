@@ -6,18 +6,25 @@
   margin: 15px 0;
   .card {
     .box-container {
+      margin-left: 1px;
       .box-product {
         // border-bottom: 5px solid #e6e6e6;
         display: flex;
         flex-direction: column;
         .box-product-name {
           padding-top: 10px;
-          .box-product-year {
-
+          .box-product-year { 
+            .box-product-year-name {
+              letter-spacing: -0.05em;
+            }
           }
           .box-product-make {
             // padding-left: 10px;
             // height: 60px;
+            .box-product-make-name {
+              letter-spacing: -0.05em;
+          
+            }
           }
         }
         .box-product-model {
@@ -41,6 +48,9 @@
         align-items: center;
         // padding: 0px 0px;
         padding-top: 10px;
+        p {
+          font-weight: 600;
+        }
         h4 {
           padding-left: 10px;
         }

@@ -7,13 +7,80 @@
 
   .details__header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
     align-items: center;
-    padding: 20px 20px;
+    // padding: 20px 20px;
+      margin: 10px 0px;
+
+    .details-header__fullname {
+      font-size: 2.5em;
+      p {
+        font-weight: bolder;
+      }
+    }
+    .details__price {
+      display: flex;
+      justify-content:center;
+      align-items: center;
+      background-color: #d71345;
+      // height: 120px;
+      width: 150px;
+      padding: 10px 0px;
+      margin: 10px 0px;
+      // width: 20%;
+      h3 {
+        font-weight: 500;
+        font-size: 2em;
+        color: white;
+      }
+    }
+  }
+  .box-details {
+    display: flex;
+    flex-wrap: wrap;
+    .box-img {
+      float: left;
+      .box-img-container {
+        // width: 60%;
+        // width: 600px;
+        img {
+        // width: 600px;
+        }
+      }
+    }
+    .box-specs-container {
+      float: left;
+      // padding: 0px 40px;
+      // width: 360px;
+      // width: 50%;
+      // background-color: red;
+      // border-bottom: 1px solid #e6e6e6;
+
+      .box-specs-items {
+        display: flex;
+        flex-direction: column;
+        border-top: 1px solid #e6e6e6;
+        // border-bottom: 1px solid #e6e6e6;
+        // width: 100%;
+        width: 400px;
+        span:nth-child(1) {
+          font-size: 1.1rem;
+          padding-top: 10px;
+        }
+        span:nth-child(2) {
+          margin-top: -8px;
+          font-weight: bolder;
+          font-size: 1.7rem;
+          letter-spacing: 2px;
+          margin-bottom: -10px;
+        }
+      }
+    }
   }
 }
 
-.details .img-container {
+.details .box-img-container {
   max-width: 400px;
   width: 100%;
   // margin: 20px;
@@ -23,15 +90,16 @@
   background-repeat: no-repeat;
 }
 
-.details .img-container:hover {
+.details .box-img-container:hover {
   background-size: 150%;
   border: 1px solid #ddd;
   cursor: zoom-in;
+
 }
 
 .box-details {
   // max-width: 500px;
-  width: 100%;
+  // width: 100%;
   // margin: 20px;
   display: flex;
   flex-wrap: wrap;
@@ -82,11 +150,15 @@
 .box-details .thumb {
   display: flex;
   cursor: pointer;
+  align-items: center;
+  // justify-content: center;
+  flex-wrap: wrap;
+  width: 400px;
 }
 
 .box-details .thumb img {
-  width: 50px;
-  height: 45px;
+  width: 90px;
+  height: 90px;
   display: block;
   object-fit: cover;
   margin: 20px;

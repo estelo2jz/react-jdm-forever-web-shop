@@ -21,10 +21,10 @@ export default function Products() {
               <div className="box-product">
                 <div className="box-product-name">
                   <h3 className="box-product-year" year={product.year}>
-                    <Link to={`/products/${product._id}`}>{product.year}</Link>
+                    <Link to={`/products/${product._id}`} className="box-product-year-name">{product.year}</Link>
                   </h3>
                   <h3 className="box-product-make" make={product.make}>
-                    <Link to={`/products/${product._id}`}>{product.make}</Link>
+                    <Link to={`/products/${product._id}`} className="box-product-make-name">{product.make}</Link>
                   </h3>
                 </div>
                 <h3 className="box-product-model" model={product.model}>

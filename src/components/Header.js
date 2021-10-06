@@ -26,7 +26,7 @@ export default function Header() {
 
       <div className="logo">
         {/* <h1><Link to="/products">JDM-Eien-Ni</Link></h1> */}
-        <h1><Link to="/products">JDM4-EVER</Link></h1>
+        <h1><Link to="/products">JDM4 EVER</Link></h1>
       </div>
       <ul style={styleMenu}>
         <li><Link to="/">Home</Link></li>
