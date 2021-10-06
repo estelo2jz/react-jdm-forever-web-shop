@@ -4,7 +4,9 @@ import Products from './components/Products'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import { DataProvider } from './components/DataProvider'
 import Details from './components/Details'
+import Home from './components/Home/Home';
 import Cart from './components/Cart'
+import Footer from './components/Footer/Footer';
 
 
 function App() {
@@ -15,11 +17,13 @@ function App() {
           <Header />
           <section>
             <Routes>
+              <Route path="/" element={<Home />} />
               <Route path="products" element={<Products />} />
               <Route path="products/:id" element={<Details />} />
               <Route path="cart" element={<Cart />} />
             </Routes>
           </section>
+          <Footer />
         </Router>
       </div>
     </DataProvider>
