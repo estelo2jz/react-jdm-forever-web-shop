@@ -1,9 +1,18 @@
-import React from 'react'
+import React from 'react';
+import TopHeader from './TopHeader.js';
+import FeaturedInventory from '../Features/FeaturedInventory'
+import Product from '../Products';
+
+import './Home.scss';
 
 const Home = () => {
   return (
     <div className="home__container">
-      home
+      <TopHeader />
+      <FeaturedInventory />
+      <Product />
+      {/* <div className="home__img-container">
+      </div> */}
     </div>
   )
 }
