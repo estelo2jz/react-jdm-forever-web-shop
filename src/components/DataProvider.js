@@ -46,7 +46,17 @@ import Integra1996TR2 from '../assets/images/cars/1996-honda-integra-type-r-2.jf
 import Integra1996TR3 from '../assets/images/cars/1996-honda-integra-type-r-3.jfif';
 import Integra1996TR4 from '../assets/images/cars/1996-honda-integra-type-r-4.jfif';
 import Integra1996TR5 from '../assets/images/cars/1996-honda-integra-type-r-5.jfif';
-
+import Integra1996TR7 from '../assets/images/cars/1996-honda-integra-type-r-7.jfif';
+import Integra1996TR11 from '../assets/images/cars/1996-honda-integra-type-r-11.jfif';
+import Integra1996TR14 from '../assets/images/cars/1996-honda-integra-type-r-14.jfif';
+import Integra1996TR20 from '../assets/images/cars/1996-honda-integra-type-r-20.jfif';
+import Integra1996TR16 from '../assets/images/cars/1996-honda-integra-type-r-16.jfif';
+import Integra1996TR17 from '../assets/images/cars/1996-honda-integra-type-r-17.jfif';
+import Integra1996TR18 from '../assets/images/cars/1996-honda-integra-type-r-18.jfif';
+import Integra1996TR19 from '../assets/images/cars/1996-honda-integra-type-r-19.jfif';
+import Integra1996TR34 from '../assets/images/cars/1996-honda-integra-type-r-34.jfif';
+import Integra1996TR35 from '../assets/images/cars/1996-honda-integra-type-r-35.jfif';
+import Integra1996TR36 from '../assets/images/cars/1996-honda-integra-type-r-36.jfif';
 
 import LancerEVO20001 from '../assets/images/cars/2000-mitsubishi-lancer-evolution-1.jfif';
 import LancerEVO20002 from '../assets/images/cars/2000-mitsubishi-lancer-evolution-2.jfif';
@@ -96,7 +106,7 @@ export const DataProvider = (props) => {
       "make": "MAZDA",
       "": "",
       "images": [
-        Rx71992FD1, Rx71992FD2, Rx71992FD3, , Rx71992FD5
+        Rx71992FD1, Rx71992FD2, Rx71992FD3, Rx71992FD4, Rx71992FD5
       ],
       "description": "How to and tutorial videos of cool CSS effect, Web Design ideas,JavaScript libraries, Node.",
       "content": "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
@@ -211,7 +221,7 @@ export const DataProvider = (props) => {
       "make": "HONDA",
       "": "",
       "images": [
-        Integra1996TR1, Integra1996TR2, Integra1996TR3, Integra1996TR4, 
+        Integra1996TR1, Integra1996TR2, Integra1996TR3, Integra1996TR4, Integra1996TR5, Integra1996TR7, Integra1996TR11, Integra1996TR14, Integra1996TR16, Integra1996TR17, Integra1996TR18, Integra1996TR19, Integra1996TR20, Integra1996TR34, Integra1996TR35, Integra1996TR36
       ],
       "description": "How to and tutorial videos of cool CSS effect, Web Design ideas,JavaScript libraries, Node.",
       "content": "Welcome to our channel Dev AT. Here you can learn web designing, UI/UX designing, html css tutorials, css animations and css effects, javascript and jquery tutorials and related so on.",
