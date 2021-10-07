@@ -6,7 +6,7 @@
     .tabs {
 
       .tabs-template__outer-container {
-        border-left: 1px solid #333333;
+        // border-left: 1px solid #333333;
 
         .tabs-template__container {
 
@@ -111,7 +111,7 @@
   float: left;
   padding: 12px 10px;
   margin-right: 1px;
-  font-size: 1.2em;
+  font-size: clamp(14px, 1.5vw, 20px);
   font-weight: 700;
   cursor: pointer;
   transition: background-color 0.3s;
