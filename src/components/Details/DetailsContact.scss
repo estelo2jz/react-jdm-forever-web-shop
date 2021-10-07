@@ -1,14 +1,16 @@
 .details-contact__container {
   display: flex;
   flex-wrap: wrap;
+  height: 100%;
   margin-top: 150px;
 
   .details-contact__details {
     margin-bottom: 20px;
     float: left;
     width: 60%;
-    background-color: red;
-    height: 60vh;
+    // background-color: red;
+    height: 100%;
+    // margin-bottom: 150px;
   }
 
   .details-contact__form {
