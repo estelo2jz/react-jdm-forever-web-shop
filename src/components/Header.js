@@ -42,7 +42,7 @@ export default function Header() {
               <GiCarSeat />
             </span>
             <span>
-              olver
+              over
             </span>
           </Link>
         </ReactBootStrap.Navbar.Brand>
