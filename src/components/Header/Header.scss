@@ -8,6 +8,21 @@ header {
   flex-wrap: wrap;
   border-bottom: 1px solid #ccc;
   margin-bottom: 20px;
+  .logo {
+    .logo__link {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size:40px;
+      padding: 10px 0px;
+      p:nth-child(1) {}
+      p:nth-child(2) {
+        margin-right: -23px;
+        margin-top: 20px;
+      }
+      p:nth-child(3) {}
+    }
+  }
 }
 
 a {
