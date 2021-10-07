@@ -54,7 +54,7 @@ const DetailsTab = () => {
                         Mileage
                       </span>
                       <span>{product.mileage}</span>
-                      <span>miles</span>
+                      {/* <span>miles</span> */}
                     </div>
 
                     <div className="details__mod-list">
