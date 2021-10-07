@@ -1,13 +1,16 @@
 import React from 'react';
 import { BsFillTelephoneFill } from 'react-icons/bs';
 
+import DetailsTab from '../Details/DetailsTab';
+
+
 import './DetailsContact.scss';
 
 const DetailsContact = () => {
   return (
     <div className="details-contact__container">
       <div className="details-contact__details">
-        detals and specs
+        <DetailsTab />
       </div>
       <div className="details-contact__form">
         <div className="details-contact__form-number">
