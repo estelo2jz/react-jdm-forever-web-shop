@@ -8,6 +8,11 @@ import Home from './components/Home/Home';
 import Cart from './components/Cart'
 import Footer from './components/Footer/Footer';
 
+import Contact from '../src/pages/Contact/Contact';
+import FindVehicle from '../src/pages/FindVehicle/FindVehicle';
+import Inventory from '../src/pages/Inventory/Inventory';
+import News from '../src/pages/News/News';
+
 
 function App() {
   return (
