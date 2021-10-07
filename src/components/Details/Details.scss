@@ -11,44 +11,59 @@
     flex-wrap: wrap;
     align-items: center;
     // padding: 20px 20px;
-      margin: 10px 0px;
+    margin: 10px 0px;
 
     .details-header__fullname {
-      font-size: 2.5em;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: clamp(22px, 1.5vw, 50px);
+
       p {
         font-weight: bolder;
+        padding: 0px;
+        margin: 0px;
       }
     }
+
     .details__price {
       display: flex;
-      justify-content:center;
+      justify-content: center;
       align-items: center;
       background-color: #d71345;
       // height: 120px;
       width: 150px;
       padding: 10px 0px;
       margin: 10px 0px;
+
       // width: 20%;
       h3 {
         font-weight: 500;
-        font-size: 2em;
+        font-size: clamp(22px, 1.5vw, 50px);
+        margin: 10px 0px;
+        padding: 0;
         color: white;
       }
     }
   }
+
   .box-details {
     display: flex;
     flex-wrap: wrap;
+
     .box-img {
       float: left;
+
       .box-img-container {
+
         // width: 60%;
         // width: 600px;
         img {
-        // width: 600px;
+          // width: 600px;
         }
       }
     }
+
     .box-specs-container {
       float: left;
       // padding: 0px 40px;
@@ -64,10 +79,12 @@
         // border-bottom: 1px solid #e6e6e6;
         // width: 100%;
         width: 400px;
+
         span:nth-child(1) {
           font-size: 1.1rem;
           padding-top: 10px;
         }
+
         span:nth-child(2) {
           margin-top: -8px;
           font-weight: bolder;
@@ -104,6 +121,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+
   .box-specs-container {
     // width: 100%;
     display: flex;
@@ -177,16 +195,16 @@
 @media only screen and (max-width: 1000px) {
   .details {
     .details__header {
-      .details-header__fullname {
-
-      }
+      .details-header__fullname {}
     }
+
     .box-details {
       .box-img {
         .box-img-container {
           // width
         }
       }
+
       .box-specs-container {
         display: none;
       }
