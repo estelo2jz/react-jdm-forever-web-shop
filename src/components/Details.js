@@ -4,7 +4,6 @@ import { DataContext } from './DataProvider'
 import Colors from './Colors'
 import Sizes from './Sizes'
 import DetailsThumb from './DetailsThumb';
-import DetailsThumbTwo from './Details/DetailsThumbTwo';
 import DetailsContact from './Details/DetailsContact';
 import { Link } from 'react-router-dom'
 
