@@ -5,6 +5,10 @@ import Cart from './svg/cart.svg'
 import { Link } from 'react-router-dom'
 import { DataContext } from './DataProvider'
 
+import { GiCarSeat } from 'react-icons/gi';
+
+import './Header/Header.scss';
+
 export default function Header() {
   const [menu, setMenu] = useState(false)
   const value = useContext(DataContext)
@@ -26,7 +30,17 @@ export default function Header() {
 
       <div className="logo">
         {/* <h1><Link to="/products">JDM-Eien-Ni</Link></h1> */}
-        <h1><Link to="/products">JDM4 EVER</Link></h1>
+        <Link className="logo__link" to="/products">
+          <p>
+            JDM 
+          </p>
+          <p>
+            <GiCarSeat /> 
+          </p>
+          <p>
+            OVER
+          </p>
+        </Link>
       </div>
       <ul style={styleMenu}>
         <li><Link to="/">Home</Link></li>
