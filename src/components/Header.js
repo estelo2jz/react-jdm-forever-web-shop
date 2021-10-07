@@ -5,6 +5,8 @@ import Cart from './svg/cart.svg'
 import { Link } from 'react-router-dom'
 import { DataContext } from './DataProvider'
 
+import JDMLOGO from '../assets/images/home/jdmlover.png'
+
 import { GiCarSeat } from 'react-icons/gi';
 
 import './Header/Header.scss';
@@ -31,7 +33,8 @@ export default function Header() {
       <div className="logo">
         {/* <h1><Link to="/products">JDM-Eien-Ni</Link></h1> */}
         <Link className="logo__link" to="/">
-          <p>
+          <img src={JDMLOGO} />
+          {/* <p>
             JDM 
           </p>
           <p>
@@ -39,7 +42,7 @@ export default function Header() {
           </p>
           <p>
             OVER
-          </p>
+          </p> */}
         </Link>
       </div>
       <ul style={styleMenu}>
