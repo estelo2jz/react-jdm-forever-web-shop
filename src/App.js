@@ -27,10 +27,10 @@ function App() {
               <Route path="products/:id" element={<Details />} />
               <Route path="cart" element={<Cart />} />
             </Routes>
-          <Footer />
           </section>
         </Router>
       </div>
+      <Footer />
     </DataProvider>
   );
 }
