@@ -4,14 +4,14 @@ import {
   BrowserRouter as Router,
   Link
 } from "react-router-dom";
-import './Current.scss';
+import './styles/Current.scss';
 
-const Current = () => {
+const Current = ({heading}) => {
   return (
     <div className="current">
       <div className="current__outter">
         <div className="current__left">
-          <p>CURRENT INVENTORY</p>
+          <p>{heading}</p>
         </div>
         <div className="current__right">
           <button>RESET</button>
