@@ -72,20 +72,20 @@ const DetailsTab = () => {
                       </div>
                       <MaintenanceThumb maintenanceService={product.maintenanceService} setIndex={setIndex} />
                     </div>
-                    <div className="details-about">
+                    {/* <div className="details-about">
                       <AboutThumb aboutUs={product.aboutUs} setIndex={setIndex} />
-                    </div>
+                    </div> */}
                     <div className="details__imported">
                       <div className="details__imported-heading">
                         <p>WHEN DO THESE JDM VEHICLES START TO TURN 25 YEARS OLD?</p>
                       </div>
-                      <div className="details__imported-one">
+                      {/* <div className="details__imported-one">
                         {product.toBeImportedOne}
-                      </div>
+                      </div> */}
                       <ToBeImportedThumb toBeImported={product.toBeImported} setIndex={setIndex} />
-                      <div className="details__imported-one">
+                      {/* <div className="details__imported-one">
                         {product.toBeImportedTwo}
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </div>
