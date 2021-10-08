@@ -7,8 +7,11 @@
 
       .tabs-template__outer-container {
         // border-left: 1px solid #333333;
+        padding: 5px;
+        margin: 5px;
 
         .tabs-template__container {
+          // padding: 0px 40px;
 
           .tabs-template__fullname {
             font-size: 17px;
