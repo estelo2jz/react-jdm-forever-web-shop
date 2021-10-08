@@ -52,7 +52,7 @@ export default function Header() {
             <Link className="header__link" to="/">
               <ReactBootStrap.Nav.Link className="header__links" href="#features">Home</ReactBootStrap.Nav.Link>
             </Link>
-            <Link className="header__link" to="/products/">
+            <Link className="header__link" to="/inventory/">
               <ReactBootStrap.Nav.Link className="header__links" href="#pricing">Inventory</ReactBootStrap.Nav.Link>
             </Link>
             <ReactBootStrap.NavDropdown className="header__dropdown" title="SHOP" id="collasible-nav-dropdown">
