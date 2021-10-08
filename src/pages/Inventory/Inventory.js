@@ -5,7 +5,7 @@ import Current from '../../components/Product/Current';
 const Inventory = () => {
   return (
     <div>
-      <Current />
+      <Current heading="CURRENT INVENTORY" />
       <Products />
     </div>
   )
