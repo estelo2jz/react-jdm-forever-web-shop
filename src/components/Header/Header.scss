@@ -98,10 +98,14 @@ header {
         font-size: 20px;
         margin: 0px !important;
         padding: 0px !important;
+          // width: 100%;
+
+        
 
         .dropdown-toggle {
           letter-spacing: 1px !important;
           color: white !important;
+          width: 100%;
 
           nav-link {}
         }
@@ -109,15 +113,18 @@ header {
         .dropdown-menu {
           background-color: #000000 !important;
           border: 1px solid white !important;
-
+          // width: 100%;
+          
           show {
             // background-color: #d71345 !important;
-
+            
           }
         }
-
+        
         .header__dropdown-links {
+          padding: 10px !important;
           height: 100%;
+          // width: 100%;
           background-color: #000000 !important;
           color: rgb(255, 255, 255) !important;
           font-weight: 600;
