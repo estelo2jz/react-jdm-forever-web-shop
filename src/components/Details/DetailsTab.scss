@@ -7,8 +7,9 @@
 
       .tabs-template__outer-container {
         // border-left: 1px solid #333333;
-        padding: 5px;
-        margin: 5px;
+        padding: 0px 0px;
+        margin: 0px 5px;
+        height: 100%;
 
         .tabs-template__container {
           // padding: 0px 40px;
@@ -54,9 +55,10 @@
               font-weight: 700;
               padding: 20px 0px;
               margin-top: 30px;
+
               .details__mod-list-container {
                 display: flex;
-                justify-content:center;
+                justify-content: center;
                 align-items: center;
                 flex-wrap: wrap;
                 width: 100%;
@@ -88,7 +90,6 @@
             .details__imported-heading {
               font-size: 20px;
               font-weight: 700;
-              padding: 20px 0px;
             }
 
             .details__imported-one {
@@ -101,20 +102,55 @@
 
         .tabs-template__specs {
           margin-top: -5000%;
-          height: 50vh;
-          // display: flex;
+          // height: 50vh;
+          // display: grid;
           flex-wrap: wrap;
-          
+          justify-content: center;
+
 
           p {
             border-bottom: 1px solid #d71345;
             padding: 0px 10px;
+            background-color: #f9f9f9;
+            font-weight: 600;
+
           }
 
           .tabs-template__specs-engine {
-            width: 300px;
-            height: 300px;
-            background-color: rgb(0, 140, 255);
+            width: 100%;
+            height: 100%;
+            // background-color: rgb(0, 140, 255);
+            
+            .tabs-template__specs-engine-container {
+              display: flex;
+              justify-content: space-between;
+              flex-wrap: wrap;
+              align-items: center;
+              
+              .tabs-template__specs-engine-children {
+                margin-left: 10px;
+                display: flex;
+                flex-direction: column;
+                padding-bottom: 20px;
+
+                span:nth-child(1) {
+                  width: 200px;
+                  font-size: 11px;
+                }
+
+                span:nth-child(2) {
+                  font-size: 22px !important;
+                }
+              }
+            }
+
+          }
+
+          .tabs-template__specs-body {
+            width: 100%;
+                        height: 100%;
+
+            // background-color: red;
 
             .tabs-template__specs-engine-container {
               display: flex;
@@ -123,49 +159,85 @@
               align-items: center;
 
               .tabs-template__specs-engine-children {
-                padding: 5px 10px;
+                display: flex;
+                flex-direction: column;
+                padding-bottom: 20px;
+                margin-left: 10px;
 
                 span:nth-child(1) {
-                  // width: 400px;
+                  width: 200px;
+                  font-size: 11px;
                 }
 
-                span:nth-child(2) {}
+                span:nth-child(2) {
+                  font-size: 22px !important;
+                }
               }
-            }
-
-          }
-
-          .tabs-template__specs-body {
-            width: 300px;
-            height: 300px;
-            background-color: red;
-
-            .tabs-template__specs-engine-container {
-              .tabs-template__specs-engine-children {}
 
             }
 
           }
 
           .tabs-template__specs-basic {
-            width: 300px;
-            height: 300px;
-            background-color: rgb(0, 255, 42);
+            width: 100%;
+                        height: 100%;
+
+            // background-color: rgb(0, 255, 42);
 
             .tabs-template__specs-engine-container {
-              .tabs-template__specs-engine-children {}
+              display: flex;
+              justify-content: space-between;
+              flex-wrap: wrap;
+              align-items: center;
+
+              .tabs-template__specs-engine-children {
+                display: flex;
+                flex-direction: column;
+                padding-bottom: 20px;
+                margin-left: 10px;
+
+                span:nth-child(1) {
+                  width: 200px;
+                  font-size: 11px;
+                }
+
+                span:nth-child(2) {
+                  font-size: 22px !important;
+                }
+              }
 
             }
 
           }
 
           .tabs-template__specs-interior {
-            width: 300px;
-            height: 300px;
-            background-color: rgb(119, 0, 255);
+            width: 100%;
+                        height: 100%;
+
+            // background-color: rgb(119, 0, 255);
 
             .tabs-template__specs-engine-container {
-              .tabs-template__specs-engine-children {}
+              display: flex;
+              justify-content: space-between;
+              flex-wrap: wrap;
+              align-items: center;
+
+              .tabs-template__specs-engine-children {
+                // padding: 5px 10px;
+                display: flex;
+                flex-direction: column;
+                padding-bottom: 20px;
+                margin-left: 10px;
+
+                span:nth-child(1) {
+                  width: 200px;
+                  font-size: 11px;
+                }
+
+                span:nth-child(2) {
+                  font-size: 22px !important;
+                }
+              }
 
             }
 
