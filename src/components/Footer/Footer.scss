@@ -112,12 +112,14 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      width: 400px;
+      // width: 400px;
+      // width: 100%;
       background-color: white;
       border-radius: 50%;
+      width: 200px;
+      height: 200px;
       
       img {
-        width: 300px;
         cursor: pointer;
       }
     }
