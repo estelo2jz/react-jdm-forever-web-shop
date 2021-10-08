@@ -6,6 +6,7 @@
     // border-left: 1px solid #333333;
     padding: 0px 5px;
     margin: 0px 5px;
+    margin-top: 49px;
     // height: 100%;
 
     .tabs-template__container {
@@ -107,13 +108,15 @@
         border-bottom: 1px solid #d71345;
         padding: 0px 10px;
         background-color: #f9f9f9;
-        font-weight: 600;
+        font-weight: 700;
+        font-size: 20px;
 
       }
 
       .tabs-template__specs-engine {
         width: 100%;
         height: 100%;
+        padding-bottom: 20px;
         // background-color: rgb(0, 140, 255);
 
         .tabs-template__specs-engine-container {
@@ -144,6 +147,7 @@
       .tabs-template__specs-body {
         width: 100%;
         height: 100%;
+        padding-bottom: 20px;
 
         // background-color: red;
 
@@ -176,6 +180,8 @@
       .tabs-template__specs-basic {
         width: 100%;
         height: 100%;
+        padding-bottom: 20px;
+
 
         // background-color: rgb(0, 255, 42);
 
@@ -208,6 +214,8 @@
       .tabs-template__specs-interior {
         width: 100%;
         height: 100%;
+        padding-bottom: 20px;
+
 
         // background-color: rgb(119, 0, 255);
 
