@@ -1,11 +1,11 @@
 .thumb {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-around;
 
   p {
     padding: 10px 5px !important;
-    width: 145px;
+    width: 170px;
     // height: 100%;
     background-color: #efefef;
     margin: 5px 3px;
@@ -14,5 +14,13 @@
     font-size: clamp(13px, 1.5vw, 15px);
     // align-items: center;
     text-align: center;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .thumb {
+    .p {
+
+    }
   }
 }
