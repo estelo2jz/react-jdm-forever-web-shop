@@ -51,6 +51,12 @@
               font-weight: 700;
               padding: 20px 0px;
               margin-top: 30px;
+              .details__mod-list-container {
+                display: flex;
+                flex-wrap: wrap;
+                width: 100%;
+
+              }
             }
           }
 
@@ -88,8 +94,83 @@
 
         }
 
-        .tabs-template__upcoming {
-          .tabs-template__container {}
+        .tabs-template__specs {
+          margin-top: -5000%;
+          height: 50vh;
+          // display: flex;
+          flex-wrap: wrap;
+          
+
+          p {
+            border-bottom: 1px solid #d71345;
+            padding: 0px 10px;
+          }
+
+          .tabs-template__specs-engine {
+            width: 300px;
+            height: 300px;
+            background-color: rgb(0, 140, 255);
+
+            .tabs-template__specs-engine-container {
+              display: flex;
+              justify-content: space-between;
+              flex-wrap: wrap;
+              align-items: center;
+
+              .tabs-template__specs-engine-children {
+                padding: 5px 10px;
+
+                span:nth-child(1) {
+                  // width: 400px;
+                }
+
+                span:nth-child(2) {}
+              }
+            }
+
+          }
+
+          .tabs-template__specs-body {
+            width: 300px;
+            height: 300px;
+            background-color: red;
+
+            .tabs-template__specs-engine-container {
+              .tabs-template__specs-engine-children {}
+
+            }
+
+          }
+
+          .tabs-template__specs-basic {
+            width: 300px;
+            height: 300px;
+            background-color: rgb(0, 255, 42);
+
+            .tabs-template__specs-engine-container {
+              .tabs-template__specs-engine-children {}
+
+            }
+
+          }
+
+          .tabs-template__specs-interior {
+            width: 300px;
+            height: 300px;
+            background-color: rgb(119, 0, 255);
+
+            .tabs-template__specs-engine-container {
+              .tabs-template__specs-engine-children {}
+
+            }
+
+          }
+
+        }
+
+        .tabs-template__video {
+          display: flex-start;
+          margin-top: -5000%;
         }
       }
     }
@@ -112,7 +193,7 @@
   padding: 12px 10px;
   margin-right: 1px;
   font-size: clamp(14px, 1.5vw, 20px);
-  font-weight: 700;
+  font-weight: 500;
   cursor: pointer;
   transition: background-color 0.3s;
 }
