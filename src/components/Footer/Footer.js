@@ -5,6 +5,8 @@ import { AiOutlineRight } from 'react-icons/ai';
 import { ImInstagram, ImYoutube2, ImRocket, ImLocation } from 'react-icons/im';
 import { BsFillTelephoneFill } from 'react-icons/bs';
 
+import JDMLOVER from '../../assets/images/home/jdmlover.png'
+
 import './Footer.scss';
 
 const Footer = () => {
@@ -39,7 +41,7 @@ const Footer = () => {
       </div>
       <div className="footer__links">
         <div className="footer__logo">
-          <img src="https://www.importavehicle.com/assets/international_toprank/top-rank-logo-footer-21fb6b5bedb1958ae36b703a58c2f6bc.svg" alt="logo" />
+          <img src={JDMLOVER} alt="logo" />
         </div>
         <div className="footer__location">
           <div className="footer__location-location">
