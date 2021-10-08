@@ -19,8 +19,9 @@ const Footer = () => {
           <form>
             <input type="text" placeholder="ENTER EMAIL" />
             <button type="submit">
-              <p>SIGN UP</p>
-              <AiOutlineRight />
+              <p>SIGN UP
+                {/* <AiOutlineRight /> */}
+              </p>
             </button>
           </form>
         </div>
