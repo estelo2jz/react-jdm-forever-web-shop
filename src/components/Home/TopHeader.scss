@@ -46,30 +46,6 @@
       position: relative;
     }
   }
-
-  .top-header__link-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 40px;
-    background-color: black;
-
-    .top-header__link {
-      padding: 40px;
-      width: 100%;
-      border: 5px solid rgb(245, 245, 245);
-      display: flex;
-      justify-content: center;
-      color: white;
-      align-items: center;
-      font-weight: 700;
-      font-size: 1.5rem;
-
-      .top-header__link-main {
-        p {}
-      }
-    }
-  }
 }
 
 
