@@ -1,8 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-import BlackLine from '../../assets/images/home/blackline.png'
-
 import './FeaturedInventory.scss';
 
 const FeaturedInventory = () => {
