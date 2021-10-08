@@ -26,8 +26,8 @@ function App() {
             <section>
               <Routes>
                 <Route path="/" element={<Home />} />
-                <Route path="products" element={<Products />} />
-                <Route path="products/:id" element={<Details />} />
+                <Route path="inventory" element={<Inventory />} />
+                <Route path="inventory/:id" element={<Details />} />
                 <Route path="cart" element={<Cart />} />
               </Routes>
             </section>
