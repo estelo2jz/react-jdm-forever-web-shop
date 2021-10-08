@@ -28,9 +28,9 @@ function App() {
               <Route path="cart" element={<Cart />} />
             </Routes>
           </section>
+      <Footer />
         </Router>
       </div>
-      <Footer />
     </DataProvider>
   );
 }
