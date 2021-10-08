@@ -1,0 +1,132 @@
+.current {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  .current__outter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+    .current__left {
+      // font-size: 900px;
+      font-size: clamp(20px, 4.5vw, 35px);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      p {
+        // padding-left: 10px !important;  
+        margin: 0px !important;
+        font-weight: 700;
+      }
+    }
+
+    .current__right {
+      button {
+        outline: none;
+        border: none;
+        background-color: black;
+        color: white;
+        padding: 10px 20px;
+        font-size: clamp(10px, 4.5vw, 20px);
+      }
+    }
+
+  }
+
+  .current__option {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    padding: 20px 0px;
+
+    .current__options {
+      margin: 5px;
+      width: 100%;
+      
+      .current__options-title {
+        color: rgb(255, 255, 255) !important;
+        background-color:#333 !important;
+        width: 100% !important;        
+      }
+      
+      .dropdown-menu {
+        background-color:#333 !important;
+        padding: 0px !important;
+        margin: 0px !important;
+        // margin-right: 100px !important;
+        // border: 1px solid white !important;
+        
+        show {
+        }
+      }
+
+      // YEAR MAKE MODEL PRICE
+      .current__options-title {
+        .dropdown-item {
+          padding: 10px 10px !important;
+          margin: 0px !important;
+          color: #d71345 !important; 
+          //
+          &:hover {
+            color: white !important;
+          }
+        }
+      }
+      .dropdown-toggle {
+        // background-color: red;
+        // background-color: #000000 !important;
+        color: white !important;
+        width: 100% !important;
+        font-weight: 700;
+        margin-right: 100px !important;
+        padding: 15px;
+
+        
+        &:hover {
+          color: rgb(0, 0, 0) !important;
+          background-color:#333 !important;
+          transition: all 0.5s ease;
+        }
+        
+        .navbar-link {
+          // color: white !important;
+
+        }
+      }
+
+      .current__options-title {}
+    }
+
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .current {
+    .current__left {
+      p {
+        padding-left: 10px;
+      }
+
+    }
+
+    .current__right {}
+  }
+
+  .current__option {
+    display: flex;
+    flex-wrap: wrap;
+
+    .current__options {
+      // font-size: clamp(10px, 4.5vw, 20px);
+      font-size: 11px;
+      // margin: 0px 10px;
+    }
+  }
+}
