@@ -68,7 +68,7 @@ const DetailsTab = () => {
 
                     <div className="details__main-service">
                       <div className="details__main-service-heading">
-                        <p>MAINTENANCE&SERVICE</p>
+                        <p>MAINTENANCE & SERVICE</p>
                       </div>
                       <MaintenanceThumb maintenanceService={product.maintenanceService} setIndex={setIndex} />
                     </div>
