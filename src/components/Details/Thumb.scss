@@ -1,15 +1,17 @@
 .thumb {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 
   p {
-    padding: 10px 5px;
+    padding: 10px 0px !important;
     width: 140px;
     // height: 100%;
     background-color: #efefef;
-    margin: 5px;
+    margin: 5px 3px;
     display: flex;
     justify-content: center;
+    font-size: clamp(13px, 1.5vw, 15px);
     // align-items: center;
     text-align: center;
   }
