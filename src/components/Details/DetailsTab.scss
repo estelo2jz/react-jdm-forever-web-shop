@@ -13,7 +13,7 @@
       // padding: 0px 40px;
 
       .tabs-template__fullname {
-        font-size: 17px;
+        font-size: clamp(19px, 1.5vw, 20px);
         font-weight: 700;
       }
 
