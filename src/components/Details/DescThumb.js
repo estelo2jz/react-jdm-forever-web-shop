@@ -1,13 +1,15 @@
 import React from 'react';
 
-import './Thumb.scss';
+import './Maintenance.scss';
 
 export default function DescThumb({ modList, setIndex }) {
   return (
-    <div className="thumb">
+    <div className="maintenance">
       {
         modList.map((item, index) => (
-          <p>{item}</p>
+          <div className="maintenance__container">
+           <p>{item}</p>
+          </div>
         ))
       }
     </div>
