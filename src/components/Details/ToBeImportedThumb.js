@@ -1,13 +1,13 @@
 import React from 'react';
 
-import './Thumb.scss';
+import './ToBeImported.scss';
 
 export default function ToBeImportedThumb({ toBeImported, setIndex }) {
   return (
-    <div className="thumb">
+    <div className="to-be-imported">
       {
         toBeImported.map((item, index) => (
-          <p>{item}</p>
+          <p className="to-be-imported">{item}</p>
         ))
       }
     </div>
