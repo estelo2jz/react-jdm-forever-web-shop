@@ -3,7 +3,8 @@ import TopHeader from './TopHeader.js';
 import FeaturedInventory from '../Features/FeaturedInventory'
 import Product from '../Products';
 import LearnMore from './LearnMore';
-import CuxtomHeader from './CustomHeader';
+import LearnMoreHeader from './LearnMoreHeader';
+import LocationHeader from './LocationHeader';
 
 import Bg from '../../assets/images/home/wallpaper1.jpg'
 
@@ -16,7 +17,8 @@ const Home = () => {
       <FeaturedInventory />
       <Product />
       <LearnMore cover={Bg} />
-      <CuxtomHeader />
+      <LearnMoreHeader />
+      <LocationHeader />
     </div>
   )
 }
