@@ -9,24 +9,50 @@ header {
   // border-bottom: 1px solid #ccc;
   // margin-bottom: 20px;
 
-
   .header__container {
-    background-color: #d71345 !important;
+    background-color: #000000 !important;
     height: 50% !important;
     padding: 20px 10px;
+    color: white !important;
+
+    button {
+      .navbar-toggler-icon {
+        color: white !important;
+        // background-color: white !important;
+        // border-radius: 50%;
+        background-image: url('https://cdn-icons-png.flaticon.com/512/1828/1828726.png');
+        // background-image: url('https://cdn-icons-png.flaticon.com/512/248/248926.png');
+      }
+    }
     .header__toggle {
-          color: white !important;
+      color: rgb(205, 4, 4) !important;
+      // padding:  90px;
+      // border: 10px solid white;
+      font-size: 1.5rem;
+      border: none;
+      outline: none;
+      &:focus {
+        border: none;
+        outline: none;
+      }
+      
       navbar-toggler {
         collapsed {
           color: white !important;
         }
       }
+
     }
+
     .logo__link {
       color: white !important;
       height: 600px;
       padding: 10px;
       font-size: 1.9em;
+
+      &:hover {
+        text-decoration: none;
+      }
 
       img {
         background-size: center;
@@ -39,7 +65,6 @@ header {
   }
 
   .header__toggle {
-
     .navbar-toggler-icon {
       color: white !important;
     }
@@ -54,7 +79,7 @@ header {
       .header__link {
         .header__links {
           color: white !important;
-          font-size: 23px;
+          font-size: 20px;
           letter-spacing: 1px !important;
 
           .header__link {
@@ -70,7 +95,7 @@ header {
 
       .header__dropdown {
         color: white !important;
-        font-size: 23px;
+        font-size: 20px;
         margin: 0px !important;
         padding: 0px !important;
 
@@ -82,7 +107,7 @@ header {
         }
 
         .dropdown-menu {
-          background-color: #d71345 !important;
+          background-color: #000000 !important;
           border: 1px solid white !important;
 
           show {
@@ -93,9 +118,9 @@ header {
 
         .header__dropdown-links {
           height: 100%;
-          background-color: #d71345 !important;
+          background-color: #000000 !important;
           color: rgb(255, 255, 255) !important;
-          font-weight: 700;
+          font-weight: 600;
           // margin: 20px 0px;
           // padding: 40px 20px;
           border-radius: 0%;
@@ -107,7 +132,7 @@ header {
       .header__bottom-link {
         .header__bottom-links {
           color: white !important;
-          font-size: 23px;
+          font-size: 20px;
           letter-spacing: 1px !important;
         }
       }
