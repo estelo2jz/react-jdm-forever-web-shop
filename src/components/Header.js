@@ -56,10 +56,26 @@ export default function Header() {
               <ReactBootStrap.Nav.Link className="header__links" href="#pricing">Inventory</ReactBootStrap.Nav.Link>
             </Link>
             <ReactBootStrap.NavDropdown className="header__dropdown" title="SHOP" id="collasible-nav-dropdown">
-              <ReactBootStrap.NavDropdown.Item className="header__dropdown-links" href="#action/3.1">CURRENT INVENTORY</ReactBootStrap.NavDropdown.Item>
-              <ReactBootStrap.NavDropdown.Item className="header__dropdown-links" href="#action/3.2">SOLD INVENTORY</ReactBootStrap.NavDropdown.Item>
-              <ReactBootStrap.NavDropdown.Item className="header__dropdown-links" href="#action/3.3">FUTURE INVENTORY</ReactBootStrap.NavDropdown.Item>
-              <ReactBootStrap.NavDropdown.Item className="header__dropdown-links" href="#action/3.3">JAPAN INVENTORY</ReactBootStrap.NavDropdown.Item>
+              <ReactBootStrap.NavDropdown.Item className="header__dropdown-links" >
+                <Link className="header__dropdown-links" to="/inventory/">
+                  CURRENT INVENTORY
+                </Link>
+              </ReactBootStrap.NavDropdown.Item>
+              <ReactBootStrap.NavDropdown.Item className="header__dropdown-links" >
+                <Link className="header__dropdown-links" to="/inventory/sold">
+                  SOLD INVENTORY
+                </Link>
+              </ReactBootStrap.NavDropdown.Item>
+              <ReactBootStrap.NavDropdown.Item className="header__dropdown-links" >
+                <Link className="header__dropdown-links" to="/inventory/future-inventory">
+                  FUTURE INVENTORY
+                </Link>
+              </ReactBootStrap.NavDropdown.Item>
+              <ReactBootStrap.NavDropdown.Item className="header__dropdown-links">
+                <Link className="header__dropdown-links" to="/inventory/japan-inventory">
+                  JAPAN INVENTORY
+                </Link>
+              </ReactBootStrap.NavDropdown.Item>
               {/* <ReactBootStrap.NavDropdown.Divider /> */}
               {/* <ReactBootStrap.NavDropdown.Item href="#action/3.4">Separated link</ReactBootStrap.NavDropdown.Item> */}
             </ReactBootStrap.NavDropdown>
