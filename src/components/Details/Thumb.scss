@@ -1,5 +1,16 @@
 .thumb {
+  display: flex;
+  flex-wrap: wrap;
+
   p {
-    padding: 10px 0px;
+    padding: 10px 5px;
+    width: 140px;
+    // height: 100%;
+    background-color: #efefef;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    // align-items: center;
+    text-align: center;
   }
 }
