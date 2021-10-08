@@ -32,8 +32,8 @@ const DetailsTab = () => {
               <label for="tab_one" >DESCRIPTION</label>
               <input type="radio" name="tabs" id="tab_two" checked />
               <label for="tab_two" >SPECS AND OPTIONS</label>
-              {/* <input type="radio" name="tabs" id="tab_three" checked />
-              <label for="tab_three" >VIDEO</label> */}
+              <input type="radio" name="tabs" id="tab_three" checked />
+              <label for="tab_three" >VIDEO</label>
               {/* <input type="radio" name="tabs" id="tab_four" checked />
               <label for="tab_four" >Watched Deals</label> */}
               <div className="tabs">
