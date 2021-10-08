@@ -2,6 +2,10 @@ import React from 'react';
 import TopHeader from './TopHeader.js';
 import FeaturedInventory from '../Features/FeaturedInventory'
 import Product from '../Products';
+import LearnMore from './LearnMore';
+import CuxtomHeader from './CustomHeader';
+
+import Bg from '../../assets/images/home/wallpaper1.jpg'
 
 import './Home.scss';
 
@@ -11,8 +15,8 @@ const Home = () => {
       <TopHeader />
       <FeaturedInventory />
       <Product />
-      {/* <div className="home__img-container">
-      </div> */}
+      <LearnMore cover={Bg} />
+      <CuxtomHeader />
     </div>
   )
 }
