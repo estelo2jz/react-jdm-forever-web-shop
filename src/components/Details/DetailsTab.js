@@ -44,7 +44,7 @@ const DetailsTab = () => {
                     </div>
                     <div className="tabs-template__by">
                       <span>
-                        Built by 
+                        Built by
                       </span>
                       <span>{product.builtBy}</span>
                     </div>
@@ -61,14 +61,16 @@ const DetailsTab = () => {
                       <div className="details__mod-list-heading">
                         MOD LIST
                       </div>
-                      <DescThumb modList={product.modList} setIndex={setIndex} />
+                      <div className="details__mod-list-container">
+                        <DescThumb modList={product.modList} setIndex={setIndex} />
+                      </div>
                     </div>
 
                     <div className="details__main-service">
                       <div className="details__main-service-heading">
                         <p>MAINTENANCE&SERVICE</p>
                       </div>
-                        <MaintenanceThumb maintenanceService={product.maintenanceService} setIndex={setIndex} />
+                      <MaintenanceThumb maintenanceService={product.maintenanceService} setIndex={setIndex} />
                     </div>
                     <div className="details-about">
                       <AboutThumb aboutUs={product.aboutUs} setIndex={setIndex} />
@@ -87,15 +89,100 @@ const DetailsTab = () => {
                     </div>
                   </div>
                 </div>
-
-
                 <div className="tabs-template__outer-container">
-                  <div className="tabs-template__upcoming">
-                    spec and option
+                  <div className="tabs-template__specs">
+                    <div className="tabs-template__specs-engine">
+                      <p>ENGINE</p>
+                      <div className="tabs-template__specs-engine-container">
+                        <div className="tabs-template__specs-engine-children">
+                          <span>ENGINE TYPE</span>
+                          <span>{product.none}</span>
+                        </div>
+                        <div className="tabs-template__specs-engine-children">
+                          <span>ENGINE SIZE</span>
+                          <span>{product.engineSize}</span>
+                        </div>
+                        <div className="tabs-template__specs-engine-children">
+                          <span>FUEL SPECIFICATION</span>
+                          <span>{product.none}</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="tabs-template__specs-body">
+                      <p>BODY</p>
+                      <div className="tabs-template__specs-engine-container">
+                        <div className="tabs-template__specs-engine-children">
+                          <span>BODY COLOR</span>
+                          <span>{product.bodyColor}</span>
+                        </div>
+                        <div className="tabs-template__specs-engine-children">
+                          <span>BODY STYLE</span>
+                          <span>{product.engineSize}</span>
+                        </div>
+                        <div className="tabs-template__specs-engine-children">
+                          <span>DOORS</span>
+                          <span>{product.none}</span>
+                        </div>
+                        <div className="tabs-template__specs-engine-children">
+                          <span>PAINT TYPE</span>
+                          <span>{product.none}</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="tabs-template__specs-basic">
+                      <p>BASIC</p>
+                      <div className="tabs-template__specs-engine-container">
+                        <div className="tabs-template__specs-engine-children">
+                          <span>YEAR</span>
+                          <span>{product.year}</span>
+                        </div>
+                        <div className="tabs-template__specs-engine-children">
+                          <span>MAKE</span>
+                          <span>{product.make}</span>
+                        </div>
+                        <div className="tabs-template__specs-engine-children">
+                          <span>MODEL</span>
+                          <span>{product.model}</span>
+                        </div>
+                        <div className="tabs-template__specs-engine-children">
+                          <span>KM</span>
+                          <span>{product.miles}</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="tabs-template__specs-interior">
+                      <p>INTERIOR</p>
+                      <div className="tabs-template__specs-engine-container">
+                        <div className="tabs-template__specs-engine-children">
+                          <span>INTERIOR COLOR</span>
+                          <span>{product.bodyColor}</span>
+                        </div>
+                        <div className="tabs-template__specs-engine-children">
+                          <span>SOCONDARY INTERIOR COLOR</span>
+                          <span>{product.engineSize}</span>
+                        </div>
+                        <div className="tabs-template__specs-engine-children">
+                          <span>SEATING TYPE</span>
+                          <span>{product.none}</span>
+                        </div>
+                        <div className="tabs-template__specs-engine-children">
+                          <span>SEAT MATERIAL</span>
+                          <span>{product.none}</span>
+                        </div>
+                        <div className="tabs-template__specs-engine-children">
+                          <span>SHIFTER TYPE</span>
+                          <span>{product.none}</span>
+                        </div>
+                        <div className="tabs-template__specs-engine-children">
+                          <span>CENTER CONSOLE</span>
+                          <span>{product.none}</span>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
                 <div className="tabs-template__outer-container">
-                  <div className="tabs-template__container">
+                  <div className="tabs-template__video">
                     video
                   </div>
                 </div>
