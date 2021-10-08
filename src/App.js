@@ -8,6 +8,8 @@ import Home from './components/Home/Home';
 import Cart from './components/Cart'
 import Footer from './components/Footer/Footer';
 
+import ScrollToTop from './components/ScrollToTop'
+
 import Contact from '../src/pages/Contact/Contact';
 import FindVehicle from '../src/pages/FindVehicle/FindVehicle';
 import Inventory from '../src/pages/Inventory/Inventory';
@@ -19,16 +21,18 @@ function App() {
     <DataProvider>
       <div className="App">
         <Router>
-          <Header />
-          <section>
-            <Routes>
-              <Route path="/" element={<Home />} />
-              <Route path="products" element={<Products />} />
-              <Route path="products/:id" element={<Details />} />
-              <Route path="cart" element={<Cart />} />
-            </Routes>
-          </section>
-      <Footer />
+          <ScrollToTop>
+            <Header />
+            <section>
+              <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="products" element={<Products />} />
+                <Route path="products/:id" element={<Details />} />
+                <Route path="cart" element={<Cart />} />
+              </Routes>
+            </section>
+            <Footer />
+          </ScrollToTop>
         </Router>
       </div>
     </DataProvider>
