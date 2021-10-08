@@ -1,0 +1,16 @@
+.learn-more {
+  // width: 100%;
+  .learn-more__container {
+      // width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    img {
+      // width: 100%;
+      // object-fit: contain;
+      width: 100vw;
+      background-position: center;
+      background-size: contain;
+    }
+  }
+}
