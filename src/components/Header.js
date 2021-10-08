@@ -72,7 +72,7 @@ export default function Header() {
             </Link>
             <Link className="header__bottom-link" to="/">
               <ReactBootStrap.Nav.Link className="header__bottom-links" eventKey={2} href="#memes">
-                CALIFORNIA BUYER
+                Cali-BUYER
               </ReactBootStrap.Nav.Link>
             </Link>
             <Link className="header__bottom-link" to="/">
