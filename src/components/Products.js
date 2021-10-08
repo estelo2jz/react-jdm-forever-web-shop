@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 import Current from './Product/Current';
 
-import './Product/Products.scss';
+import './Product/styles/Products.scss';
 
 export default function Products() {
   const value = useContext(DataContext)
