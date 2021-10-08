@@ -14,7 +14,7 @@ const TopHeader = () => {
         <div className="top-header__bg3"></div>
       </div>
       <div className="top-header__link-container">
-        <Link className="top-header__link" to="/products">
+        <Link className="top-header__link" to="/inventory/">
           <p className="top-header__link-main">VIEW ALL INVENTORY</p>
         </Link>
       </div>
