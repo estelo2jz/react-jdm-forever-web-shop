@@ -8,7 +8,7 @@ const JapanPage = () => {
   return (
     <div>
       <Current heading="JAPAN INVENTORY"  />
-      <Products />
+      <JapanData />
       <HeaderInventory />
 
     </div>
