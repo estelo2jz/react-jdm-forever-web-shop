@@ -21,7 +21,9 @@ const LocationHeader = () => {
       </div>
       <div className="location-header__map-container">
         <div className="location-header__map-map">
-          <p>Location</p>
+          <div className="location-header__map-map-header">
+            <p>Location</p>
+          </div>
           <div className="location-header__map-map-container">
             <img src={MAP} alt="" />
           </div>
