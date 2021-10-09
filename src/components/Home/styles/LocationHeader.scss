@@ -70,13 +70,22 @@
     // border: 5px solid black;
     // width: stretched;
     // width: fit-content; 
-    
+
     .location-header__map-map {
       height: 100%;
       padding: 0px 0px;
-      
+      .location-header__map-map-header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        p {
+          color: rgb(194, 192, 192);
+        }
+      }
+
       .location-header__map-map-container {
         width: 100%;
+
         // width: 100%;
         img {
           width: 100%;
@@ -90,6 +99,7 @@
       width: auto;
 
       padding: 30px 0px;
+
       .location-header__address-logo-bg {
         background-color: #ffffff;
         border-radius: 50%;
@@ -112,6 +122,7 @@
           cursor: pointer;
         }
       }
+
       .location-header__address-section {
         padding: 30px 0px;
       }
@@ -147,19 +158,36 @@
             font-weight: 700;
 
           }
-          span:nth-child(2) {}
-          span:nth-child(3) {}
+
+          span:nth-child(2) {
+            font-size: clamp(17px, 1.5vw, 20px) !important;
+          }
+
+          span:nth-child(3) {
+            font-size: clamp(17px, 1.5vw, 20px) !important;
+
+          }
         }
+
         p:nth-child(2) {
           span:nth-child(1) {
             font-weight: 700;
           }
-          span:nth-child(2) {}
-          span:nth-child(3) {}
+
+          span:nth-child(2) {
+            font-size: clamp(17px, 1.5vw, 20px) !important;
+
+          }
+
+          span:nth-child(3) {
+            font-size: clamp(17px, 1.5vw, 20px) !important;
+
+          }
         }
 
         p:nth-child(3) {
           margin-top: 10px !important;
+
           span {
             font-weight: 700;
             margin-left: 10px;
@@ -179,6 +207,7 @@
   .location-header__container {
     .location-header__container-top {
       display: flex;
+
       .location-header__container-left {
         // display: none;
       }
@@ -201,8 +230,7 @@
 
       .location-header__container-center {
 
-        p {
-        }
+        p {}
       }
 
       .location-header__container-right {
@@ -217,8 +245,7 @@
   .location-header__container {
     .location-header__container-top {
 
-      .location-header__container-left {
-      }
+      .location-header__container-left {}
 
       .location-header__container-right {
         // width: 100%;
