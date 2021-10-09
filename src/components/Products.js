@@ -2,8 +2,6 @@ import React, { useContext } from 'react'
 import { DataContext } from './DataProvider'
 import { Link } from 'react-router-dom'
 
-import Current from './Product/Current';
-
 import './Product/styles/Products.scss';
 
 export default function Products() {
