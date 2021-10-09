@@ -9,7 +9,7 @@ import CurrentPage from '../../pages/Inventory/CurrentPage';
 const Inventory = () => {
   return (
     <div>
-      {/* <Current heading="CURRENT INVENTORY" /> */}
+      <Current heading="CURRENT INVENTORY" />
       <Products />
       <HeaderInventory />
     </div>
