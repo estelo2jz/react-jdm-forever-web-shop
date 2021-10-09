@@ -32,26 +32,28 @@ const LocationHeader = () => {
               <img src={JDMLOGO} alt="" />
             </div>
           </div>
-          <div className="location-header__address-address">
-            <p>5595 CORPORATE AVE,</p>
-            <p>CYPRESS, CA 90630</p>
-          </div>
-          <div className="location-header__address-hours">
-            <p>
-              <span>MONDAY-FRIDAY</span>
-              <span>10am to 8pm</span>
-              <span>(Appointment Only)</span>
-            </p>
-            <p>
-              <span>Saturday and Sunday</span>
-              <span>10am to 8pm</span>
-              <span>(Appointment Only)</span>
-            </p>
-            <p>
-              <i><BsFillTelephoneFill />
-                <span>844-523-2233</span>
-              </i>
-            </p>
+          <div className="location-header__address-section">
+            <div className="location-header__address-address">
+              <p>5595 CORPORATE AVE,</p>
+              <p>CYPRESS, CA 90630</p>
+            </div>
+            <div className="location-header__address-hours">
+              <p>
+                <span>MONDAY-FRIDAY</span>
+                <span>10am to 8pm</span>
+                <span>(Appointment Only)</span>
+              </p>
+              <p>
+                <span>Saturday and Sunday</span>
+                <span>10am to 8pm</span>
+                <span>(Appointment Only)</span>
+              </p>
+              <p>
+                <i><BsFillTelephoneFill />
+                  <span>844-523-2233</span>
+                </i>
+              </p>
+            </div>
           </div>
           {/* <div className="location-header__address-phone">
 
