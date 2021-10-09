@@ -32,9 +32,9 @@ export const CurrentDataProvider = (props) => {
   const [products, setProducts] = useState([
     {
       "_id": "9",
-      "model": "Currently",
-      "year": "-",
-      "make": "-",
+      "model": "RX-7 CONVERTIBLE ENG REBUILT",
+      "year": "1988",
+      "make": "MAZDA",
       "images": [
         MaxdaConvertilbe19881, MaxdaConvertilbe19882, MaxdaConvertilbe19883
       ],
@@ -76,15 +76,15 @@ export const CurrentDataProvider = (props) => {
       "none": "-",
       "toBeImportedOne": "Japanese (JDM) cars turning 25 years old in 2021 and beyond (http://jdmlover.com/2021)",
       "toBeImportedTwo": "How to Buy and Store an R34 GT-R in Japan until 2024 (http://jdmlover.com/BuyR34)",
-     
+
       "fullNameWithAddress": "FOR SALE INCYPRESS, CALIFORNIA",
       "fullName": "1991 HONDA NSX",
-     
+
       "builtBy": "-",
       "mileage": "-",
-      "price": '99,999',
+      "price": '12,995',
       "bodyColor": '-',
-     
+
       "stockNumber": 12125991,
       "vin": '-',
       "miles": '-',
@@ -105,9 +105,9 @@ export const CurrentDataProvider = (props) => {
     },
     {
       "_id": "10",
-      "model": "Currently",
-      "year": "-",
-      "make": "-",
+      "model": "SKYLINE GT-R",
+      "year": "1991",
+      "make": "NISSAN",
       "images": [
         Nissan1991GTR0
       ],
@@ -155,7 +155,7 @@ export const CurrentDataProvider = (props) => {
 
       "builtBy": "-",
       "mileage": "-",
-      "price": '99,999',
+      "price": '49,995',
       "bodyColor": '-',
 
       "stockNumber": 12125991,
@@ -178,9 +178,9 @@ export const CurrentDataProvider = (props) => {
     },
     {
       "_id": "11",
-      "model": "Currently",
-      "year": "-",
-      "make": "-",
+      "model": "SKYLINE GT-R",
+      "year": "1991",
+      "make": "NISSAN",
       "images": [
         Nissan1991GTR1
       ],
@@ -228,7 +228,7 @@ export const CurrentDataProvider = (props) => {
 
       "builtBy": "-",
       "mileage": "-",
-      "price": '99,999',
+      "price": '109,995',
       "bodyColor": '-',
 
       "stockNumber": 12125991,
@@ -251,9 +251,9 @@ export const CurrentDataProvider = (props) => {
     },
     {
       "_id": "12",
-      "model": "Currently",
-      "year": "-",
-      "make": "-",
+      "model": "SKYLINE GTS--T 4DR",
+      "year": "1991",
+      "make": "NISSAN",
       "images": [
         Nissan1991GTST4dr
       ],
@@ -301,7 +301,7 @@ export const CurrentDataProvider = (props) => {
 
       "builtBy": "-",
       "mileage": "-",
-      "price": '99,999',
+      "price": '26,995',
       "bodyColor": '-',
 
       "stockNumber": 12125991,
@@ -324,9 +324,9 @@ export const CurrentDataProvider = (props) => {
     },
     {
       "_id": "13",
-      "model": "Currently",
-      "year": "-",
-      "make": "-",
+      "model": "LAND CRUISER VX DIESEL TURBO",
+      "year": "1991",
+      "make": "TOYOTA",
       "images": [
         Toyota1991CruiserVX
       ],
@@ -374,7 +374,7 @@ export const CurrentDataProvider = (props) => {
 
       "builtBy": "-",
       "mileage": "-",
-      "price": '99,999',
+      "price": '35,995',
       "bodyColor": '-',
 
       "stockNumber": 12125991,
@@ -397,9 +397,9 @@ export const CurrentDataProvider = (props) => {
     },
     {
       "_id": "14",
-      "model": "Currently",
-      "year": "-",
-      "make": "-",
+      "model": "RX7 FD",
+      "year": "1992",
+      "make": "MAZDA",
       "images": [
         Mazda1992RX7FD
       ],
@@ -447,7 +447,7 @@ export const CurrentDataProvider = (props) => {
 
       "builtBy": "-",
       "mileage": "-",
-      "price": '99,999',
+      "price": '51,995',
       "bodyColor": '-',
 
       "stockNumber": 12125991,
@@ -470,9 +470,9 @@ export const CurrentDataProvider = (props) => {
     },
     {
       "_id": "15",
-      "model": "Currently",
-      "year": "-",
-      "make": "-",
+      "model": "SKYLINE AUTECH RB26DE",
+      "year": "1992",
+      "make": "NISSAN",
       "images": [
         Nissan1992Autech
       ],
@@ -520,7 +520,7 @@ export const CurrentDataProvider = (props) => {
 
       "builtBy": "-",
       "mileage": "-",
-      "price": '99,999',
+      "price": '44,995',
       "bodyColor": '-',
 
       "stockNumber": 12125991,
@@ -543,9 +543,9 @@ export const CurrentDataProvider = (props) => {
     },
     {
       "_id": "16",
-      "model": "Currently",
-      "year": "-",
-      "make": "-",
+      "model": "COMMODORE UTE",
+      "year": "1994",
+      "make": "HOLDEN",
       "images": [
         Holden1994Commodore
       ],
@@ -593,7 +593,7 @@ export const CurrentDataProvider = (props) => {
 
       "builtBy": "-",
       "mileage": "-",
-      "price": '99,999',
+      "price": '17,499',
       "bodyColor": '-',
 
       "stockNumber": 12125991,
@@ -614,11 +614,11 @@ export const CurrentDataProvider = (props) => {
       "centerConsole": "NO",
       "count": 1
     },
-        {
+    {
       "_id": "17",
-      "model": "Currently",
-      "year": "-",
-      "make": "-",
+      "model": "CICIV FERIO",
+      "year": "1994",
+      "make": "HONDA",
       "images": [
         Honda1994CivicFerio
       ],
@@ -660,15 +660,15 @@ export const CurrentDataProvider = (props) => {
       "none": "-",
       "toBeImportedOne": "Japanese (JDM) cars turning 25 years old in 2021 and beyond (http://jdmlover.com/2021)",
       "toBeImportedTwo": "How to Buy and Store an R34 GT-R in Japan until 2024 (http://jdmlover.com/BuyR34)",
-     
+
       "fullNameWithAddress": "FOR SALE INCYPRESS, CALIFORNIA",
       "fullName": "1991 HONDA NSX",
-     
+
       "builtBy": "-",
       "mileage": "-",
-      "price": '99,999',
+      "price": '24,995',
       "bodyColor": '-',
-     
+
       "stockNumber": 12125991,
       "vin": '-',
       "miles": '-',
@@ -689,9 +689,9 @@ export const CurrentDataProvider = (props) => {
     },
     {
       "_id": "18",
-      "model": "Currently",
-      "year": "-",
-      "make": "-",
+      "model": "NSX",
+      "year": "1994",
+      "make": "HONDA",
       "images": [
         Honda1994NSX
       ],
@@ -739,7 +739,7 @@ export const CurrentDataProvider = (props) => {
 
       "builtBy": "-",
       "mileage": "-",
-      "price": '99,999',
+      "price": '109,995',
       "bodyColor": '-',
 
       "stockNumber": 12125991,
@@ -762,9 +762,9 @@ export const CurrentDataProvider = (props) => {
     },
     {
       "_id": "19",
-      "model": "Currently",
-      "year": "-",
-      "make": "-",
+      "model": "RX-7",
+      "year": "1994",
+      "make": "MAZDA",
       "images": [
         Mazda1994RX7
       ],
@@ -812,7 +812,7 @@ export const CurrentDataProvider = (props) => {
 
       "builtBy": "-",
       "mileage": "-",
-      "price": '99,999',
+      "price": '47,995',
       "bodyColor": '-',
 
       "stockNumber": 12125991,
@@ -833,11 +833,11 @@ export const CurrentDataProvider = (props) => {
       "centerConsole": "NO",
       "count": 1
     },
-        {
+    {
       "_id": "20",
-      "model": "Currently",
-      "year": "-",
-      "make": "-",
+      "model": "RX7 FD",
+      "year": "1994",
+      "make": "MAZDA",
       "images": [
         Mazda1994RX7FD
       ],
@@ -885,7 +885,7 @@ export const CurrentDataProvider = (props) => {
 
       "builtBy": "-",
       "mileage": "-",
-      "price": '99,999',
+      "price": '49,995',
       "bodyColor": '-',
 
       "stockNumber": 12125991,
@@ -908,9 +908,9 @@ export const CurrentDataProvider = (props) => {
     },
     {
       "_id": "21",
-      "model": "Currently",
-      "year": "-",
-      "make": "-",
+      "model": "DELICA SPACE GEAR SUPER EXCEED",
+      "year": "1995",
+      "make": "MITSUBISHI",
       "images": [
         Mitsu1995
       ],
@@ -979,11 +979,11 @@ export const CurrentDataProvider = (props) => {
       "centerConsole": "NO",
       "count": 1
     },
-        {
+    {
       "_id": "22",
-      "model": "Currently",
-      "year": "-",
-      "make": "-",
+      "model": "SKYLINE GT-R",
+      "year": "1995",
+      "make": "NISSAN",
       "images": [
         Nissan1995GTR1
       ],
@@ -1031,7 +1031,7 @@ export const CurrentDataProvider = (props) => {
 
       "builtBy": "-",
       "mileage": "-",
-      "price": '99,999',
+      "price": '169,995',
       "bodyColor": '-',
 
       "stockNumber": 12125991,
@@ -1052,11 +1052,11 @@ export const CurrentDataProvider = (props) => {
       "centerConsole": "NO",
       "count": 1
     },
-        {
+    {
       "_id": "23",
-      "model": "Currently",
-      "year": "-",
-      "make": "-",
+      "model": "SKYLINE GT-R",
+      "year": "1995",
+      "make": "NISSAN",
       "images": [
         Nissan1995GTR0
       ],
@@ -1104,7 +1104,7 @@ export const CurrentDataProvider = (props) => {
 
       "builtBy": "-",
       "mileage": "-",
-      "price": '99,999',
+      "price": '64,995',
       "bodyColor": '-',
 
       "stockNumber": 12125991,
@@ -1127,9 +1127,9 @@ export const CurrentDataProvider = (props) => {
     },
     {
       "_id": "24",
-      "model": "Currently",
-      "year": "-",
-      "make": "-",
+      "model": "SKYLINE GT-R V SPEC",
+      "year": "1995",
+      "make": "NISSAN",
       "images": [
         Nissan1995GTRVSpec1
       ],
@@ -1177,7 +1177,7 @@ export const CurrentDataProvider = (props) => {
 
       "builtBy": "-",
       "mileage": "-",
-      "price": '99,999',
+      "price": '79,995',
       "bodyColor": '-',
 
       "stockNumber": 12125991,
@@ -1198,10 +1198,10 @@ export const CurrentDataProvider = (props) => {
       "centerConsole": "NO",
       "count": 1
     },
-        {
+    {
       "_id": "25",
-      "model": "Currently",
-      "year": "-",
+      "model": "SKYLINE GT-R V SPEC",
+      "year": "1995",
       "make": "-",
       "images": [
         Nissan1995GTRVSpec2
@@ -1250,7 +1250,7 @@ export const CurrentDataProvider = (props) => {
 
       "builtBy": "-",
       "mileage": "-",
-      "price": '99,999',
+      "price": '65,995',
       "bodyColor": '-',
 
       "stockNumber": 12125991,
@@ -1271,11 +1271,11 @@ export const CurrentDataProvider = (props) => {
       "centerConsole": "NO",
       "count": 1
     },
-        {
+    {
       "_id": "26",
-      "model": "Currently",
-      "year": "-",
-      "make": "-",
+      "model": "SKYLINE GT-R V SPEC",
+      "year": "1995",
+      "make": "NISSAN",
       "images": [
         Nissan1995GTRVSpec
       ],
@@ -1323,7 +1323,7 @@ export const CurrentDataProvider = (props) => {
 
       "builtBy": "-",
       "mileage": "-",
-      "price": '99,999',
+      "price": '86,995',
       "bodyColor": '-',
 
       "stockNumber": 12125991,
@@ -1344,11 +1344,11 @@ export const CurrentDataProvider = (props) => {
       "centerConsole": "NO",
       "count": 1
     },
-        {
+    {
       "_id": "27",
-      "model": "Currently",
-      "year": "-",
-      "make": "-",
+      "model": "INTEGRA TYPE-R",
+      "year": "1996",
+      "make": "HONDA",
       "images": [
         Honda1996R1
       ],
@@ -1396,7 +1396,7 @@ export const CurrentDataProvider = (props) => {
 
       "builtBy": "-",
       "mileage": "-",
-      "price": '99,999',
+      "price": '34,995',
       "bodyColor": '-',
 
       "stockNumber": 12125991,
@@ -1417,11 +1417,11 @@ export const CurrentDataProvider = (props) => {
       "centerConsole": "NO",
       "count": 1
     },
-        {
+    {
       "_id": "28",
-      "model": "Currently",
-      "year": "-",
-      "make": "-",
+      "model": "INTEGRA TYPE-R",
+      "year": "1996",
+      "make": "HONDA",
       "images": [
         Honda1996R0
       ],
@@ -1469,7 +1469,7 @@ export const CurrentDataProvider = (props) => {
 
       "builtBy": "-",
       "mileage": "-",
-      "price": '99,999',
+      "price": '33,995',
       "bodyColor": '-',
 
       "stockNumber": 12125991,
@@ -1490,11 +1490,11 @@ export const CurrentDataProvider = (props) => {
       "centerConsole": "NO",
       "count": 1
     },
-        {
+    {
       "_id": "29",
-      "model": "Currently",
-      "year": "-",
-      "make": "-",
+      "model": "CELICA GT-FOUR",
+      "year": "1996",
+      "make": "TOYOTA",
       "images": [
         Toyota1996CelicaGTFour
       ],
@@ -1542,7 +1542,7 @@ export const CurrentDataProvider = (props) => {
 
       "builtBy": "-",
       "mileage": "-",
-      "price": '99,999',
+      "price": '26,995',
       "bodyColor": '-',
 
       "stockNumber": 12125991,
