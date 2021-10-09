@@ -14,7 +14,7 @@ const Footer = () => {
     <div className="footer__container">
       <div className="footer__newsletter">
         <div className="footer__newsletter-left">
-          <p>WEEKLY INVETORY UPATES MORE</p>
+          <p>WEEKLY INVENTORY UPATES AND MORE</p>
           <h1>NEWSLETTER</h1>
         </div>
         <div className="footer__newsletter-email">
