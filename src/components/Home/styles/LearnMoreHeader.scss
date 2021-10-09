@@ -130,22 +130,11 @@
   .custom-header__container {
     .custom-header__container-top {
 
-      // display: flex;
-      // justify-content: center;
-      // align-items: center;
-      // flex-direction: column;
       .custom-header__container-left {
-        display: none;
       }
 
       .custom-header__container-center {
-        // width: 100%;
-        display: flex-start;
-
         p {
-          display: flex-start;
-          float: left;
-          font-size: 20px;
         }
       }
 
