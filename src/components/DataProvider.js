@@ -41,6 +41,17 @@ import Cappuccino2 from '../assets/images/cars/1993-suzuki-cappuccino-2.jfif';
 import Cappuccino3 from '../assets/images/cars/1993-suzuki-cappuccino-3.jfif';
 import Cappuccino4 from '../assets/images/cars/1993-suzuki-cappuccino-4.jfif';
 import Cappuccino5 from '../assets/images/cars/1993-suzuki-cappuccino-5.jfif';
+import Cappuccino6 from '../assets/images/cars/1993-suzuki-cappuccino-6.jfif';
+import Cappuccino7 from '../assets/images/cars/1993-suzuki-cappuccino-7.jfif';
+import Cappuccino8 from '../assets/images/cars/1993-suzuki-cappuccino-8.jfif';
+import Cappuccino9 from '../assets/images/cars/1993-suzuki-cappuccino-9.jfif';
+import Cappuccino10 from '../assets/images/cars/1993-suzuki-cappuccino-10.jfif';
+import Cappuccino11 from '../assets/images/cars/1993-suzuki-cappuccino-11.jfif';
+import Cappuccino12 from '../assets/images/cars/1993-suzuki-cappuccino-12.jfif';
+import Cappuccino13 from '../assets/images/cars/1993-suzuki-cappuccino-13.jfif';
+import Cappuccino14 from '../assets/images/cars/1993-suzuki-cappuccino-14.jfif';
+import Cappuccino15 from '../assets/images/cars/1993-suzuki-cappuccino-15.jfif';
+
 
 
 import Supra19931 from '../assets/images/cars/1993-toyota-supra-1.jfif';
@@ -48,6 +59,16 @@ import Supra19932 from '../assets/images/cars/1993-toyota-supra-2.jfif';
 import Supra19933 from '../assets/images/cars/1993-toyota-supra-3.jfif';
 import Supra19934 from '../assets/images/cars/1993-toyota-supra-4.jfif';
 import Supra19935 from '../assets/images/cars/1993-toyota-supra-5.jfif';
+import Supra19936 from '../assets/images/cars/1993-toyota-supra-6.jfif';
+import Supra19937 from '../assets/images/cars/1993-toyota-supra-7.jfif';
+import Supra19938 from '../assets/images/cars/1993-toyota-supra-8.jfif';
+import Supra19939 from '../assets/images/cars/1993-toyota-supra-9.jfif';
+import Supra199310 from '../assets/images/cars/1993-toyota-supra-10.jfif';
+import Supra199311 from '../assets/images/cars/1993-toyota-supra-11.jfif';
+import Supra199312 from '../assets/images/cars/1993-toyota-supra-12.jfif';
+import Supra199313 from '../assets/images/cars/1993-toyota-supra-13.jfif';
+import Supra199314 from '../assets/images/cars/1993-toyota-supra-14.jfif';
+import Supra199315 from '../assets/images/cars/1993-toyota-supra-15.jfif';
 
 
 import CivicShuttle19951 from '../assets/images/cars/1995-honda-civic-shuttle-1.jfif';
@@ -55,12 +76,32 @@ import CivicShuttle19952 from '../assets/images/cars/1995-honda-civic-shuttle-2.
 import CivicShuttle19953 from '../assets/images/cars/1995-honda-civic-shuttle-3.jfif';
 import CivicShuttle19954 from '../assets/images/cars/1995-honda-civic-shuttle-4.jfif';
 import CivicShuttle19955 from '../assets/images/cars/1995-honda-civic-shuttle-5.jfif';
+import CivicShuttle19956 from '../assets/images/cars/1995-honda-civic-shuttle-6.jfif';
+import CivicShuttle19957 from '../assets/images/cars/1995-honda-civic-shuttle-7.jfif';
+import CivicShuttle19958 from '../assets/images/cars/1995-honda-civic-shuttle-8.jfif';
+import CivicShuttle19959 from '../assets/images/cars/1995-honda-civic-shuttle-9.jfif';
+import CivicShuttle199510 from '../assets/images/cars/1995-honda-civic-shuttle-10.jfif';
+import CivicShuttle199511 from '../assets/images/cars/1995-honda-civic-shuttle-11.jfif';
+import CivicShuttle199512 from '../assets/images/cars/1995-honda-civic-shuttle-12.jfif';
+import CivicShuttle199513 from '../assets/images/cars/1995-honda-civic-shuttle-13.jfif';
+import CivicShuttle199514 from '../assets/images/cars/1995-honda-civic-shuttle-14.jfif';
+import CivicShuttle199515 from '../assets/images/cars/1995-honda-civic-shuttle-15.jfif';
 
 import Evoiii19951 from '../assets/images/cars/1995-mitsubishi-lancer-evolution-iii-1.jfif';
 import Evoiii19952 from '../assets/images/cars/1995-mitsubishi-lancer-evolution-iii-2.jfif';
 import Evoiii19953 from '../assets/images/cars/1995-mitsubishi-lancer-evolution-iii-3.jfif';
 import Evoiii19954 from '../assets/images/cars/1995-mitsubishi-lancer-evolution-iii-4.jfif';
 import Evoiii19955 from '../assets/images/cars/1995-mitsubishi-lancer-evolution-iii-5.jfif';
+import Evoiii19956 from '../assets/images/cars/1995-mitsubishi-lancer-evolution-iii-6.jfif';
+import Evoiii19957 from '../assets/images/cars/1995-mitsubishi-lancer-evolution-iii-7.jfif';
+import Evoiii19958 from '../assets/images/cars/1995-mitsubishi-lancer-evolution-iii-8.jfif';
+import Evoiii19959 from '../assets/images/cars/1995-mitsubishi-lancer-evolution-iii-9.jfif';
+import Evoiii199510 from '../assets/images/cars/1995-mitsubishi-lancer-evolution-iii-10.jfif';
+import Evoiii199511 from '../assets/images/cars/1995-mitsubishi-lancer-evolution-iii-11.jfif';
+import Evoiii199512 from '../assets/images/cars/1995-mitsubishi-lancer-evolution-iii-12.jfif';
+import Evoiii199513 from '../assets/images/cars/1995-mitsubishi-lancer-evolution-iii-13.jfif';
+import Evoiii199514 from '../assets/images/cars/1995-mitsubishi-lancer-evolution-iii-14.jfif';
+import Evoiii199515 from '../assets/images/cars/1995-mitsubishi-lancer-evolution-iii-15.jfif';
 
 
 import Integra1996TR1 from '../assets/images/cars/1996-honda-integra-type-r-1.jfif';
@@ -85,6 +126,30 @@ import LancerEVO20002 from '../assets/images/cars/2000-mitsubishi-lancer-evoluti
 import LancerEVO20003 from '../assets/images/cars/2000-mitsubishi-lancer-evolution-3.jfif';
 import LancerEVO20004 from '../assets/images/cars/2000-mitsubishi-lancer-evolution-4.jfif';
 import LancerEVO20005 from '../assets/images/cars/2000-mitsubishi-lancer-evolution-5.jfif';
+import LancerEVO20006 from '../assets/images/cars/2000-mitsubishi-lancer-evolution-6.jfif';
+import LancerEVO20007 from '../assets/images/cars/2000-mitsubishi-lancer-evolution-7.jfif';
+import LancerEVO20008 from '../assets/images/cars/2000-mitsubishi-lancer-evolution-8.jfif';
+import LancerEVO20009 from '../assets/images/cars/2000-mitsubishi-lancer-evolution-9.jfif';
+import LancerEVO200010 from '../assets/images/cars/2000-mitsubishi-lancer-evolution-10.jfif';
+import LancerEVO200011 from '../assets/images/cars/2000-mitsubishi-lancer-evolution-11.jfif';
+import LancerEVO200012 from '../assets/images/cars/2000-mitsubishi-lancer-evolution-12.jfif';
+import LancerEVO200013 from '../assets/images/cars/2000-mitsubishi-lancer-evolution-13.jfif';
+import LancerEVO200014 from '../assets/images/cars/2000-mitsubishi-lancer-evolution-14.jfif';
+import LancerEVO200015 from '../assets/images/cars/2000-mitsubishi-lancer-evolution-15.jfif';
+import LancerEVO200016 from '../assets/images/cars/2000-mitsubishi-lancer-evolution-16.jfif';
+import LancerEVO200017 from '../assets/images/cars/2000-mitsubishi-lancer-evolution-17.jfif';
+import LancerEVO200018 from '../assets/images/cars/2000-mitsubishi-lancer-evolution-18.jfif';
+import LancerEVO200019 from '../assets/images/cars/2000-mitsubishi-lancer-evolution-19.jfif';
+import LancerEVO200021 from '../assets/images/cars/2000-mitsubishi-lancer-evolution-21.jfif';
+import LancerEVO200022 from '../assets/images/cars/2000-mitsubishi-lancer-evolution-22.jfif';
+import LancerEVO200023 from '../assets/images/cars/2000-mitsubishi-lancer-evolution-23.jfif';
+import LancerEVO200024 from '../assets/images/cars/2000-mitsubishi-lancer-evolution-24.jfif';
+import LancerEVO200025 from '../assets/images/cars/2000-mitsubishi-lancer-evolution-25.jfif';
+import LancerEVO200026 from '../assets/images/cars/2000-mitsubishi-lancer-evolution-26.jfif';
+import LancerEVO200027 from '../assets/images/cars/2000-mitsubishi-lancer-evolution-27.jfif';
+import LancerEVO200028 from '../assets/images/cars/2000-mitsubishi-lancer-evolution-28.jfif';
+import LancerEVO200029 from '../assets/images/cars/2000-mitsubishi-lancer-evolution-29.jfif';
+import LancerEVO200030 from '../assets/images/cars/2000-mitsubishi-lancer-evolution-30.jfif';
 
 // import NSX2 from '../assets/images/cars/1991-honda-nsx-2.jfif';
 // import NSX2 from '../assets/images/cars/1991-honda-nsx-2.jfif';
@@ -119,16 +184,16 @@ export const DataProvider = (props) => {
         "Engine Coolant", "Brake Fluid (DOT-4)",
       ],
       "aboutUs": [
-        "Toprank International Vehicle Importers specializes in importing and selling JDM (Japanese domestic market) cars. From Nissan Skylines to Toyota Chasers, vehicles over 25 years old are legal to import. In addition to JDM cars, we can also import cars from other countries, Show or Display vehicles, and race cars.",
+        "JDM Lovers International Vehicle Importers specializes in importing and selling JDM (Japanese domestic market) cars. From Nissan Skylines to Toyota Chasers, vehicles over 25 years old are legal to import. In addition to JDM cars, we can also import cars from other countries, Show or Display vehicles, and race cars.",
         "Financing Available. Nationwide Shipping Available Please contact us for details. 844-523-2233 or sales@importavehicle.com",
-        "All vehicles are As/Is No warranty. Imported vehicles can not be registered in California (http://toprankjdm.com/California) until brought into California compliance. Please check all local state laws for information on title and registration. 25 year old vehicles are exempt from FMVSS requirements. Vehicles over 21 years old are exempt from EPA compliance requirements for importation.",
-        "FAQ (http://toprankjdm.com/FAQ)",
-        "Insurance for JDM/Imported Vehicles (http://toprankjdm.com/Insurance)",
-        "Right Hand Drive (RHD) http://toprankjdm.com/RHD",
-        "California legalization of imported vehicles (http://toprankjdm.com/California)",
-        "Inventory List (http://toprankjdm.com/cars)",
-        "Parts and Maintenance for Nissan Skyline (http://toprankjdm.com/Parts)",
-        "Find Your Car - Looking for a car we don't have in stock? Looking at a car that will be legal in the future? We can help you find, buy, and legally import a vehicle to the USA. From Japan, to Australia, New Zealand, Europe, or anywhere else in the world. Learn more http://toprankjdm.com/Find",
+        "All vehicles are As/Is No warranty. Imported vehicles can not be registered in California (http://jdmlover.com/California) until brought into California compliance. Please check all local state laws for information on title and registration. 25 year old vehicles are exempt from FMVSS requirements. Vehicles over 21 years old are exempt from EPA compliance requirements for importation.",
+        "FAQ (http://jdmlover.com/FAQ)",
+        "Insurance for JDM/Imported Vehicles (http://jdmlover.com/Insurance)",
+        "Right Hand Drive (RHD) http://jdmlover.com/RHD",
+        "California legalization of imported vehicles (http://jdmlover.com/California)",
+        "Inventory List (http://jdmlover.com/cars)",
+        "Parts and Maintenance for Nissan Skyline (http://jdmlover.com/Parts)",
+        "Find Your Car - Looking for a car we don't have in stock? Looking at a car that will be legal in the future? We can help you find, buy, and legally import a vehicle to the USA. From Japan, to Australia, New Zealand, Europe, or anywhere else in the world. Learn more http://jdmlover.com/Find",
       ],
       "toBeImported": [
         "Honda Integra Type R DC2 Oct 1995 = Oct 2020",
@@ -139,8 +204,8 @@ export const DataProvider = (props) => {
         "Nissan Silvia S15 Jan 1999 = Jan 2024",
         "Nissan Skyline GT-R R34 - Jan 1999 = Jan 2024"
       ],
-      "toBeImportedOne": "Japanese (JDM) cars turning 25 years old in 2021 and beyond (http://toprankjdm.com/2021)",
-      "toBeImportedTwo": "How to Buy and Store an R34 GT-R in Japan until 2024 (http://toprankjdm.com/BuyR34)",
+      "toBeImportedOne": "Japanese (JDM) cars turning 25 years old in 2021 and beyond (http://jdmlover.com/2021)",
+      "toBeImportedTwo": "How to Buy and Store an R34 GT-R in Japan until 2024 (http://jdmlover.com/BuyR34)",
       "mileage": "95,647 KM / 59,432",
       "fullNameWithAddress": "1991 HONDA NSX FOR SALE INCYPRESS, CALIFORNIA",
       "builtBy": "Throtl",
@@ -181,16 +246,16 @@ export const DataProvider = (props) => {
         "", "", "", "", "",
       ],
       // "aboutUs": [
-      //   "Toprank International Vehicle Importers specializes in importing and selling JDM (Japanese domestic market) cars. From Nissan Skylines to Toyota Chasers, vehicles over 25 years old are legal to import. In addition to JDM cars, we can also import cars from other countries, Show or Display vehicles, and race cars.",
+      //   "JDM Lovers International Vehicle Importers specializes in importing and selling JDM (Japanese domestic market) cars. From Nissan Skylines to Toyota Chasers, vehicles over 25 years old are legal to import. In addition to JDM cars, we can also import cars from other countries, Show or Display vehicles, and race cars.",
       //   "Financing Available. Nationwide Shipping Available Please contact us for details. 844-523-2233 or sales@importavehicle.com",
-      //   "All vehicles are As/Is No warranty. Imported vehicles can not be registered in California (http://toprankjdm.com/California) until brought into California compliance. Please check all local state laws for information on title and registration. 25 year old vehicles are exempt from FMVSS requirements. Vehicles over 21 years old are exempt from EPA compliance requirements for importation.",
-      //   "FAQ (http://toprankjdm.com/FAQ)",
-      //   "Insurance for JDM/Imported Vehicles (http://toprankjdm.com/Insurance)",
-      //   "Right Hand Drive (RHD) http://toprankjdm.com/RHD",
-      //   "California legalization of imported vehicles (http://toprankjdm.com/California)",
-      //   "Inventory List (http://toprankjdm.com/cars)",
-      //   "Parts and Maintenance for Nissan Skyline (http://toprankjdm.com/Parts)",
-      //   "Find Your Car - Looking for a car we don't have in stock? Looking at a car that will be legal in the future? We can help you find, buy, and legally import a vehicle to the USA. From Japan, to Australia, New Zealand, Europe, or anywhere else in the world. Learn more http://toprankjdm.com/Find",
+      //   "All vehicles are As/Is No warranty. Imported vehicles can not be registered in California (http://jdmlover.com/California) until brought into California compliance. Please check all local state laws for information on title and registration. 25 year old vehicles are exempt from FMVSS requirements. Vehicles over 21 years old are exempt from EPA compliance requirements for importation.",
+      //   "FAQ (http://jdmlover.com/FAQ)",
+      //   "Insurance for JDM/Imported Vehicles (http://jdmlover.com/Insurance)",
+      //   "Right Hand Drive (RHD) http://jdmlover.com/RHD",
+      //   "California legalization of imported vehicles (http://jdmlover.com/California)",
+      //   "Inventory List (http://jdmlover.com/cars)",
+      //   "Parts and Maintenance for Nissan Skyline (http://jdmlover.com/Parts)",
+      //   "Find Your Car - Looking for a car we don't have in stock? Looking at a car that will be legal in the future? We can help you find, buy, and legally import a vehicle to the USA. From Japan, to Australia, New Zealand, Europe, or anywhere else in the world. Learn more http://jdmlover.com/Find",
       // ],
       "toBeImported": [
         "Honda Integra Type R DC2 Oct 1995 = Oct 2020",
@@ -201,8 +266,8 @@ export const DataProvider = (props) => {
         "Nissan Silvia S15 Jan 1999 = Jan 2024",
         "Nissan Skyline GT-R R34 - Jan 1999 = Jan 2024"
       ],
-      "toBeImportedOne": "Japanese (JDM) cars turning 25 years old in 2021 and beyond (http://toprankjdm.com/2021)",
-      "toBeImportedTwo": "How to Buy and Store an R34 GT-R in Japan until 2024 (http://toprankjdm.com/BuyR34)",
+      "toBeImportedOne": "Japanese (JDM) cars turning 25 years old in 2021 and beyond (http://jdmlover.com/2021)",
+      "toBeImportedTwo": "How to Buy and Store an R34 GT-R in Japan until 2024 (http://jdmlover.com/BuyR34)",
       "mileage": "77,240 KM meter changed at dealer / on cluster 28,818 KM ",
       "fullName": "1992 MAZDA RX7 FD",
       "builtBy": "unknown",
@@ -227,7 +292,7 @@ export const DataProvider = (props) => {
       "make": "SUZUKI",
       "": "",
       "images": [
-        Cappuccino1, Cappuccino2, Cappuccino3, Cappuccino4,
+        Cappuccino1, Cappuccino2, Cappuccino3, Cappuccino4, Cappuccino6, Cappuccino7, Cappuccino8, Cappuccino9, Cappuccino10, Cappuccino11, Cappuccino12, Cappuccino13, Cappuccino14, Cappuccino15, 
       ],
       "modList": [
         "", "", "", "", "",
@@ -244,16 +309,16 @@ export const DataProvider = (props) => {
         "", "", "", "", "",
       ],
       "aboutUs": [
-        "Toprank International Vehicle Importers specializes in importing and selling JDM (Japanese domestic market) cars. From Nissan Skylines to Toyota Chasers, vehicles over 25 years old are legal to import. In addition to JDM cars, we can also import cars from other countries, Show or Display vehicles, and race cars.",
+        "JDM Lovers International Vehicle Importers specializes in importing and selling JDM (Japanese domestic market) cars. From Nissan Skylines to Toyota Chasers, vehicles over 25 years old are legal to import. In addition to JDM cars, we can also import cars from other countries, Show or Display vehicles, and race cars.",
         "Financing Available. Nationwide Shipping Available Please contact us for details. 844-523-2233 or sales@importavehicle.com",
-        "All vehicles are As/Is No warranty. Imported vehicles can not be registered in California (http://toprankjdm.com/California) until brought into California compliance. Please check all local state laws for information on title and registration. 25 year old vehicles are exempt from FMVSS requirements. Vehicles over 21 years old are exempt from EPA compliance requirements for importation.",
-        "FAQ (http://toprankjdm.com/FAQ)",
-        "Insurance for JDM/Imported Vehicles (http://toprankjdm.com/Insurance)",
-        "Right Hand Drive (RHD) http://toprankjdm.com/RHD",
-        "California legalization of imported vehicles (http://toprankjdm.com/California)",
-        "Inventory List (http://toprankjdm.com/cars)",
-        "Parts and Maintenance for Nissan Skyline (http://toprankjdm.com/Parts)",
-        "Find Your Car - Looking for a car we don't have in stock? Looking at a car that will be legal in the future? We can help you find, buy, and legally import a vehicle to the USA. From Japan, to Australia, New Zealand, Europe, or anywhere else in the world. Learn more http://toprankjdm.com/Find",
+        "All vehicles are As/Is No warranty. Imported vehicles can not be registered in California (http://jdmlover.com/California) until brought into California compliance. Please check all local state laws for information on title and registration. 25 year old vehicles are exempt from FMVSS requirements. Vehicles over 21 years old are exempt from EPA compliance requirements for importation.",
+        "FAQ (http://jdmlover.com/FAQ)",
+        "Insurance for JDM/Imported Vehicles (http://jdmlover.com/Insurance)",
+        "Right Hand Drive (RHD) http://jdmlover.com/RHD",
+        "California legalization of imported vehicles (http://jdmlover.com/California)",
+        "Inventory List (http://jdmlover.com/cars)",
+        "Parts and Maintenance for Nissan Skyline (http://jdmlover.com/Parts)",
+        "Find Your Car - Looking for a car we don't have in stock? Looking at a car that will be legal in the future? We can help you find, buy, and legally import a vehicle to the USA. From Japan, to Australia, New Zealand, Europe, or anywhere else in the world. Learn more http://jdmlover.com/Find",
       ],
       "toBeImported": [
         "Honda Integra Type R DC2 Oct 1995 = Oct 2020",
@@ -264,8 +329,8 @@ export const DataProvider = (props) => {
         "Nissan Silvia S15 Jan 1999 = Jan 2024",
         "Nissan Skyline GT-R R34 - Jan 1999 = Jan 2024"
       ],
-      "toBeImportedOne": "Japanese (JDM) cars turning 25 years old in 2021 and beyond (http://toprankjdm.com/2021)",
-      "toBeImportedTwo": "How to Buy and Store an R34 GT-R in Japan until 2024 (http://toprankjdm.com/BuyR34)",
+      "toBeImportedOne": "Japanese (JDM) cars turning 25 years old in 2021 and beyond (http://jdmlover.com/2021)",
+      "toBeImportedTwo": "How to Buy and Store an R34 GT-R in Japan until 2024 (http://jdmlover.com/BuyR34)",
       "mileage": "95,499 KM ~60,000 miles",
       "fullName": "1993 SUZUKI CAPPUCCINO",
       "builtBy": "unknown",
@@ -290,7 +355,7 @@ export const DataProvider = (props) => {
       "make": "TOYOTA",
       "": "",
       "images": [
-        Supra19931, Supra19932, Supra19933, Supra19934,
+        Supra19931, Supra19932, Supra19933, Supra19934,Supra19935, Supra19936, Supra19937, Supra19938, Supra19939, Supra199310, Supra199311, Supra199312, Supra199313, Supra199314, Supra199315
       ],
       "modList": [
         "", "", "", "", "",
@@ -307,16 +372,16 @@ export const DataProvider = (props) => {
         "", "", "", "", "",
       ],
       "aboutUs": [
-        "Toprank International Vehicle Importers specializes in importing and selling JDM (Japanese domestic market) cars. From Nissan Skylines to Toyota Chasers, vehicles over 25 years old are legal to import. In addition to JDM cars, we can also import cars from other countries, Show or Display vehicles, and race cars.",
+        "JDM Lovers International Vehicle Importers specializes in importing and selling JDM (Japanese domestic market) cars. From Nissan Skylines to Toyota Chasers, vehicles over 25 years old are legal to import. In addition to JDM cars, we can also import cars from other countries, Show or Display vehicles, and race cars.",
         "Financing Available. Nationwide Shipping Available Please contact us for details. 844-523-2233 or sales@importavehicle.com",
-        "All vehicles are As/Is No warranty. Imported vehicles can not be registered in California (http://toprankjdm.com/California) until brought into California compliance. Please check all local state laws for information on title and registration. 25 year old vehicles are exempt from FMVSS requirements. Vehicles over 21 years old are exempt from EPA compliance requirements for importation.",
-        "FAQ (http://toprankjdm.com/FAQ)",
-        "Insurance for JDM/Imported Vehicles (http://toprankjdm.com/Insurance)",
-        "Right Hand Drive (RHD) http://toprankjdm.com/RHD",
-        "California legalization of imported vehicles (http://toprankjdm.com/California)",
-        "Inventory List (http://toprankjdm.com/cars)",
-        "Parts and Maintenance for Nissan Skyline (http://toprankjdm.com/Parts)",
-        "Find Your Car - Looking for a car we don't have in stock? Looking at a car that will be legal in the future? We can help you find, buy, and legally import a vehicle to the USA. From Japan, to Australia, New Zealand, Europe, or anywhere else in the world. Learn more http://toprankjdm.com/Find",
+        "All vehicles are As/Is No warranty. Imported vehicles can not be registered in California (http://jdmlover.com/California) until brought into California compliance. Please check all local state laws for information on title and registration. 25 year old vehicles are exempt from FMVSS requirements. Vehicles over 21 years old are exempt from EPA compliance requirements for importation.",
+        "FAQ (http://jdmlover.com/FAQ)",
+        "Insurance for JDM/Imported Vehicles (http://jdmlover.com/Insurance)",
+        "Right Hand Drive (RHD) http://jdmlover.com/RHD",
+        "California legalization of imported vehicles (http://jdmlover.com/California)",
+        "Inventory List (http://jdmlover.com/cars)",
+        "Parts and Maintenance for Nissan Skyline (http://jdmlover.com/Parts)",
+        "Find Your Car - Looking for a car we don't have in stock? Looking at a car that will be legal in the future? We can help you find, buy, and legally import a vehicle to the USA. From Japan, to Australia, New Zealand, Europe, or anywhere else in the world. Learn more http://jdmlover.com/Find",
       ],
       "toBeImported": [
         "Honda Integra Type R DC2 Oct 1995 = Oct 2020",
@@ -327,8 +392,8 @@ export const DataProvider = (props) => {
         "Nissan Silvia S15 Jan 1999 = Jan 2024",
         "Nissan Skyline GT-R R34 - Jan 1999 = Jan 2024"
       ],
-      "toBeImportedOne": "Japanese (JDM) cars turning 25 years old in 2021 and beyond (http://toprankjdm.com/2021)",
-      "toBeImportedTwo": "How to Buy and Store an R34 GT-R in Japan until 2024 (http://toprankjdm.com/BuyR34)",
+      "toBeImportedOne": "Japanese (JDM) cars turning 25 years old in 2021 and beyond (http://jdmlover.com/2021)",
+      "toBeImportedTwo": "How to Buy and Store an R34 GT-R in Japan until 2024 (http://jdmlover.com/BuyR34)",
       "mileage": "75,713 KM / 47,046 miles",
       "fullName": "1993 TOYOTA SUPRA",
       "builtBy": "unknown",
@@ -353,7 +418,7 @@ export const DataProvider = (props) => {
       "make": "HONDA",
       "": "",
       "images": [
-        CivicShuttle19951, CivicShuttle19952, CivicShuttle19953, CivicShuttle19954,
+        CivicShuttle19951, CivicShuttle19952, CivicShuttle19953, CivicShuttle19954, CivicShuttle19955, CivicShuttle19956, CivicShuttle19957, CivicShuttle19958, CivicShuttle19959, CivicShuttle199510, CivicShuttle199511, CivicShuttle199512, CivicShuttle199513, CivicShuttle199514, CivicShuttle199515
       ],
       "modList": [
         "", "", "", "", "",
@@ -370,16 +435,16 @@ export const DataProvider = (props) => {
         "", "", "", "", "",
       ],
       "aboutUs": [
-        "Toprank International Vehicle Importers specializes in importing and selling JDM (Japanese domestic market) cars. From Nissan Skylines to Toyota Chasers, vehicles over 25 years old are legal to import. In addition to JDM cars, we can also import cars from other countries, Show or Display vehicles, and race cars.",
+        "JDM Lovers International Vehicle Importers specializes in importing and selling JDM (Japanese domestic market) cars. From Nissan Skylines to Toyota Chasers, vehicles over 25 years old are legal to import. In addition to JDM cars, we can also import cars from other countries, Show or Display vehicles, and race cars.",
         "Financing Available. Nationwide Shipping Available Please contact us for details. 844-523-2233 or sales@importavehicle.com",
-        "All vehicles are As/Is No warranty. Imported vehicles can not be registered in California (http://toprankjdm.com/California) until brought into California compliance. Please check all local state laws for information on title and registration. 25 year old vehicles are exempt from FMVSS requirements. Vehicles over 21 years old are exempt from EPA compliance requirements for importation.",
-        "FAQ (http://toprankjdm.com/FAQ)",
-        "Insurance for JDM/Imported Vehicles (http://toprankjdm.com/Insurance)",
-        "Right Hand Drive (RHD) http://toprankjdm.com/RHD",
-        "California legalization of imported vehicles (http://toprankjdm.com/California)",
-        "Inventory List (http://toprankjdm.com/cars)",
-        "Parts and Maintenance for Nissan Skyline (http://toprankjdm.com/Parts)",
-        "Find Your Car - Looking for a car we don't have in stock? Looking at a car that will be legal in the future? We can help you find, buy, and legally import a vehicle to the USA. From Japan, to Australia, New Zealand, Europe, or anywhere else in the world. Learn more http://toprankjdm.com/Find",
+        "All vehicles are As/Is No warranty. Imported vehicles can not be registered in California (http://jdmlover.com/California) until brought into California compliance. Please check all local state laws for information on title and registration. 25 year old vehicles are exempt from FMVSS requirements. Vehicles over 21 years old are exempt from EPA compliance requirements for importation.",
+        "FAQ (http://jdmlover.com/FAQ)",
+        "Insurance for JDM/Imported Vehicles (http://jdmlover.com/Insurance)",
+        "Right Hand Drive (RHD) http://jdmlover.com/RHD",
+        "California legalization of imported vehicles (http://jdmlover.com/California)",
+        "Inventory List (http://jdmlover.com/cars)",
+        "Parts and Maintenance for Nissan Skyline (http://jdmlover.com/Parts)",
+        "Find Your Car - Looking for a car we don't have in stock? Looking at a car that will be legal in the future? We can help you find, buy, and legally import a vehicle to the USA. From Japan, to Australia, New Zealand, Europe, or anywhere else in the world. Learn more http://jdmlover.com/Find",
       ],
       "toBeImported": [
         "Honda Integra Type R DC2 Oct 1995 = Oct 2020",
@@ -390,8 +455,8 @@ export const DataProvider = (props) => {
         "Nissan Silvia S15 Jan 1999 = Jan 2024",
         "Nissan Skyline GT-R R34 - Jan 1999 = Jan 2024"
       ],
-      "toBeImportedOne": "Japanese (JDM) cars turning 25 years old in 2021 and beyond (http://toprankjdm.com/2021)",
-      "toBeImportedTwo": "How to Buy and Store an R34 GT-R in Japan until 2024 (http://toprankjdm.com/BuyR34)",
+      "toBeImportedOne": "Japanese (JDM) cars turning 25 years old in 2021 and beyond (http://jdmlover.com/2021)",
+      "toBeImportedTwo": "How to Buy and Store an R34 GT-R in Japan until 2024 (http://jdmlover.com/BuyR34)",
       "mileage": "-",
       "fullName": "1995 HONDA CIVIC SHUTTLE",
       "builtBy": "unknown",
@@ -416,7 +481,7 @@ export const DataProvider = (props) => {
       "make": "MITSUBISHI",
       "": "",
       "images": [
-        Evoiii19951, Evoiii19952, Evoiii19953, Evoiii19954,
+        Evoiii19951, Evoiii19952, Evoiii19953, Evoiii19954,Evoiii19955,Evoiii19956,Evoiii19957,Evoiii19958,Evoiii19959,Evoiii199510,Evoiii199511,Evoiii199512,Evoiii199513,Evoiii199514,Evoiii199515
       ],
       "modList": [
         "", "", "", "", "",
@@ -433,16 +498,16 @@ export const DataProvider = (props) => {
         "", "", "", "", "",
       ],
       "aboutUs": [
-        "Toprank International Vehicle Importers specializes in importing and selling JDM (Japanese domestic market) cars. From Nissan Skylines to Toyota Chasers, vehicles over 25 years old are legal to import. In addition to JDM cars, we can also import cars from other countries, Show or Display vehicles, and race cars.",
+        "JDM Lovers International Vehicle Importers specializes in importing and selling JDM (Japanese domestic market) cars. From Nissan Skylines to Toyota Chasers, vehicles over 25 years old are legal to import. In addition to JDM cars, we can also import cars from other countries, Show or Display vehicles, and race cars.",
         "Financing Available. Nationwide Shipping Available Please contact us for details. 844-523-2233 or sales@importavehicle.com",
-        "All vehicles are As/Is No warranty. Imported vehicles can not be registered in California (http://toprankjdm.com/California) until brought into California compliance. Please check all local state laws for information on title and registration. 25 year old vehicles are exempt from FMVSS requirements. Vehicles over 21 years old are exempt from EPA compliance requirements for importation.",
-        "FAQ (http://toprankjdm.com/FAQ)",
-        "Insurance for JDM/Imported Vehicles (http://toprankjdm.com/Insurance)",
-        "Right Hand Drive (RHD) http://toprankjdm.com/RHD",
-        "California legalization of imported vehicles (http://toprankjdm.com/California)",
-        "Inventory List (http://toprankjdm.com/cars)",
-        "Parts and Maintenance for Nissan Skyline (http://toprankjdm.com/Parts)",
-        "Find Your Car - Looking for a car we don't have in stock? Looking at a car that will be legal in the future? We can help you find, buy, and legally import a vehicle to the USA. From Japan, to Australia, New Zealand, Europe, or anywhere else in the world. Learn more http://toprankjdm.com/Find",
+        "All vehicles are As/Is No warranty. Imported vehicles can not be registered in California (http://jdmlover.com/California) until brought into California compliance. Please check all local state laws for information on title and registration. 25 year old vehicles are exempt from FMVSS requirements. Vehicles over 21 years old are exempt from EPA compliance requirements for importation.",
+        "FAQ (http://jdmlover.com/FAQ)",
+        "Insurance for JDM/Imported Vehicles (http://jdmlover.com/Insurance)",
+        "Right Hand Drive (RHD) http://jdmlover.com/RHD",
+        "California legalization of imported vehicles (http://jdmlover.com/California)",
+        "Inventory List (http://jdmlover.com/cars)",
+        "Parts and Maintenance for Nissan Skyline (http://jdmlover.com/Parts)",
+        "Find Your Car - Looking for a car we don't have in stock? Looking at a car that will be legal in the future? We can help you find, buy, and legally import a vehicle to the USA. From Japan, to Australia, New Zealand, Europe, or anywhere else in the world. Learn more http://jdmlover.com/Find",
       ],
       "toBeImported": [
         "Honda Integra Type R DC2 Oct 1995 = Oct 2020",
@@ -453,8 +518,8 @@ export const DataProvider = (props) => {
         "Nissan Silvia S15 Jan 1999 = Jan 2024",
         "Nissan Skyline GT-R R34 - Jan 1999 = Jan 2024"
       ],
-      "toBeImportedOne": "Japanese (JDM) cars turning 25 years old in 2021 and beyond (http://toprankjdm.com/2021)",
-      "toBeImportedTwo": "How to Buy and Store an R34 GT-R in Japan until 2024 (http://toprankjdm.com/BuyR34)",
+      "toBeImportedOne": "Japanese (JDM) cars turning 25 years old in 2021 and beyond (http://jdmlover.com/2021)",
+      "toBeImportedTwo": "How to Buy and Store an R34 GT-R in Japan until 2024 (http://jdmlover.com/BuyR34)",
       "mileage": "73,384 KM / 45,598 (Original)",
       "fullName": "1991 MITSUBISHI LANCER EVOLUTION III",
       "builtBy": "unknown",
@@ -496,16 +561,16 @@ export const DataProvider = (props) => {
         "", "", "", "", "",
       ],
       "aboutUs": [
-        "Toprank International Vehicle Importers specializes in importing and selling JDM (Japanese domestic market) cars. From Nissan Skylines to Toyota Chasers, vehicles over 25 years old are legal to import. In addition to JDM cars, we can also import cars from other countries, Show or Display vehicles, and race cars.",
+        "JDM Lovers International Vehicle Importers specializes in importing and selling JDM (Japanese domestic market) cars. From Nissan Skylines to Toyota Chasers, vehicles over 25 years old are legal to import. In addition to JDM cars, we can also import cars from other countries, Show or Display vehicles, and race cars.",
         "Financing Available. Nationwide Shipping Available Please contact us for details. 844-523-2233 or sales@importavehicle.com",
-        "All vehicles are As/Is No warranty. Imported vehicles can not be registered in California (http://toprankjdm.com/California) until brought into California compliance. Please check all local state laws for information on title and registration. 25 year old vehicles are exempt from FMVSS requirements. Vehicles over 21 years old are exempt from EPA compliance requirements for importation.",
-        "FAQ (http://toprankjdm.com/FAQ)",
-        "Insurance for JDM/Imported Vehicles (http://toprankjdm.com/Insurance)",
-        "Right Hand Drive (RHD) http://toprankjdm.com/RHD",
-        "California legalization of imported vehicles (http://toprankjdm.com/California)",
-        "Inventory List (http://toprankjdm.com/cars)",
-        "Parts and Maintenance for Nissan Skyline (http://toprankjdm.com/Parts)",
-        "Find Your Car - Looking for a car we don't have in stock? Looking at a car that will be legal in the future? We can help you find, buy, and legally import a vehicle to the USA. From Japan, to Australia, New Zealand, Europe, or anywhere else in the world. Learn more http://toprankjdm.com/Find",
+        "All vehicles are As/Is No warranty. Imported vehicles can not be registered in California (http://jdmlover.com/California) until brought into California compliance. Please check all local state laws for information on title and registration. 25 year old vehicles are exempt from FMVSS requirements. Vehicles over 21 years old are exempt from EPA compliance requirements for importation.",
+        "FAQ (http://jdmlover.com/FAQ)",
+        "Insurance for JDM/Imported Vehicles (http://jdmlover.com/Insurance)",
+        "Right Hand Drive (RHD) http://jdmlover.com/RHD",
+        "California legalization of imported vehicles (http://jdmlover.com/California)",
+        "Inventory List (http://jdmlover.com/cars)",
+        "Parts and Maintenance for Nissan Skyline (http://jdmlover.com/Parts)",
+        "Find Your Car - Looking for a car we don't have in stock? Looking at a car that will be legal in the future? We can help you find, buy, and legally import a vehicle to the USA. From Japan, to Australia, New Zealand, Europe, or anywhere else in the world. Learn more http://jdmlover.com/Find",
       ],
       "toBeImported": [
         "Honda Integra Type R DC2 Oct 1995 = Oct 2020",
@@ -516,8 +581,8 @@ export const DataProvider = (props) => {
         "Nissan Silvia S15 Jan 1999 = Jan 2024",
         "Nissan Skyline GT-R R34 - Jan 1999 = Jan 2024"
       ],
-      "toBeImportedOne": "Japanese (JDM) cars turning 25 years old in 2021 and beyond (http://toprankjdm.com/2021)",
-      "toBeImportedTwo": "How to Buy and Store an R34 GT-R in Japan until 2024 (http://toprankjdm.com/BuyR34)",
+      "toBeImportedOne": "Japanese (JDM) cars turning 25 years old in 2021 and beyond (http://jdmlover.com/2021)",
+      "toBeImportedTwo": "How to Buy and Store an R34 GT-R in Japan until 2024 (http://jdmlover.com/BuyR34)",
       "mileage": "127,189 KM / 79,031 (Original)",
       "fullName": "1996 HONDA INTEGRA TYPE-R",
       "builtBy": "-",
@@ -542,7 +607,7 @@ export const DataProvider = (props) => {
       "make": "MITSUBISHI",
       "": "",
       "images": [
-        LancerEVO20001, LancerEVO20002, LancerEVO20003, LancerEVO20004,
+        LancerEVO20001, LancerEVO20002, LancerEVO20003, LancerEVO20004, LancerEVO20005, LancerEVO20006, LancerEVO20007, LancerEVO20008, LancerEVO20009, LancerEVO200010, LancerEVO200011, LancerEVO200012, LancerEVO200013, LancerEVO200014, LancerEVO200015, LancerEVO200016, LancerEVO200017, LancerEVO200018, LancerEVO200019, LancerEVO200021, LancerEVO200022, LancerEVO200023, LancerEVO200024, LancerEVO200025, LancerEVO200026, LancerEVO200027, LancerEVO200028, LancerEVO200029, LancerEVO200030,
       ],
       "modList": [
         "", "", "", "", "",
@@ -559,16 +624,16 @@ export const DataProvider = (props) => {
         "", "", "", "", "",
       ],
       "aboutUs": [
-        "Toprank International Vehicle Importers specializes in importing and selling JDM (Japanese domestic market) cars. From Nissan Skylines to Toyota Chasers, vehicles over 25 years old are legal to import. In addition to JDM cars, we can also import cars from other countries, Show or Display vehicles, and race cars.",
+        "JDM Lovers International Vehicle Importers specializes in importing and selling JDM (Japanese domestic market) cars. From Nissan Skylines to Toyota Chasers, vehicles over 25 years old are legal to import. In addition to JDM cars, we can also import cars from other countries, Show or Display vehicles, and race cars.",
         "Financing Available. Nationwide Shipping Available Please contact us for details. 844-523-2233 or sales@importavehicle.com",
-        "All vehicles are As/Is No warranty. Imported vehicles can not be registered in California (http://toprankjdm.com/California) until brought into California compliance. Please check all local state laws for information on title and registration. 25 year old vehicles are exempt from FMVSS requirements. Vehicles over 21 years old are exempt from EPA compliance requirements for importation.",
-        "FAQ (http://toprankjdm.com/FAQ)",
-        "Insurance for JDM/Imported Vehicles (http://toprankjdm.com/Insurance)",
-        "Right Hand Drive (RHD) http://toprankjdm.com/RHD",
-        "California legalization of imported vehicles (http://toprankjdm.com/California)",
-        "Inventory List (http://toprankjdm.com/cars)",
-        "Parts and Maintenance for Nissan Skyline (http://toprankjdm.com/Parts)",
-        "Find Your Car - Looking for a car we don't have in stock? Looking at a car that will be legal in the future? We can help you find, buy, and legally import a vehicle to the USA. From Japan, to Australia, New Zealand, Europe, or anywhere else in the world. Learn more http://toprankjdm.com/Find",
+        "All vehicles are As/Is No warranty. Imported vehicles can not be registered in California (http://jdmlover.com/California) until brought into California compliance. Please check all local state laws for information on title and registration. 25 year old vehicles are exempt from FMVSS requirements. Vehicles over 21 years old are exempt from EPA compliance requirements for importation.",
+        "FAQ (http://jdmlover.com/FAQ)",
+        "Insurance for JDM/Imported Vehicles (http://jdmlover.com/Insurance)",
+        "Right Hand Drive (RHD) http://jdmlover.com/RHD",
+        "California legalization of imported vehicles (http://jdmlover.com/California)",
+        "Inventory List (http://jdmlover.com/cars)",
+        "Parts and Maintenance for Nissan Skyline (http://jdmlover.com/Parts)",
+        "Find Your Car - Looking for a car we don't have in stock? Looking at a car that will be legal in the future? We can help you find, buy, and legally import a vehicle to the USA. From Japan, to Australia, New Zealand, Europe, or anywhere else in the world. Learn more http://jdmlover.com/Find",
       ],
       "toBeImported": [
         "Honda Integra Type R DC2 Oct 1995 = Oct 2020",
@@ -579,8 +644,8 @@ export const DataProvider = (props) => {
         "Nissan Silvia S15 Jan 1999 = Jan 2024",
         "Nissan Skyline GT-R R34 - Jan 1999 = Jan 2024"
       ],
-      "toBeImportedOne": "Japanese (JDM) cars turning 25 years old in 2021 and beyond (http://toprankjdm.com/2021)",
-      "toBeImportedTwo": "How to Buy and Store an R34 GT-R in Japan until 2024 (http://toprankjdm.com/BuyR34)",
+      "toBeImportedOne": "Japanese (JDM) cars turning 25 years old in 2021 and beyond (http://jdmlover.com/2021)",
+      "toBeImportedTwo": "How to Buy and Store an R34 GT-R in Japan until 2024 (http://jdmlover.com/BuyR34)",
       "mileage": "",
       "fullName": "2000 MITSUBISHI LANCER EVOLUTION",
       "builtBy": "unknown",
