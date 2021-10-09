@@ -1,5 +1,9 @@
 import React, { useContext, useState, useRef } from 'react'
 import { useParams } from 'react-router-dom'
+import {CurrentDataContext} from '../components/Data/Current/CurrentInventory';
+import {SoldDataContext} from '../components/Data/Sold/SoldInventory';
+import {FutureDataContext} from '../components/Data/Future/FutureInventory';
+import {JapanDataContext} from '../components/Data/Japan/JapanInventory';
 import { DataContext } from './DataProvider'
 import Colors from './Colors'
 import Sizes from './Sizes'
@@ -12,7 +16,7 @@ import HeaderInventory from './Home/HeaderInventory'
 
 export default function Details() {
   const { id } = useParams();
-  const value = useContext(DataContext)
+  const value = useContext(DataContext, CurrentDataContext, SoldDataContext, FutureDataContext, JapanDataContext)
   const [products] = value.products
   const addCart = value.addCart
 
