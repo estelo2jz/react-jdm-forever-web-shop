@@ -45,7 +45,7 @@
       width: 100%;
       padding: 4px 0px;
       cursor: pointer;
-      margin-right: 15px !important;
+      // margin-right: 15px !important;
       margin-top: 2px !important;
 
       // p {
@@ -175,6 +175,7 @@
 @media only screen and (max-width: 1000px) {
   .location-header__container {
     .location-header__container-top {
+      display: flex;
       .location-header__container-left {
         // display: none;
       }
