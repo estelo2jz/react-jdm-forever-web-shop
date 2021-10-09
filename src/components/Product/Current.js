@@ -13,11 +13,11 @@ const Current = ({heading}) => {
         <div className="current__left">
           <p>{heading}</p>
         </div>
-        <div className="current__right">
+        {/* <div className="current__right">
           <button>RESET</button>
-        </div>
+        </div> */}
       </div>
-
+{/* 
       <div className="current__option">
         <div className="current__options">
           <ReactBootStrap.NavDropdown className="current__options-title" title="YEAR" id="collasible-nav-dropdown">
@@ -79,7 +79,7 @@ const Current = ({heading}) => {
             <ReactBootStrap.NavDropdown.Item  className="current__options-title" href="#action/3.1">Model - Z to A</ReactBootStrap.NavDropdown.Item>
           </ReactBootStrap.NavDropdown>
         </div>
-      </div>
+      </div> */}
     </div>
   )
 }
