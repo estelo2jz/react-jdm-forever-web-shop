@@ -10,7 +10,7 @@ const Inventory = () => {
   return (
     <div>
       <Current heading="CURRENT INVENTORY" />
-      <Products />
+      <CurrentData />
       <HeaderInventory />
     </div>
   )
