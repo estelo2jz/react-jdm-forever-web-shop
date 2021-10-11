@@ -2,21 +2,7 @@ import React, { createContext, useState, useEffect } from 'react'
 
 // the last 4 numbers is the year
 import NSX1 from '../../../assets/images/cars/1991-honda-nsx-1.jfif';
-import NSX2 from '../../../assets/images/cars/1991-honda-nsx-2.jfif';
-import NSX3 from '../../../assets/images/cars/1991-honda-nsx-3.jfif';
-import NSX4 from '../../../assets/images/cars/1991-honda-nsx-4.jfif';
-import NSX5 from '../../../assets/images/cars/1991-honda-nsx-5.jfif';
-import NSX6 from '../../../assets/images/cars/1991-honda-nsx-6.jfif';
-import NSX7 from '../../../assets/images/cars/1991-honda-nsx-7.jfif';
-import NSX8 from '../../../assets/images/cars/1991-honda-nsx-8.jfif';
-import NSX9 from '../../../assets/images/cars/1991-honda-nsx-9.jfif';
-import NSX10 from '../../../assets/images/cars/1991-honda-nsx-10.jfif';
-import NSX11 from '../../../assets/images/cars/1991-honda-nsx-11.jfif';
-import NSX12 from '../../../assets/images/cars/1991-honda-nsx-12.jfif';
-import NSX13 from '../../../assets/images/cars/1991-honda-nsx-13.jfif';
-import NSX14 from '../../../assets/images/cars/1991-honda-nsx-14.jfif';
-import NSX15 from '../../../assets/images/cars/1991-honda-nsx-15.jfif';
-import NSX16 from '../../../assets/images/cars/1991-honda-nsx-16.jfif';
+import Honda1996IntegraTR from '../../../assets/images/FutureCars/1996-honda-integra-type-r.jpg';
 
 export const FutureDataContext = createContext();
 
@@ -24,11 +10,11 @@ export const FutureDataProvider = (props) => {
   const [products, setProducts] = useState([
     {
       "_id": "1",
-      "model": "Future",
-      "year": "1991",
-      "make": "MITSUBISHI",
+      "model": "Integra Type-R",
+      "year": "1996",
+      "make": "Honda",
       "images": [
-        NSX1, NSX2, NSX3, NSX4, NSX5, NSX6, NSX16, NSX7, NSX8, NSX9, NSX10, NSX11, NSX12, NSX13, NSX14, NSX15
+        Honda1996IntegraTR, 
       ],
       "modList": [
         "mod", "mod", "mod", "mod", "mod",
@@ -70,18 +56,19 @@ export const FutureDataProvider = (props) => {
       "toBeImportedTwo": "How to Buy and Store an R34 GT-R in Japan until 2024 (http://jdmlover.com/BuyR34)",
 
       "fullNameWithAddress": "FOR SALE INCYPRESS, CALIFORNIA",
-      "fullName": "1991 HONDA NSX",
+      "fullName": "1996 HONDA INTEGRA TYPE-R",
 
       "builtBy": "Throtl",
       "mileage": "mileage",
-      "price": 'price',
-      "bodyColor": 'Black',
+      "price": 'Call For Price',
+      "bodyColor": 'Championship White',
 
-      "stockNumber": 12125991,
+      "stockNumber": "DC2-11",
       "vin": 'vin',
-      "miles": 'miles',
+      "miles": '81,900',
       "engineSize": 'engine',
       "transmissionType": '5 Speed Manual',
+      "comingSoon": "COMING SOON",
       "engineType": "-",
       "fuelSpecification": "-",
       "doors": "-",
