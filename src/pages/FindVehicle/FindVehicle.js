@@ -1,7 +1,10 @@
 import React from "react";
 
+import FindForm from './FindForm';
+
 import FindV from "../../assets/images/findVehicle/findVehicle.jpg";
 import FindV2 from "../../assets/images/findVehicle/findVehicle2.png";
+
 
 import "./FindVehicle.scss";
 
@@ -118,14 +121,7 @@ const FindVehicle = () => {
       </div>
       <div className="find-vehicle__right">
         <div className="find-vehicle__right-container">
-          <div>
-            <h3>Vehicle Details</h3>
-          </div>
-          <div>
-            <form>
-              <input type="text" placeholder="Year Min" />
-            </form>
-          </div>
+          <FindForm />
         </div>
       </div>
     </div>
