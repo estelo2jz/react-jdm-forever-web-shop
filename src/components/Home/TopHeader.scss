@@ -2,6 +2,8 @@
 // https://i.redd.it/7194qwwf8ra31.jpg
 
 .top-header {
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+
   .top-header__container {
     // background-image: url('https://i.redd.it/7194qwwf8ra31.jpg');
     width: 100%;
@@ -15,6 +17,7 @@
     align-items: center;
     margin: 0 !important;
     padding: 0 !important;
+    
 
     .top-header__bg1 {
       background-image: url('../../assets/images/home/1.jpg');      
