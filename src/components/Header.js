@@ -80,15 +80,15 @@ export default function Header() {
               {/* <ReactBootStrap.NavDropdown.Divider /> */}
               {/* <ReactBootStrap.NavDropdown.Item href="#action/3.4">Separated link</ReactBootStrap.NavDropdown.Item> */}
             </ReactBootStrap.NavDropdown>
-            <Link className="header__link" to="/inventory/">
+            <Link className="header__link" to="/car-finder">
               <ReactBootStrap.Nav.Link className="header__links" href="#pricing">Find Your Vehicle</ReactBootStrap.Nav.Link>
             </Link>
-            <Link className="header__link" to="/inventory/">
+            <Link className="header__link" to="/">
               <ReactBootStrap.Nav.Link className="header__links" href="#pricing">Shop</ReactBootStrap.Nav.Link>
             </Link>
           </ReactBootStrap.Nav>
           <ReactBootStrap.Nav className="header__bottom">
-            <Link className="header__bottom-link" to="/">
+            <Link className="header__bottom-link" to="/media">
               <ReactBootStrap.Nav.Link className="header__bottom-links" eventKey={2} href="#memes">
                 NEWS
               </ReactBootStrap.Nav.Link>
@@ -101,7 +101,7 @@ export default function Header() {
             <Link className="header__bottom-link" to="/">
               <ReactBootStrap.Nav.Link className="header__bottom-links" href="#deets">FAQ | INFO</ReactBootStrap.Nav.Link>
             </Link>
-            <Link className="header__bottom-link" to="/">
+            <Link className="header__bottom-link" to="/contact">
               <ReactBootStrap.Nav.Link className="header__bottom-links" eventKey={2} href="#memes">
                 CONTACT
               </ReactBootStrap.Nav.Link>
