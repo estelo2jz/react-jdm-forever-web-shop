@@ -9,7 +9,7 @@ const FuturePage = () => {
   return (
     <div>
       <Current heading="FUTURE INVENTORY" />
-      <Products />
+      <FutureData />
       <HeaderInventory />
 
     </div>
