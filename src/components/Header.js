@@ -93,12 +93,12 @@ export default function Header() {
                 NEWS
               </ReactBootStrap.Nav.Link>
             </Link>
-            <Link className="header__bottom-link" to="/">
+            <Link className="header__bottom-link" to="/california-buyer">
               <ReactBootStrap.Nav.Link className="header__bottom-links" eventKey={2} href="#memes">
                 Cali-BUYER
               </ReactBootStrap.Nav.Link>
             </Link>
-            <Link className="header__bottom-link" to="/">
+            <Link className="header__bottom-link" to="/faq-and-info">
               <ReactBootStrap.Nav.Link className="header__bottom-links" href="#deets">FAQ | INFO</ReactBootStrap.Nav.Link>
             </Link>
             <Link className="header__bottom-link" to="/contact">
