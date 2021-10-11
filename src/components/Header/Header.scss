@@ -1,5 +1,5 @@
 header {
-  // width: 100%;
+  // width: 100vw;
   // min-height: 100px;
   // overflow: hidden;
   // display: flex;
@@ -8,6 +8,8 @@ header {
   // flex-wrap: wrap;
   // border-bottom: 1px solid #ccc;
   // margin-bottom: 20px;
+  background-color: #000000 !important;
+
 
   .header__container {
     background-color: #000000 !important;
