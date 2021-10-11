@@ -16,12 +16,14 @@ import Footer from './components/Footer/Footer';
 import Contact from '../src/pages/Contact/Contact';
 import FindVehicle from '../src/pages/FindVehicle/FindVehicle';
 import News from '../src/pages/News/News';
+import FAQ from '../src/pages/FAQ/FAQ';
 
 import Inventory from '../src/pages/Inventory/Inventory';
 import CurrentPage from '../src/pages/Inventory/CurrentPage';
 import SoldPage from '../src/pages/Inventory/SoldPage';
 import JapanPage from '../src/pages/Inventory/JapanPage';
 import FuturePage from '../src/pages/Inventory/FuturePage';
+import Buyer from './pages/Buyer/Buyer';
 
 
 function App() {
@@ -48,6 +50,8 @@ function App() {
                           <Route path="/car-finder" exact element={<FindVehicle />} />
                           <Route path="/media" exact element={<News />} />
                           <Route path="/contact" exact element={<Contact />} />
+                          <Route path="/faq-and-info" exact element={<FAQ />} />
+                          <Route path="/california-buyer" exact element={<Buyer />} />
                           <Route path="/inventory/:id" exact element={<Details />} />
                           <Route path="/cart" exact element={<Cart />} />
                         </Routes>
