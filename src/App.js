@@ -34,18 +34,20 @@ function App() {
                 <Router>
                   <ScrollToTop>
                     <Header />
-                    <section>
-                      <Routes>
-                        <Route path="/" exact element={<Home />} />
-                        <Route path="/inventory" exact element={<Inventory />} />
-                        <Route path="/inventory/current-inventory" exact element={<CurrentPage />} />
-                        <Route path="/inventory/sold" exact element={<SoldPage />} />
-                        <Route path="/inventory/future-inventory" exact element={<FuturePage />} />
-                        <Route path="/inventory/japan-inventory" exact element={<JapanPage />} />
-                        <Route path="/inventory/:id" exact element={<Details />} />
-                        <Route path="/cart" exact element={<Cart />} />
-                      </Routes>
-                    </section>
+                    <div className="App__container">
+                      <section>
+                        <Routes>
+                          <Route path="/" exact element={<Home />} />
+                          <Route path="/inventory" exact element={<Inventory />} />
+                          <Route path="/inventory/current-inventory" exact element={<CurrentPage />} />
+                          <Route path="/inventory/sold" exact element={<SoldPage />} />
+                          <Route path="/inventory/future-inventory" exact element={<FuturePage />} />
+                          <Route path="/inventory/japan-inventory" exact element={<JapanPage />} />
+                          <Route path="/inventory/:id" exact element={<Details />} />
+                          <Route path="/cart" exact element={<Cart />} />
+                        </Routes>
+                      </section>
+                    </div>
                     <Footer />
                   </ScrollToTop>
                 </Router>
