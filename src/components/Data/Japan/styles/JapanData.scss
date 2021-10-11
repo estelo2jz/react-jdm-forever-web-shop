@@ -9,6 +9,27 @@
 
   .card {
     margin: 5px 0px;
+    width: 100%;
+    .sold-data__box-price {
+      margin: 10px;
+      position: absolute;
+      display: flex-start;
+      align-items: center;
+      border-radius: 0%;
+      // padding: 0px 0px;
+      padding: 10px;
+      background-color: #d71345;
+
+      h4 {
+        font-size: clamp(15px, 1.5vw, 30px);
+        // padding-left: 10px;
+        color: rgb(255, 255, 255);
+        font-weight: 700;
+        padding: 0px;
+        margin: 0px;
+        padding: -11px -11px !important;
+      }
+    }
 
 
     .box-container {
@@ -25,7 +46,7 @@
           .box-product-year {
             .box-product-year-name {
               letter-spacing: -0.05em;
-        font-size: clamp(15px, 1.5vw, 30px);
+               font-size: clamp(15px, 1.5vw, 30px);
 
             }
           }
@@ -36,7 +57,7 @@
             // height: 60px;
             .box-product-make-name {
               letter-spacing: -0.05em;
-        font-size: clamp(15px, 1.5vw, 30px);
+        font-size: clamp(15px, 1.5vw, 25px);
 
 
             }
@@ -53,7 +74,7 @@
 
             color: red;
             font-weight: bold;
-            font-size: clamp(15px, 1.5vw, 30px);
+            font-size: clamp(15px, 1.5vw, 25px);
             letter-spacing: -0.05em;
             // padding-top: -300px;
             overflow: hidden;
@@ -80,7 +101,7 @@
 
         h4 {
           padding-left: 10px;
-          font-size: clamp(15px, 1.5vw, 30px);
+          font-size: clamp(15px, 1.5vw, 25px);
         }
       }
     }
