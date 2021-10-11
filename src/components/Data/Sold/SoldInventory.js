@@ -1,42 +1,42 @@
 import React, { createContext, useState, useEffect } from 'react'
 
 import Nissan2002SkylineGTR from '../../../assets/images/JapanCars/2002-nissan-skyline-gt-r.jfif';
-// import Nissan from '../../../assets/images/SoldCars/.jfif';
-// import Nissan from '../../../assets/images/SoldCars/.jfif';
-// import Nissan from '../../../assets/images/SoldCars/.jfif';
-// import Nissan from '../../../assets/images/SoldCars/.jfif';
-// import Nissan from '../../../assets/images/SoldCars/.jfif';
-// import Nissan from '../../../assets/images/SoldCars/.jfif';
-// import Nissan from '../../../assets/images/SoldCars/.jfif';
-// import Nissan from '../../../assets/images/SoldCars/.jfif';
-// import Nissan from '../../../assets/images/SoldCars/.jfif';
-// import Nissan from '../../../assets/images/SoldCars/.jfif';
-// import Nissan from '../../../assets/images/SoldCars/.jfif';
-// import Nissan from '../../../assets/images/SoldCars/.jfif';
-// import Nissan from '../../../assets/images/SoldCars/.jfif';
-// import Nissan from '../../../assets/images/SoldCars/.jfif';
-// import Nissan from '../../../assets/images/SoldCars/.jfif';
-// import Nissan from '../../../assets/images/SoldCars/.jfif';
-// import Nissan from '../../../assets/images/SoldCars/.jfif';
-// import Nissan from '../../../assets/images/SoldCars/.jfif';
-// import Nissan from '../../../assets/images/SoldCars/.jfif';
-// import Nissan from '../../../assets/images/SoldCars/.jfif';
-// import Nissan from '../../../assets/images/SoldCars/.jfif';
-// import Nissan from '../../../assets/images/SoldCars/.jfif';
-// import Nissan from '../../../assets/images/SoldCars/.jfif';
-// import Nissan from '../../../assets/images/SoldCars/.jfif';
-// import Nissan from '../../../assets/images/SoldCars/.jfif';
-// import Nissan from '../../../assets/images/SoldCars/.jfif';
-// import Nissan from '../../../assets/images/SoldCars/.jfif';
-// import Nissan from '../../../assets/images/SoldCars/.jfif';
-// import Nissan from '../../../assets/images/SoldCars/.jfif';
-// import Nissan from '../../../assets/images/SoldCars/.jfif';
-// import Nissan from '../../../assets/images/SoldCars/.jfif';
-// import Nissan from '../../../assets/images/SoldCars/.jfif';
-// import Nissan from '../../../assets/images/SoldCars/.jfif';
-// import Nissan from '../../../assets/images/SoldCars/.jfif';
-// import Nissan from '../../../assets/images/SoldCars/.jfif';
-// import Nissan from '../../../assets/images/SoldCars/.jfif';
+import Toyota1988CruiserVXDieselTurbo from '../../../assets/images/SoldCars/1988-toyota-land-cruiser-vx-diesel-turbo.jfif';
+import Nissan1989Pao1 from '../../../assets/images/SoldCars/1989-nissan-pao-1.jfif';
+import Nissan1989Pao from '../../../assets/images/SoldCars/1989-nissan-pao.jfif';
+import Nissan1989GTR from '../../../assets/images/SoldCars/1989-nissan-skyline-gt-r.jfif';
+import Nissan1989GTS from '../../../assets/images/SoldCars/1989-nissan-skyline-gts.jfif';
+import Nissan1990PulsarGtiR from '../../../assets/images/SoldCars/1990-nissan-pulsar-gti-r.jfif';
+import Nissan1990GTR1 from '../../../assets/images/SoldCars/1990-nissan-skyline-gt-r-1.jfif';
+import Nissan1990GTR from '../../../assets/images/SoldCars/1990-nissan-skyline-gt-r.jfif';
+import Mitsubishi1991StarwagonCrystalRoof from '../../../assets/images/SoldCars/1991-mitsubishi-delica-starwagon-crystalroof.jfif';
+import NissanPulsarGTIR from '../../../assets/images/SoldCars/1991-nissan-pulsar-gti-r.jfif';
+import Nissan1991GTR1 from '../../../assets/images/SoldCars/1991-nissan-skyline-gt-r-1.jfif';
+import Nissan1991GTR from '../../../assets/images/SoldCars/1991-nissan-skyline-gt-r.jfif';
+import Nissan1991GTStypeS from '../../../assets/images/SoldCars/1991-nissan-skyline-gts-type-s.jfif';
+import Nissan1991Skyline from '../../../assets/images/SoldCars/1991-nissan-skyline.jfif';
+import Nissan1991CelicaGTFourRC from '../../../assets/images/SoldCars/1991-toyota-celica-gt-four-rc.jfif';
+import Nissan1992180SX from '../../../assets/images/SoldCars/1992-nissan-180sx.jfif';
+import Nissan1992GTR from '../../../assets/images/SoldCars/1992-nissan-skyline-gt-r.jfif';
+import Suzuki1992Cappuccino from '../../../assets/images/SoldCars/1992-suzuki-cappuccino.jfif';
+import Toyota1992SupraTwinTurboR from '../../../assets/images/SoldCars/1992-toyota-supra-2-5-twin-turbo-r.jfif';
+import Mazda1993RX7FD from '../../../assets/images/SoldCars/1993-mazda-enfini-rx7-fd.jfif';
+import Nissan1993GTR1 from '../../../assets/images/SoldCars/1993-nissan-skyline-gt-r-1.jfif';
+import Nissan1993GTR2 from '../../../assets/images/SoldCars/1993-nissan-skyline-gt-r-2.jfif';
+import Nissan1993GTR3 from '../../../assets/images/SoldCars/1993-nissan-skyline-gt-r-3.jfif';
+import Nissan1993GTR4 from '../../../assets/images/SoldCars/1993-nissan-skyline-gt-r-4.jfif';
+import Nissan1993GTR5 from '../../../assets/images/SoldCars/1993-nissan-skyline-gt-r-5.jfif';
+import Nissan1993GTR6 from '../../../assets/images/SoldCars/1993-nissan-skyline-gt-r-6.jfif';
+import Nissan1993GTR from '../../../assets/images/SoldCars/1993-nissan-skyline-gt-r.jfif';
+import Suzuki1993Cappuccino1 from '../../../assets/images/SoldCars/1993-suzuki-cappuccino-1.jfif';
+import Suzuki1993Cappuccino from '../../../assets/images/SoldCars/1993-suzuki-cappuccino.jfif';
+import Toyota1993ChaserTourerV1 from '../../../assets/images/SoldCars/1993-toyota-chaser-tourer-v-1.jfif';
+import Toyota1993ChaserTourerV from '../../../assets/images/SoldCars/1993-toyota-chaser-tourer-v.jfif';
+import Toyota1993CruiserVXLTDDiesel from '../../../assets/images/SoldCars/1993-toyota-land-cruiser-vx-ltd-diesel.jfif';
+import Toyota1993MR2 from '../../../assets/images/SoldCars/1993-toyota-mr2.jfif';
+import ToyotaSupra1 from '../../../assets/images/SoldCars/1993-toyota-supra-1.jfif';
+import ToyotaSupra2 from '../../../assets/images/SoldCars/1993-toyota-supra-2.jfif';
+import ToyotaSupra from '../../../assets/images/SoldCars/1993-toyota-supra.jfif';
 // import Nissan from '../../../assets/images/SoldCars/.jfif';
 // import Nissan from '../../../assets/images/SoldCars/.jfif';
 // import Nissan from '../../../assets/images/SoldCars/.jfif';
@@ -123,7 +123,7 @@ export const SoldDataProvider = (props) => {
       "make": "make",
       "price": 'price',
       "images": [
-        Nissan2002SkylineGTR,
+        Toyota1988CruiserVXDieselTurbo,
       ],
       "fullNameWithAddress": "FOR SALE INCYPRESS, CALIFORNIA",
       "fullName": "",
