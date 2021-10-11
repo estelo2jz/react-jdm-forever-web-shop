@@ -35,8 +35,9 @@
     width: 50%;
     margin-bottom: 50px;
     .find-vehicle__right-container {
-      height: 50vh;
-      background-color: rgb(185, 177, 177);
+      margin: 0px 10px;
+      height: 100%;
+      background-color: rgb(255, 255, 255);
       h3 {
         font-size: clamp(30px, 4.5vw, 50px) !important;
       }
