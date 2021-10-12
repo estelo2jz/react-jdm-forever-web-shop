@@ -1,13 +1,13 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import { FaFacebookF } from 'react-icons/fa';
-import { AiOutlineRight } from 'react-icons/ai';
-import { ImInstagram, ImYoutube2, ImRocket, ImLocation } from 'react-icons/im';
-import { BsFillTelephoneFill } from 'react-icons/bs';
+import React from "react";
+import { Link } from "react-router-dom";
+import { FaFacebookF } from "react-icons/fa";
+import { AiOutlineRight } from "react-icons/ai";
+import { ImInstagram, ImYoutube2, ImRocket, ImLocation } from "react-icons/im";
+import { BsFillTelephoneFill } from "react-icons/bs";
 
-import JDMLOVER from '../../assets/images/home/jdmlover.png'
+import JDMLOVER from "../../assets/images/home/jdmlover.png";
 
-import './Footer.scss';
+import "./Footer.scss";
 
 const Footer = () => {
   return (
@@ -21,7 +21,8 @@ const Footer = () => {
           <form>
             <input type="text" placeholder="ENTER EMAIL" />
             <button type="submit">
-              <p>SIGN UP
+              <p>
+                SIGN UP
                 {/* <AiOutlineRight /> */}
               </p>
             </button>
@@ -41,15 +42,23 @@ const Footer = () => {
       </div>
       <div className="footer__links">
         <div className="footer__logo">
-          <img src={JDMLOVER} alt="logo" />
+          <Link to="/">
+            <img src={JDMLOVER} alt="logo" />
+          </Link>
         </div>
         <div className="footer__location">
           <div className="footer__location-location">
-            <div className="footer__location-logo"><ImLocation /></div>
-            <div className="footer__location-address">5595 CORPORATE AVE, CYPRESS, CA 90630</div>
+            <div className="footer__location-logo">
+              <ImLocation />
+            </div>
+            <div className="footer__location-address">
+              5595 CORPORATE AVE, CYPRESS, CA 90630
+            </div>
           </div>
           <div className="footer__location-number">
-            <div className="footer__location-logo"><BsFillTelephoneFill /></div>
+            <div className="footer__location-logo">
+              <BsFillTelephoneFill />
+            </div>
             <div className="footer__location-phone">847-523-2233</div>
           </div>
         </div>
@@ -82,20 +91,16 @@ const Footer = () => {
       </div>
 
       <div className="footer__bottom-footer">
-        <p>
-          POWERED BY
-        </p>
+        <p>POWERED BY</p>
         <p>
           <a href="https://estelo.net/" target="_blank">
-          <ImRocket />
+            <ImRocket />
           </a>
         </p>
-        <p>
-          EBUILD
-        </p>
+        <p>EBUILD</p>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
