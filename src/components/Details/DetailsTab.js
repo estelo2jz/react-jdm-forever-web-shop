@@ -1,9 +1,5 @@
 import React, { useContext, useState, useRef } from 'react';
 import { useParams } from 'react-router-dom'
-import { CurrentDataProvider } from '../Data/Current/CurrentInventory';
-import { SoldDataProvider } from '../Data/Sold/SoldInventory';
-import { FutureDataProvider } from '../Data/Future/FutureInventory';
-import { JapanDataProvider } from '../Data/Japan/JapanInventory';
 import { DataContext } from '../../components/DataProvider';
 import DescThumb from './DescThumb';
 import MaintenanceThumb from './MaintenanceThumb';
@@ -14,9 +10,8 @@ import '../Details/DetailsTab.scss'
 
 const DetailsTab = () => {
   const { id } = useParams();
-  const value = useContext(DataContext, CurrentDataProvider, SoldDataProvider, FutureDataProvider, JapanDataProvider);
+  const value = useContext(DataContext);
   const [products] = value.products
-  const addCart = value.addCart
 
   const [index, setIndex] = useState(0)
   const imgDiv = useRef();
