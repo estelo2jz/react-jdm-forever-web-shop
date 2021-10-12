@@ -1,12 +1,6 @@
 import React, { useContext, useState, useRef } from 'react'
 import { useParams } from 'react-router-dom'
-import {CurrentDataContext} from '../components/Data/Current/CurrentInventory';
-import {SoldDataContext} from '../components/Data/Sold/SoldInventory';
-import {FutureDataContext} from '../components/Data/Future/FutureInventory';
-import {JapanDataContext} from '../components/Data/Japan/JapanInventory';
 import { DataContext } from './DataProvider'
-import Colors from './Colors'
-import Sizes from './Sizes'
 import DetailsThumb from './DetailsThumb';
 import DetailsContact from './Details/DetailsContact';
 import { Link } from 'react-router-dom'
@@ -16,7 +10,7 @@ import HeaderInventory from './Home/HeaderInventory'
 
 export default function Details() {
   const { id } = useParams();
-  const value = useContext(DataContext, CurrentDataContext, SoldDataContext, FutureDataContext, JapanDataContext)
+  const value = useContext(DataContext)
   const [products] = value.products
   const addCart = value.addCart
 
@@ -59,9 +53,6 @@ export default function Details() {
                   <DetailsThumb images={product.images} setIndex={setIndex} />
                 </div>
               </div>
-              {/* <h2 className="box-details-title" title={product.title}>{product.model}</h2> */}
-              {/* <Colors colors={product.colors} />
-              <Sizes sizes={product.sizes} /> */}
               <div className="box-specs-container">
                 <p className="box-specs-items">
                   <span>YEAR</span>
@@ -118,10 +109,6 @@ export default function Details() {
                   </span>
                 </p>
               </div>
-              {/* <DetailsThumb images={product.images} setIndex={setIndex} /> */}
-              {/* <Link to="/cart" className="cart" onClick={() => addCart(product._id)}>
-                Add to cart
-              </Link> */}
             </div>
             <DetailsContact />
             <HeaderInventory />
