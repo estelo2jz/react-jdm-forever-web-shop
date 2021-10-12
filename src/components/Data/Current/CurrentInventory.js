@@ -33,7 +33,7 @@ export const CurrentDataContext = createContext();
 export const CurrentDataProvider = (props) => {
   const [products, setProducts] = useState([
     {
-      "_id": uuidv4(),
+      "_id": "9",
       "model": "RX-7 CONVERTIBLE ENG REBUILT",
       "year": "1988",
       "make": "MAZDA",
@@ -106,7 +106,7 @@ export const CurrentDataProvider = (props) => {
       "count": 1
     },
     {
-      "_id": uuidv4(),
+      "_id": "10",
       "model": "SKYLINE GT-R",
       "year": "1991",
       "make": "NISSAN",
@@ -179,7 +179,7 @@ export const CurrentDataProvider = (props) => {
       "count": 1
     },
     {
-      "_id": uuidv4(),
+      "_id": "11",
       "model": "SKYLINE GT-R",
       "year": "1991",
       "make": "NISSAN",
@@ -252,7 +252,7 @@ export const CurrentDataProvider = (props) => {
       "count": 1
     },
     {
-      "_id": uuidv4(),
+      "_id": "12",
       "model": "SKYLINE GTS--T 4DR",
       "year": "1991",
       "make": "NISSAN",
@@ -325,7 +325,7 @@ export const CurrentDataProvider = (props) => {
       "count": 1
     },
     {
-      "_id": uuidv4(),
+      "_id": "13",
       "model": "LAND CRUISER VX DIESEL TURBO",
       "year": "1991",
       "make": "TOYOTA",
@@ -398,7 +398,7 @@ export const CurrentDataProvider = (props) => {
       "count": 1
     },
     {
-      "_id": uuidv4(),
+      "_id": "14",
       "model": "RX7 FD",
       "year": "1992",
       "make": "MAZDA",
@@ -471,7 +471,7 @@ export const CurrentDataProvider = (props) => {
       "count": 1
     },
     {
-      "_id": uuidv4(),
+      "_id": "15",
       "model": "SKYLINE AUTECH RB26DE",
       "year": "1992",
       "make": "NISSAN",
@@ -544,7 +544,7 @@ export const CurrentDataProvider = (props) => {
       "count": 1
     },
     {
-      "_id": uuidv4(),
+      "_id": "16",
       "model": "COMMODORE UTE",
       "year": "1994",
       "make": "HOLDEN",
@@ -617,7 +617,7 @@ export const CurrentDataProvider = (props) => {
       "count": 1
     },
     {
-      "_id": uuidv4(),
+      "_id": "17",
       "model": "CICIV FERIO",
       "year": "1994",
       "make": "HONDA",
@@ -690,7 +690,7 @@ export const CurrentDataProvider = (props) => {
       "count": 1
     },
     {
-      "_id": uuidv4(),
+      "_id": "18",
       "model": "NSX",
       "year": "1994",
       "make": "HONDA",
@@ -763,7 +763,7 @@ export const CurrentDataProvider = (props) => {
       "count": 1
     },
     {
-      "_id": uuidv4(),
+      "_id": "19",
       "model": "RX-7",
       "year": "1994",
       "make": "MAZDA",
@@ -836,7 +836,7 @@ export const CurrentDataProvider = (props) => {
       "count": 1
     },
     {
-      "_id": uuidv4(),
+      "_id": "20",
       "model": "RX7 FD",
       "year": "1994",
       "make": "MAZDA",
@@ -909,7 +909,7 @@ export const CurrentDataProvider = (props) => {
       "count": 1
     },
     {
-      "_id": uuidv4(),
+      "_id": "21",
       "model": "DELICA SPACE GEAR SUPER EXCEED",
       "year": "1995",
       "make": "MITSUBISHI",
@@ -982,7 +982,7 @@ export const CurrentDataProvider = (props) => {
       "count": 1
     },
     {
-      "_id": uuidv4(),
+      "_id": "22",
       "model": "SKYLINE GT-R",
       "year": "1995",
       "make": "NISSAN",
@@ -1055,7 +1055,7 @@ export const CurrentDataProvider = (props) => {
       "count": 1
     },
     {
-      "_id": uuidv4(),
+      "_id": "23",
       "model": "SKYLINE GT-R",
       "year": "1995",
       "make": "NISSAN",
@@ -1128,7 +1128,7 @@ export const CurrentDataProvider = (props) => {
       "count": 1
     },
     {
-      "_id": uuidv4(),
+      "_id": "24",
       "model": "SKYLINE GT-R V SPEC",
       "year": "1995",
       "make": "NISSAN",
@@ -1201,7 +1201,7 @@ export const CurrentDataProvider = (props) => {
       "count": 1
     },
     {
-      "_id": uuidv4(),
+      "_id": "25",
       "model": "SKYLINE GT-R V SPEC",
       "year": "1995",
       "make": "-",
@@ -1274,7 +1274,7 @@ export const CurrentDataProvider = (props) => {
       "count": 1
     },
     {
-      "_id": uuidv4(),
+      "_id": "26",
       "model": "SKYLINE GT-R V SPEC",
       "year": "1995",
       "make": "NISSAN",
@@ -1347,7 +1347,7 @@ export const CurrentDataProvider = (props) => {
       "count": 1
     },
     {
-      "_id": uuidv4(),
+      "_id": "27",
       "model": "INTEGRA TYPE-R",
       "year": "1996",
       "make": "HONDA",
@@ -1420,7 +1420,7 @@ export const CurrentDataProvider = (props) => {
       "count": 1
     },
     {
-      "_id": uuidv4(),
+      "_id": "28",
       "model": "INTEGRA TYPE-R",
       "year": "1996",
       "make": "HONDA",
@@ -1493,7 +1493,7 @@ export const CurrentDataProvider = (props) => {
       "count": 1
     },
     {
-      "_id": uuidv4(),
+      "_id": "29",
       "model": "CELICA GT-FOUR",
       "year": "1996",
       "make": "TOYOTA",
