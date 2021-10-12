@@ -419,11 +419,7 @@ export const SoldDataProvider = (props) => {
       "centerConsole": "NO",
       "count": 1,
       "modList": [
-        "mod", "mod", "mod", "mod", "mod",
-        "mod", "mod", "mod", "mod", "mod",
-        "mod", "mod", "mod", "mod", "mod",
-        "mod", "mod", "mod", "mod", "mod",
-        "mod", "mod", "mod", "mod", "mod",
+
       ],
       "maintenanceService": [
         "parts", "parts", "parts", "parts", "parts",
