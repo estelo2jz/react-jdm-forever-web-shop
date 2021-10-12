@@ -163,7 +163,7 @@ export const DataContext = createContext();
 export const DataProvider = (props) => {
   const [products, setProducts] = useState([
     {
-     "_id": uuidv4(),
+      "_id": "1",
       "model": "NSX",
       "year": "1991",
       "make": "MITSUBISHI",
@@ -224,7 +224,7 @@ export const DataProvider = (props) => {
       "count": 1
     },
     {
-     "_id": uuidv4(),
+      "_id": "2",
       "model": "RX7 FD",
       "year": "1992",
       "make": "MAZDA",
@@ -287,7 +287,7 @@ export const DataProvider = (props) => {
 
     },
     {
-     "_id": uuidv4(),
+      "_id": "3",
       "model": "CAPPUCCINO",
       "year": "1993",
       "make": "SUZUKI",
@@ -350,7 +350,7 @@ export const DataProvider = (props) => {
 
     },
     {
-     "_id": uuidv4(),
+      "_id": "4",
       "model": "SUPRA",
       "year": "1993",
       "make": "TOYOTA",
@@ -413,7 +413,7 @@ export const DataProvider = (props) => {
 
     },
     {
-     "_id": uuidv4(),
+      "_id": "5",
       "model": "CIVIC SHUTTLE",
       "year": "1995",
       "make": "HONDA",
@@ -476,7 +476,7 @@ export const DataProvider = (props) => {
 
     },
     {
-     "_id": uuidv4(),
+      "_id": "6",
       "model": "LANCER EVOLUTION III",
       "year": "1995",
       "make": "MITSUBISHI",
@@ -539,7 +539,7 @@ export const DataProvider = (props) => {
 
     },
     {
-     "_id": uuidv4(),
+      "_id": "7",
       "model": "INTEGRA TYPE-R",
       "year": "1996",
       "make": "HONDA",
@@ -602,7 +602,7 @@ export const DataProvider = (props) => {
 
     },
     {
-     "_id": uuidv4(),
+      "_id": "8",
       "model": "LANCER EVOLUTION",
       "year": "2000",
       "make": "MITSUBISHI",
