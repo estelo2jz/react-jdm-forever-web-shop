@@ -41,6 +41,7 @@
         // border-bottom: 5px solid #e6e6e6;
         display: flex;
         flex-direction: column;
+
         .sold-data__box-product-name {
           // padding-top: 10px;
           // font-size: clamp(18px, 1.5vw, 30px);
@@ -163,13 +164,13 @@
 
     .sold-data__card {
       width: 100vw;
-      // width: 400px;
       display: flex;
       justify-content: center;
       flex-direction: column;
       // align-items: center;
       margin-bottom: 15px !important;
       padding: 10px;
+      border-bottom: 1px solid #000000;
 
       // margin: 0px;
       img {
@@ -178,8 +179,19 @@
 
       .sold-data__card-container {
         display: flex;
-        justify-content: center;
+        // justify-content: center;
+        flex-direction: column-reverse;
+
         // align-items: center;
+        // height: 240px;
+        .sold-data__box-im {
+          img {
+            width: 50vw;
+            background-position: center;
+            background-size: contain;
+          }
+
+        }
       }
 
       .sold-data__box-price {
@@ -193,11 +205,6 @@
         }
       }
 
-      img {
-        width: 30vw;
-        background-position: center;
-        background-size: cover;
-      }
 
       .sold-data__box-container {
         margin: 0px 5px;
@@ -216,12 +223,20 @@
           width: 50vw;
 
           .sold-data__box-product-name {
+            display: flex;
+            // justify-content: center;
+            align-items: center;
+
             .sold-data__box-product-year {
 
               .sold-data__box-product-year-name {}
             }
 
-            .sold-data__box-product-make {}
+            .sold-data__box-product-make {
+              .sold-data__box-product-make-name {
+                padding-left: 10px;
+              }
+            }
           }
         }
       }
