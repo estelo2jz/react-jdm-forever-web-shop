@@ -5,7 +5,7 @@ import DetailsThumb from '../../DetailsThumb';
 import CurrentContacts from './DetailsContacts/CurrentContacts';
 import { Link } from 'react-router-dom'
 
-import './styles/CurrentDetails.scss';
+// import './styles/CurrentDetails.scss';
 import HeaderInventory from '../../Home/HeaderInventory';
 
 export default function CurrentDetails() {
@@ -39,7 +39,7 @@ export default function CurrentDetails() {
                 <p>{product.fullName}</p>
               </div>
               <div className="details__price">
-                <h3>{product.price}</h3>
+                <h3>${product.price}</h3>
               </div>
             </div>
             <div className="box-details">
