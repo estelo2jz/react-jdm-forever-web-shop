@@ -25,6 +25,11 @@ import JapanPage from '../src/pages/Inventory/JapanPage';
 import FuturePage from '../src/pages/Inventory/FuturePage';
 import Buyer from './pages/Buyer/Buyer';
 
+import SoldDetails from './components/Details/Component/SoldDetails';
+import CurrentDetails from './components/Details/Component/CurrentDetails';
+import FutureDetails from './components/Details/Component/FutureDetails';
+import JapanDetails from './components/Details/Component/JapanDetails';
+
 
 function App() {
   return (
@@ -42,10 +47,10 @@ function App() {
                         <Routes>
                           <Route path="/" exact element={<Home />} />
                           <Route path="/inventory" exact element={<Inventory />} />
-                          <Route path="/inventory/current-inventory" exact element={<CurrentPage />} />
+                          <Route path="/inventory/current" exact element={<CurrentPage />} />
                           <Route path="/inventory/sold" exact element={<SoldPage />} />
-                          <Route path="/inventory/future-inventory" exact element={<FuturePage />} />
-                          <Route path="/inventory/japan-inventory" exact element={<JapanPage />} />
+                          <Route path="/inventory/future" exact element={<FuturePage />} />
+                          <Route path="/inventory/japan" exact element={<JapanPage />} />
 
                           <Route path="/car-finder" exact element={<FindVehicle />} />
                           <Route path="/media" exact element={<News />} />
@@ -53,7 +58,10 @@ function App() {
                           <Route path="/faq-and-info" exact element={<FAQ />} />
                           <Route path="/california-buyer" exact element={<Buyer />} />
                           <Route path="/inventory/:id" exact element={<Details />} />
-                          <Route path="/cart" exact element={<Cart />} />
+                          <Route path="/inventory/sold/:id" exact element={<SoldDetails />} />
+                          <Route path="/inventory/current/:id" exact element={<CurrentDetails />} />
+                          <Route path="/inventory/future/:id" exact element={<FutureDetails />} />
+                          <Route path="/inventory/japan/:id" exact element={<JapanDetails />} />
                         </Routes>
                       </section>
                     </div>
