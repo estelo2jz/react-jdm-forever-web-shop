@@ -166,7 +166,7 @@ export const DataProvider = (props) => {
       "_id": "1",
       "model": "NSX",
       "year": "1991",
-      "make": "MITSUBISHI",
+      "make": "Nissan",
       "images": [
         NSX1, NSX2, NSX3, NSX4, NSX5, NSX6, NSX16,NSX7, NSX8, NSX9, NSX10, NSX11, NSX12, NSX13, NSX14, NSX15
       ],
