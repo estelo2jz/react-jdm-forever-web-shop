@@ -22,7 +22,9 @@ export default function CurrentData() {
                     <h4>{product.price}</h4>
                     {/* <h6>{product.coming}</h6> */}
                   </div>
-                  <img src={product.images[0]} alt="" />
+                  <div  className="sold-data__box-img">
+                    <img src={product.images[0]} alt="" />
+                  </div>
                 </Link>
                 <div className="sold-data__box-container">
                   <div className="sold-data__box-product">
@@ -38,9 +40,9 @@ export default function CurrentData() {
                 </div>
               </div>
               <div>
-                    <h3 className="sold-data__box-product-model" model={product.model}>
-                    <Link to={`/inventory/sold/${product._id}`} className="sold-data__box-product-model-name">{product.model}</Link>
-                    </h3>
+                <h3 className="sold-data__box-product-model" model={product.model}>
+                <Link to={`/inventory/sold/${product._id}`} className="sold-data__box-product-model-name">{product.model}</Link>
+                </h3>
               </div>
             </div>
           ))
