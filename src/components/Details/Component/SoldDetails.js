@@ -2,7 +2,8 @@ import React, { useContext, useState, useRef } from 'react'
 import { useParams } from 'react-router-dom'
 import {SoldDataContext} from '../../Data/Sold/SoldInventory';
 import DetailsThumb from '../../DetailsThumb';
-import DetailsContact from '../DetailsContact';
+import SoldContacts from './DetailsContacts/SoldContacts';
+
 import { Link } from 'react-router-dom'
 
 import './styles/SoldDetails.scss';
@@ -108,7 +109,7 @@ export default function SoldDetails() {
                 </p>
               </div>
             </div>
-            <DetailsContact />
+            <SoldContacts />
             <HeaderInventory />
           </div>
         ))
