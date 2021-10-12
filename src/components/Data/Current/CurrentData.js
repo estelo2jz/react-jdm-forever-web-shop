@@ -16,21 +16,21 @@ export default function CurrentData() {
         {
           products.map(product => (
             <div className="card" key={product._id}>
-              <Link to={`/inventory/${product._id}`}>
+              <Link to={`/inventory/current/${product._id}`}>
                 <img src={product.images[0]} alt="" />
               </Link>
               <div className="box-container">
                 <div className="box-product">
                   <div className="box-product-name">
                     <h3 className="box-product-year" year={product.year}>
-                      <Link to={`/inventory/${product._id}`} className="box-product-year-name">{product.year}</Link>
+                      <Link to={`/inventory/current/${product._id}`} className="box-product-year-name">{product.year}</Link>
                     </h3>
                     <h3 className="box-product-make" make={product.make}>
-                      <Link to={`/inventory/${product._id}`} className="box-product-make-name">{product.make}</Link>
+                      <Link to={`/inventory/current/${product._id}`} className="box-product-make-name">{product.make}</Link>
                     </h3>
                   </div>
                   <h3 className="box-product-model" model={product.model}>
-                    <Link to={`/inventory/${product._id}`} className="box-product-model-name">{product.model}</Link>
+                    <Link to={`/inventory/current/${product._id}`} className="box-product-model-name">{product.model}</Link>
                   </h3>
                 </div>
                 <div className="box-price">
