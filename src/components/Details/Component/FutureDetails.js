@@ -6,7 +6,7 @@ import FutureContacts from './DetailsContacts/FutureContacts';
 
 import { Link } from 'react-router-dom'
 
-import './styles/FutureDetails.scss';
+// import './styles/FutureDetails.scss';
 import HeaderInventory from '../../Home/HeaderInventory';
 
 export default function FutureDetails() {
