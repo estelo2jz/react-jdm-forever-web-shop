@@ -10,13 +10,13 @@ header {
   // margin-bottom: 20px;
   // background-color: #000000 !important;
   // background-color: #fff;
-  
-  
+
+
   .header__container {
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
     background-color: #000000 !important;
     height: 50% !important;
-    padding: 20px 10px;
+    padding: 10px 10px;
     color: white !important;
 
     button {
@@ -30,18 +30,20 @@ header {
         // https://cdn-icons.flaticon.com/png/512/3575/premium/3575303.png?token=exp=1634053707~hmac=67b74b33802c9089c8de85ac43b6fb55
       }
     }
+
     .header__toggle {
-      color: rgb(205, 4, 4) !important;
+      color: #d71345 !important;
       // padding:  90px;
       // border: 10px solid white;
       font-size: 1.5rem;
       border: none;
       outline: none;
+
       &:focus {
         border: none;
         outline: none;
       }
-      
+
       navbar-toggler {
         collapsed {
           color: white !important;
@@ -51,15 +53,18 @@ header {
     }
 
     .logo__link {
-      color: rgb(206, 81, 81) !important;
+      color: #d71345 !important;
       height: 600px;
       padding: 10px;
       font-size: 1.9em;
       font-weight: 700;
+
       span:nth-child(1) {
         color: white;
       }
+
       span:nth-child(2) {}
+
       span:nth-child(3) {}
 
       &:hover {
@@ -110,9 +115,9 @@ header {
         font-size: 20px;
         margin: 0px !important;
         padding: 0px !important;
-          // width: 100%;
+        // width: 100%;
 
-        
+
 
         .dropdown-toggle {
           letter-spacing: 1px !important;
@@ -126,13 +131,13 @@ header {
           background-color: #000000 !important;
           border: 1px solid white !important;
           // width: 100%;
-          
+
           show {
             // background-color: #d71345 !important;
-            
+
           }
         }
-        
+
         .header__dropdown-links {
           padding: 10px !important;
           height: 100%;
@@ -148,6 +153,47 @@ header {
     }
 
     .header__bottom {
+      .header__dropdown {
+        color: white !important;
+        font-size: 20px;
+        margin: 0px !important;
+        padding: 0px !important;
+        // width: 100%;
+
+
+
+        .dropdown-toggle {
+          letter-spacing: 1px !important;
+          color: white !important;
+          width: 100%;
+
+          nav-link {}
+        }
+
+        .dropdown-menu {
+          background-color: #000000 !important;
+          border: 1px solid white !important;
+          // width: 100%;
+
+          show {
+            // background-color: #d71345 !important;
+
+          }
+        }
+
+        .header__dropdown-links {
+          padding: 10px !important;
+          height: 100%;
+          // width: 100%;
+          background-color: #000000 !important;
+          color: rgb(255, 255, 255) !important;
+          font-weight: 600;
+          // margin: 20px 0px;
+          // padding: 40px 20px;
+          border-radius: 0%;
+        }
+      }
+
       .header__bottom-link {
         .header__bottom-links {
           color: white !important;
