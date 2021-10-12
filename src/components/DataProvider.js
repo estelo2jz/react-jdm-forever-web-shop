@@ -156,13 +156,14 @@ import LancerEVO200030 from '../assets/images/cars/2000-mitsubishi-lancer-evolut
 // import NSX2 from '../assets/images/cars/1991-honda-nsx-2.jfif';
 // import NSX2 from '../assets/images/cars/1991-honda-nsx-2.jfif';
 
+import { v4 as uuidv4 } from 'uuid';
 
 export const DataContext = createContext();
 
 export const DataProvider = (props) => {
   const [products, setProducts] = useState([
     {
-      "_id": "1",
+     "_id": uuidv4(),
       "model": "NSX",
       "year": "1991",
       "make": "MITSUBISHI",
@@ -223,7 +224,7 @@ export const DataProvider = (props) => {
       "count": 1
     },
     {
-      "_id": "2",
+     "_id": uuidv4(),
       "model": "RX7 FD",
       "year": "1992",
       "make": "MAZDA",
@@ -286,7 +287,7 @@ export const DataProvider = (props) => {
 
     },
     {
-      "_id": "3",
+     "_id": uuidv4(),
       "model": "CAPPUCCINO",
       "year": "1993",
       "make": "SUZUKI",
@@ -349,7 +350,7 @@ export const DataProvider = (props) => {
 
     },
     {
-      "_id": "4",
+     "_id": uuidv4(),
       "model": "SUPRA",
       "year": "1993",
       "make": "TOYOTA",
@@ -412,7 +413,7 @@ export const DataProvider = (props) => {
 
     },
     {
-      "_id": "5",
+     "_id": uuidv4(),
       "model": "CIVIC SHUTTLE",
       "year": "1995",
       "make": "HONDA",
@@ -475,7 +476,7 @@ export const DataProvider = (props) => {
 
     },
     {
-      "_id": "6",
+     "_id": uuidv4(),
       "model": "LANCER EVOLUTION III",
       "year": "1995",
       "make": "MITSUBISHI",
@@ -538,7 +539,7 @@ export const DataProvider = (props) => {
 
     },
     {
-      "_id": "7",
+     "_id": uuidv4(),
       "model": "INTEGRA TYPE-R",
       "year": "1996",
       "make": "HONDA",
@@ -601,7 +602,7 @@ export const DataProvider = (props) => {
 
     },
     {
-      "_id": "8",
+     "_id": uuidv4(),
       "model": "LANCER EVOLUTION",
       "year": "2000",
       "make": "MITSUBISHI",
