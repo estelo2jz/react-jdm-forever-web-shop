@@ -23,7 +23,7 @@ import './Header/Header.scss';
 export default function Header() {
   const [menu, setMenu] = useState(false)
   const value = useContext(DataContext, CurrentDataProvider, SoldDataProvider, FutureDataProvider, JapanDataProvider)
-  const [cart] = value.cart
+  // const [cart] = value.cart
 
   const toggleMenu = () => {
     setMenu(!menu)
@@ -68,12 +68,12 @@ export default function Header() {
                 </Link>
               </ReactBootStrap.NavDropdown.Item>
               <ReactBootStrap.NavDropdown.Item className="header__dropdown-links" >
-                <Link className="header__dropdown-links" to="/inventory/future-inventory">
+                <Link className="header__dropdown-links" to="/inventory/future">
                   FUTURE INVENTORY
                 </Link>
               </ReactBootStrap.NavDropdown.Item>
               <ReactBootStrap.NavDropdown.Item className="header__dropdown-links">
-                <Link className="header__dropdown-links" to="/inventory/japan-inventory">
+                <Link className="header__dropdown-links" to="/inventory/japan">
                   JAPAN INVENTORY
                 </Link>
               </ReactBootStrap.NavDropdown.Item>
