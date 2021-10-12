@@ -36,12 +36,14 @@ import Nissan2000Silvia from '../../../assets/images/JapanCars/2002-nissan-silvi
 import Nissan2002GtrNUR from '../../../assets/images/JapanCars/2002-nissan-skyline-gt-r-m-spec-nur.jfif';
 import Nissan2002SkylineGTR from '../../../assets/images/JapanCars/2002-nissan-skyline-gt-r.jfif';
 
+import { v4 as uuidv4 } from 'uuid';
+
 export const JapanDataContext = createContext();
 
 export const JapanDataProvider = (props) => {
   const [products, setProducts] = useState([
     {
-      "_id": "1",
+      "_id": uuidv4(),
       "model": "model",
       "year": "year",
       "make": "make",
@@ -111,7 +113,7 @@ export const JapanDataProvider = (props) => {
       "toBeImportedTwo": "How to Buy and Store an R34 GT-R in Japan until 2024 (http://jdmlover.com/BuyR34)",
     },
     {
-      "_id": "1",
+      "_id": uuidv4(),
       "model": "model",
       "year": "year",
       "make": "make",
@@ -181,7 +183,7 @@ export const JapanDataProvider = (props) => {
       "toBeImportedTwo": "How to Buy and Store an R34 GT-R in Japan until 2024 (http://jdmlover.com/BuyR34)",
     },
     {
-      "_id": "1",
+      "_id": uuidv4(),
       "model": "model",
       "year": "year",
       "make": "make",
@@ -251,7 +253,7 @@ export const JapanDataProvider = (props) => {
       "toBeImportedTwo": "How to Buy and Store an R34 GT-R in Japan until 2024 (http://jdmlover.com/BuyR34)",
     },
     {
-      "_id": "1",
+      "_id": uuidv4(),
       "model": "model",
       "year": "year",
       "make": "make",
@@ -321,7 +323,7 @@ export const JapanDataProvider = (props) => {
       "toBeImportedTwo": "How to Buy and Store an R34 GT-R in Japan until 2024 (http://jdmlover.com/BuyR34)",
     },
     {
-      "_id": "1",
+      "_id": uuidv4(),
       "model": "model",
       "year": "year",
       "make": "make",
@@ -391,7 +393,7 @@ export const JapanDataProvider = (props) => {
       "toBeImportedTwo": "How to Buy and Store an R34 GT-R in Japan until 2024 (http://jdmlover.com/BuyR34)",
     },
     {
-      "_id": "1",
+      "_id": uuidv4(),
       "model": "model",
       "year": "year",
       "make": "make",
@@ -461,7 +463,7 @@ export const JapanDataProvider = (props) => {
       "toBeImportedTwo": "How to Buy and Store an R34 GT-R in Japan until 2024 (http://jdmlover.com/BuyR34)",
     },
         {
-      "_id": "1",
+      "_id": uuidv4(),
       "model": "model",
       "year": "year",
       "make": "make",
@@ -531,7 +533,7 @@ export const JapanDataProvider = (props) => {
       "toBeImportedTwo": "How to Buy and Store an R34 GT-R in Japan until 2024 (http://jdmlover.com/BuyR34)",
     },
         {
-      "_id": "1",
+      "_id": uuidv4(),
       "model": "model",
       "year": "year",
       "make": "make",
@@ -601,7 +603,7 @@ export const JapanDataProvider = (props) => {
       "toBeImportedTwo": "How to Buy and Store an R34 GT-R in Japan until 2024 (http://jdmlover.com/BuyR34)",
     },
         {
-      "_id": "1",
+      "_id": uuidv4(),
       "model": "model",
       "year": "year",
       "make": "make",
@@ -671,7 +673,7 @@ export const JapanDataProvider = (props) => {
       "toBeImportedTwo": "How to Buy and Store an R34 GT-R in Japan until 2024 (http://jdmlover.com/BuyR34)",
     },
     {
-      "_id": "1",
+      "_id": uuidv4(),
       "model": "model",
       "year": "year",
       "make": "make",
@@ -741,7 +743,7 @@ export const JapanDataProvider = (props) => {
       "toBeImportedTwo": "How to Buy and Store an R34 GT-R in Japan until 2024 (http://jdmlover.com/BuyR34)",
     },
     {
-      "_id": "1",
+      "_id": uuidv4(),
       "model": "model",
       "year": "year",
       "make": "make",
@@ -811,7 +813,7 @@ export const JapanDataProvider = (props) => {
       "toBeImportedTwo": "How to Buy and Store an R34 GT-R in Japan until 2024 (http://jdmlover.com/BuyR34)",
     },
     {
-      "_id": "1",
+      "_id": uuidv4(),
       "model": "model",
       "year": "year",
       "make": "make",
@@ -881,7 +883,7 @@ export const JapanDataProvider = (props) => {
       "toBeImportedTwo": "How to Buy and Store an R34 GT-R in Japan until 2024 (http://jdmlover.com/BuyR34)",
     },
     {
-      "_id": "1",
+      "_id": uuidv4(),
       "model": "model",
       "year": "year",
       "make": "make",
@@ -951,7 +953,7 @@ export const JapanDataProvider = (props) => {
       "toBeImportedTwo": "How to Buy and Store an R34 GT-R in Japan until 2024 (http://jdmlover.com/BuyR34)",
     },
     {
-      "_id": "1",
+      "_id": uuidv4(),
       "model": "model",
       "year": "year",
       "make": "make",
@@ -1021,7 +1023,7 @@ export const JapanDataProvider = (props) => {
       "toBeImportedTwo": "How to Buy and Store an R34 GT-R in Japan until 2024 (http://jdmlover.com/BuyR34)",
     },
     {
-      "_id": "1",
+      "_id": uuidv4(),
       "model": "model",
       "year": "year",
       "make": "make",
@@ -1091,7 +1093,7 @@ export const JapanDataProvider = (props) => {
       "toBeImportedTwo": "How to Buy and Store an R34 GT-R in Japan until 2024 (http://jdmlover.com/BuyR34)",
     },
     {
-      "_id": "1",
+      "_id": uuidv4(),
       "model": "model",
       "year": "year",
       "make": "make",
@@ -1161,7 +1163,7 @@ export const JapanDataProvider = (props) => {
       "toBeImportedTwo": "How to Buy and Store an R34 GT-R in Japan until 2024 (http://jdmlover.com/BuyR34)",
     },
     {
-      "_id": "1",
+      "_id": uuidv4(),
       "model": "model",
       "year": "year",
       "make": "make",
@@ -1231,7 +1233,7 @@ export const JapanDataProvider = (props) => {
       "toBeImportedTwo": "How to Buy and Store an R34 GT-R in Japan until 2024 (http://jdmlover.com/BuyR34)",
     },
     {
-      "_id": "1",
+      "_id": uuidv4(),
       "model": "model",
       "year": "year",
       "make": "make",
@@ -1301,7 +1303,7 @@ export const JapanDataProvider = (props) => {
       "toBeImportedTwo": "How to Buy and Store an R34 GT-R in Japan until 2024 (http://jdmlover.com/BuyR34)",
     },
     {
-      "_id": "1",
+      "_id": uuidv4(),
       "model": "model",
       "year": "year",
       "make": "make",
@@ -1371,7 +1373,7 @@ export const JapanDataProvider = (props) => {
       "toBeImportedTwo": "How to Buy and Store an R34 GT-R in Japan until 2024 (http://jdmlover.com/BuyR34)",
     },
     {
-      "_id": "1",
+      "_id": uuidv4(),
       "model": "model",
       "year": "year",
       "make": "make",
@@ -1441,7 +1443,7 @@ export const JapanDataProvider = (props) => {
       "toBeImportedTwo": "How to Buy and Store an R34 GT-R in Japan until 2024 (http://jdmlover.com/BuyR34)",
     },
     {
-      "_id": "1",
+      "_id": uuidv4(),
       "model": "model",
       "year": "year",
       "make": "make",
@@ -1511,7 +1513,7 @@ export const JapanDataProvider = (props) => {
       "toBeImportedTwo": "How to Buy and Store an R34 GT-R in Japan until 2024 (http://jdmlover.com/BuyR34)",
     },
     {
-      "_id": "1",
+      "_id": uuidv4(),
       "model": "model",
       "year": "year",
       "make": "make",
@@ -1581,7 +1583,7 @@ export const JapanDataProvider = (props) => {
       "toBeImportedTwo": "How to Buy and Store an R34 GT-R in Japan until 2024 (http://jdmlover.com/BuyR34)",
     },
     {
-      "_id": "1",
+      "_id": uuidv4(),
       "model": "model",
       "year": "year",
       "make": "make",
@@ -1651,7 +1653,7 @@ export const JapanDataProvider = (props) => {
       "toBeImportedTwo": "How to Buy and Store an R34 GT-R in Japan until 2024 (http://jdmlover.com/BuyR34)",
     },
     {
-      "_id": "1",
+      "_id": uuidv4(),
       "model": "model",
       "year": "year",
       "make": "make",
@@ -1721,7 +1723,7 @@ export const JapanDataProvider = (props) => {
       "toBeImportedTwo": "How to Buy and Store an R34 GT-R in Japan until 2024 (http://jdmlover.com/BuyR34)",
     },
     {
-      "_id": "1",
+      "_id": uuidv4(),
       "model": "model",
       "year": "year",
       "make": "make",
@@ -1791,7 +1793,7 @@ export const JapanDataProvider = (props) => {
       "toBeImportedTwo": "How to Buy and Store an R34 GT-R in Japan until 2024 (http://jdmlover.com/BuyR34)",
     },
     {
-      "_id": "1",
+      "_id": uuidv4(),
       "model": "model",
       "year": "year",
       "make": "make",
@@ -1861,7 +1863,7 @@ export const JapanDataProvider = (props) => {
       "toBeImportedTwo": "How to Buy and Store an R34 GT-R in Japan until 2024 (http://jdmlover.com/BuyR34)",
     },
     {
-      "_id": "1",
+      "_id": uuidv4(),
       "model": "model",
       "year": "year",
       "make": "make",
@@ -1931,7 +1933,7 @@ export const JapanDataProvider = (props) => {
       "toBeImportedTwo": "How to Buy and Store an R34 GT-R in Japan until 2024 (http://jdmlover.com/BuyR34)",
     },
     {
-      "_id": "1",
+      "_id": uuidv4(),
       "model": "model",
       "year": "year",
       "make": "make",
@@ -2001,7 +2003,7 @@ export const JapanDataProvider = (props) => {
       "toBeImportedTwo": "How to Buy and Store an R34 GT-R in Japan until 2024 (http://jdmlover.com/BuyR34)",
     },
     {
-      "_id": "1",
+      "_id": uuidv4(),
       "model": "model",
       "year": "year",
       "make": "make",
@@ -2071,7 +2073,7 @@ export const JapanDataProvider = (props) => {
       "toBeImportedTwo": "How to Buy and Store an R34 GT-R in Japan until 2024 (http://jdmlover.com/BuyR34)",
     },
     {
-      "_id": "1",
+      "_id": uuidv4(),
       "model": "model",
       "year": "year",
       "make": "make",
@@ -2141,7 +2143,7 @@ export const JapanDataProvider = (props) => {
       "toBeImportedTwo": "How to Buy and Store an R34 GT-R in Japan until 2024 (http://jdmlover.com/BuyR34)",
     },
     {
-      "_id": "1",
+      "_id": uuidv4(),
       "model": "model",
       "year": "year",
       "make": "make",
@@ -2211,7 +2213,7 @@ export const JapanDataProvider = (props) => {
       "toBeImportedTwo": "How to Buy and Store an R34 GT-R in Japan until 2024 (http://jdmlover.com/BuyR34)",
     },
     {
-      "_id": "1",
+      "_id": uuidv4(),
       "model": "model",
       "year": "year",
       "make": "make",
@@ -2281,7 +2283,7 @@ export const JapanDataProvider = (props) => {
       "toBeImportedTwo": "How to Buy and Store an R34 GT-R in Japan until 2024 (http://jdmlover.com/BuyR34)",
     },
     {
-      "_id": "1",
+      "_id": uuidv4(),
       "model": "model",
       "year": "year",
       "make": "make",
@@ -2351,7 +2353,7 @@ export const JapanDataProvider = (props) => {
       "toBeImportedTwo": "How to Buy and Store an R34 GT-R in Japan until 2024 (http://jdmlover.com/BuyR34)",
     },
     {
-      "_id": "1",
+      "_id": uuidv4(),
       "model": "model",
       "year": "year",
       "make": "make",
@@ -2421,7 +2423,7 @@ export const JapanDataProvider = (props) => {
       "toBeImportedTwo": "How to Buy and Store an R34 GT-R in Japan until 2024 (http://jdmlover.com/BuyR34)",
     },
     {
-      "_id": "1",
+      "_id": uuidv4(),
       "model": "model",
       "year": "year",
       "make": "make",
