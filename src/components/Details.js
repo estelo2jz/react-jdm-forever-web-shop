@@ -41,24 +41,24 @@ export default function Details() {
           </div>
           <div className="box-details">
             <div className="box-img">
-              <div className="box-img-container">
-                <div
-                  className="box-img-main"
-                  onMouseMove={handleMouseMove}
-                  style={{ backgroundImage: `url(${product.images[index]})` }}
-                  ref={imgDiv}
-                  onMouseLeave={() =>
-                    (imgDiv.current.style.backgroundPosition = `center`)
-                  }
-                />
-              </div>
-              <div>
-                <DetailsThumb images={product.images} setIndex={setIndex} />
-              </div>
+                <div className="box-img-container">
+                  <div
+                    className="box-img-main"
+                    onMouseMove={handleMouseMove}
+                    style={{ backgroundImage: `url(${product.images[index]})` }}
+                    ref={imgDiv}
+                    onMouseLeave={() =>
+                      (imgDiv.current.style.backgroundPosition = `center`)
+                    }
+                  />
+                </div>
+                <div className="box-img__options-img">
+                  <DetailsThumb className="box-img__img" images={product.images} setIndex={setIndex} />
+                </div>
             </div>
             <div className="box-specs-container">
-              <div className="box-specs-outer">
-                <p className="box-specs-items">
+              <div className="box-specs-items">
+                <p className="box-specs-">
                   <span>YEAR</span>
                   <span>{product.year}</span>
                 </p>
