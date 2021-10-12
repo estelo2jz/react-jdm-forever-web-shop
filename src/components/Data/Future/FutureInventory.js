@@ -11,7 +11,7 @@ export const FutureDataContext = createContext();
 export const FutureDataProvider = (props) => {
   const [products, setProducts] = useState([
     {
-      "_id": uuidv4(),
+      "_id": "1",
       "model": "Integra Type-R",
       "year": "1996",
       "make": "Honda",
