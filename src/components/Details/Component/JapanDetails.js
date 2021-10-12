@@ -2,7 +2,8 @@ import React, { useContext, useState, useRef } from 'react'
 import { useParams } from 'react-router-dom'
 import {JapanDataContext} from '../../Data/Japan/JapanInventory';
 import DetailsThumb from '../../DetailsThumb';
-import DetailsContact from '../DetailsContact';
+import JapanContacts from './DetailsContacts/JapanContacts';
+
 import { Link } from 'react-router-dom'
 
 import './styles/JapanDetails.scss';
@@ -109,7 +110,7 @@ export default function JapanDetails() {
                 </p>
               </div>
             </div>
-            <DetailsContact />
+            <JapanContacts />
             <HeaderInventory />
           </div>
         ))
