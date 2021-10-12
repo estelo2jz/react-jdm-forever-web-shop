@@ -6,7 +6,7 @@ import SoldContacts from './DetailsContacts/SoldContacts';
 
 import { Link } from 'react-router-dom'
 
-import './styles/SoldDetails.scss';
+// import './styles/SoldDetails.scss';
 import HeaderInventory from '../../Home/HeaderInventory';
 
 export default function SoldDetails() {
