@@ -24,7 +24,7 @@ header {
         color: white !important;
         // background-color: white !important;
         // border-radius: 50%;
-        background-image: url('https://cdn-icons-png.flaticon.com/512/1828/1828726.png');
+        background-image: url('https://cdn-icons-png.flaticon.com/512/812/812847.png');
         // background-image: url('https://cdn-icons-png.flaticon.com/512/248/248926.png');
       }
     }
@@ -49,10 +49,16 @@ header {
     }
 
     .logo__link {
-      color: white !important;
+      color: rgb(206, 81, 81) !important;
       height: 600px;
       padding: 10px;
       font-size: 1.9em;
+      font-weight: 700;
+      span:nth-child(1) {
+        color: white;
+      }
+      span:nth-child(2) {}
+      span:nth-child(3) {}
 
       &:hover {
         text-decoration: none;
