@@ -2,7 +2,7 @@ import React, { useContext, useState, useRef } from 'react'
 import { useParams } from 'react-router-dom'
 import {CurrentDataContext} from '../../Data/Current/CurrentInventory';
 import DetailsThumb from '../../DetailsThumb';
-import DetailsContact from '../DetailsContact';
+import CurrentContacts from './DetailsContacts/CurrentContacts';
 import { Link } from 'react-router-dom'
 
 import './styles/CurrentDetails.scss';
@@ -109,7 +109,7 @@ export default function CurrentDetails() {
                 </p>
               </div>
             </div>
-            <DetailsContact />
+            <CurrentContacts />
             <HeaderInventory />
           </div>
         ))
