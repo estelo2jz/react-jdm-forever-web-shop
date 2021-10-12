@@ -17,7 +17,7 @@ export default function CurrentData() {
           products.map(product => (
             <div className="sold-data__card" key={product._id}>
               <div className="sold-data__card-container">
-                <Link to={`/inventory/${product._id}`}>
+                <Link to={`/inventory/sold/${product._id}`}>
                   <div className="sold-data__box-price">
                     <h4>{product.price}</h4>
                     {/* <h6>{product.coming}</h6> */}
@@ -28,10 +28,10 @@ export default function CurrentData() {
                   <div className="sold-data__box-product">
                     <div className="sold-data__box-product-name">
                       <h3 className="sold-data__box-product-year" year={product.year}>
-                        <Link to={`/inventory/${product._id}`} className="sold-data__box-product-year-name">{product.year}</Link>
+                        <Link to={`/inventory/sold/${product._id}`} className="sold-data__box-product-year-name">{product.year}</Link>
                       </h3>
                       <h3 className="sold-data__box-product-make" make={product.make}>
-                        <Link to={`/inventory/${product._id}`} className="sold-data__box-product-make-name">{product.make}</Link>
+                        <Link to={`/inventory/sold/${product._id}`} className="sold-data__box-product-make-name">{product.make}</Link>
                       </h3>
                     </div>
                   </div>
@@ -39,14 +39,13 @@ export default function CurrentData() {
               </div>
               <div>
                     <h3 className="sold-data__box-product-model" model={product.model}>
-                    <Link to={`/inventory/${product._id}`} className="sold-data__box-product-model-name">{product.model}</Link>
+                    <Link to={`/inventory/sold/${product._id}`} className="sold-data__box-product-model-name">{product.model}</Link>
                     </h3>
               </div>
             </div>
           ))
         }
       </div>
-
     </div>
   )
 }
