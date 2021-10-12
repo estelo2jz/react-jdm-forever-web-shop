@@ -1,7 +1,10 @@
-.details-thumb {
-  .details-thumb__img {
+.thumb {
+  // width:100%;
+  width:100px;
+  .thumb__img {
+    display: flex;
+    flex-wrap: wrap;
     img {
-      
     }
   }
 }
