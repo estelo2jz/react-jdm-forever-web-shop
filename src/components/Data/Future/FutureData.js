@@ -15,7 +15,7 @@ export default function CurrentData() {
       <div className="products">
         {products.map((product) => (
           <div className="card" key={product._id}>
-            <Link to={`/inventory/${product._id}`}>
+            <Link to={`/inventory/future/${product._id}`}>
               <div className="sold-data__box-price">
                 <h4>{product.comingSoon}</h4>
                 {/* <h6>{product.coming}</h6> */}
@@ -27,7 +27,7 @@ export default function CurrentData() {
                 <div className="box-product-name">
                   <h3 className="box-product-year" year={product.year}>
                     <Link
-                      to={`/inventory/${product._id}`}
+                      to={`/inventory/future/${product._id}`}
                       className="box-product-year-name"
                     >
                       {product.year}
@@ -35,7 +35,7 @@ export default function CurrentData() {
                   </h3>
                   <h3 className="box-product-make" make={product.make}>
                     <Link
-                      to={`/inventory/${product._id}`}
+                      to={`/inventory/future/${product._id}`}
                       className="box-product-make-name"
                     >
                       {product.make}
@@ -44,7 +44,7 @@ export default function CurrentData() {
                 </div>
                 <h3 className="box-product-model" model={product.model}>
                   <Link
-                    to={`/inventory/${product._id}`}
+                    to={`/inventory/future/${product._id}`}
                     className="box-product-model-name"
                   >
                     {product.model}
