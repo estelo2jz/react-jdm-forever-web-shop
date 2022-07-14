@@ -29,18 +29,9 @@ const Footer = () => {
           </form>
         </div>
         <div className="footer__newsletter-social">
-          <p>
-            <a target="_blank" href=""><FaFacebookF /></a>
-            
-          </p>
-          <p>
-          <a target="_blank" href=""></a>
-            <ImInstagram />
-          </p>
-          <p>
-          <a target="_blank" href=""></a>
-            <ImYoutube2 />
-          </p>
+          <a target="_blank" href="https://www.facebook.com/toprankimporters"><FaFacebookF /></a>
+          <a target="_blank" href="https://www.instagram.com/toprankimporters/"><ImInstagram /></a>
+          <a target="_blank" href="https://www.youtube.com/c/ToprankImporters"><ImYoutube2 /></a>
         </div>
       </div>
       <div className="footer__links">
