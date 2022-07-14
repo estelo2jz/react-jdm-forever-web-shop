@@ -30,12 +30,15 @@ const Footer = () => {
         </div>
         <div className="footer__newsletter-social">
           <p>
-            <FaFacebookF />
+            <a target="_blank" href=""><FaFacebookF /></a>
+            
           </p>
           <p>
+          <a target="_blank" href=""></a>
             <ImInstagram />
           </p>
           <p>
+          <a target="_blank" href=""></a>
             <ImYoutube2 />
           </p>
         </div>
