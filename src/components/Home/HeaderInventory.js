@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './HeaderInventory.sass';
+import './HeaderInventory.scss';
 
 const HeaderInventory = () => {
   return (

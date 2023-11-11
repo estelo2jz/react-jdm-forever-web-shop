@@ -1,5 +1,5 @@
 import React from "react";
-// import './DetailsThumb.sass';
+// import './DetailsThumb.scss';
 
 export default function DetailsThumb({ images, setIndex }) {
   return (

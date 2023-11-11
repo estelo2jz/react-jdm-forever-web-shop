@@ -3,7 +3,7 @@ import React from 'react';
 import Sticker from "../../assets/images/findVehicle/arb_sticker.jpg";
 
 
-import './Buyer.sass';
+import './Buyer.scss';
 
 const Buyer = () => {
   return (

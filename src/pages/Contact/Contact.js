@@ -5,7 +5,7 @@ import ContactForm from './ContactForm';
 import FindV from "../../assets/images/findVehicle/bg1.jpg";
 import MAP from "../../assets/images/home/map3.jpg";
 
-import "./Contact.sass";
+import "./Contact.scss";
 
 const FindVehicle = () => {
   return (

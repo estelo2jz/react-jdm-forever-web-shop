@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './Maintenance.sass';
+import './Maintenance.scss';
 
 export default function DescThumb({ modList, setIndex }) {
   return (

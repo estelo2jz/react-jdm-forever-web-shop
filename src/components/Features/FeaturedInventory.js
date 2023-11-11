@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-import './FeaturedInventory.sass';
+import './FeaturedInventory.scss';
 
 const FeaturedInventory = () => {
   return (

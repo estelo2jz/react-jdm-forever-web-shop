@@ -1,7 +1,7 @@
 import React from 'react';
 import Bg from '../../assets/images/home/wallpaper1.jpg'
 
-import './styles/LearnMore.sass';
+import './styles/LearnMore.scss';
 
 const LearnMore = ({cover}) => {
   return (
