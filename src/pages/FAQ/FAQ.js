@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './FAQ.scss';
+import './FAQ.sass';
 
 const FAQ = () => {
   return (

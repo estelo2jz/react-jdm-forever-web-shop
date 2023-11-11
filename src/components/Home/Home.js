@@ -8,7 +8,7 @@ import LocationHeader from './LocationHeader';
 
 import Bg from '../../assets/images/home/wallpaper1.jpg'
 
-import './Home.scss';
+import './Home.sass';
 
 const Home = () => {
   return (

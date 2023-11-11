@@ -1,6 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import './TopHeader.scss';
+import './TopHeader.sass';
 
 import HomeBG1 from '../../assets/images/home/1.jpg';
 

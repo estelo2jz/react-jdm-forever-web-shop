@@ -2,7 +2,7 @@ import React, { useContext } from 'react'
 import { DataContext } from './DataProvider'
 import { Link } from 'react-router-dom'
 
-import './Product/styles/Products.scss';
+import './Product/styles/Products.sass';
 
 export default function Products() {
   const value = useContext(DataContext)

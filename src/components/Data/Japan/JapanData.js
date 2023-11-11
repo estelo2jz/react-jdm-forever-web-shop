@@ -2,7 +2,7 @@ import React, { useContext } from 'react'
 import { JapanDataContext } from './JapanInventory';
 import { Link } from 'react-router-dom'
 
-import './styles/JapanData.scss';
+import './styles/JapanData.sass';
 
 export default function CurrentData() {
   const value = useContext(JapanDataContext)

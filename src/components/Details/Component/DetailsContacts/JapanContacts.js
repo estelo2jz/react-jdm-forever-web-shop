@@ -4,7 +4,7 @@ import { BsFillTelephoneFill } from 'react-icons/bs';
 import JapanTab from '../DetailsTabs/JapanTab';
 
 
-import './styles/main.scss';
+import './styles/main.sass';
 
 
 

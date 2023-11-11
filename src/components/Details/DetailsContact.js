@@ -4,7 +4,7 @@ import { BsFillTelephoneFill } from 'react-icons/bs';
 import DetailsTab from '../Details/DetailsTab';
 
 
-import './DetailsContact.scss';
+import './DetailsContact.sass';
 
 const DetailsContact = () => {
   return (

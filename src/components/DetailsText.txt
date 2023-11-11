@@ -5,7 +5,7 @@ import DetailsThumb from "./DetailsThumb";
 import DetailsContact from "./Details/DetailsContact";
 import { Link } from "react-router-dom";
 
-import "./Details/Details.scss";
+import "./Details/Details.sass";
 import HeaderInventory from "./Home/HeaderInventory";
 
 export default function Details() {
