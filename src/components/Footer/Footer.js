@@ -7,7 +7,7 @@ import { BsFillTelephoneFill } from "react-icons/bs";
 
 import JDMLOVER from "../../assets/images/home/jdmlover.png";
 
-import "./Footer.sass";
+import "./Footer.scss";
 
 const Footer = () => {
   return (

@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-import './styles/LearnMoreHeader.sass';
+import './styles/LearnMoreHeader.scss';
 
 const CustomHeader = () => {
   return (

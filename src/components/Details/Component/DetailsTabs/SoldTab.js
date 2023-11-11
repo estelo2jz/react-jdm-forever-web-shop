@@ -5,7 +5,7 @@ import DescThumb from '../../DescThumb';
 import MaintenanceThumb from '../../MaintenanceThumb';
 import ToBeImportedThumb from '../../ToBeImportedThumb';
 
-import './styles/main.sass';
+import './styles/main.scss';
 
 const SoldTab = () => {
   const { id } = useParams();

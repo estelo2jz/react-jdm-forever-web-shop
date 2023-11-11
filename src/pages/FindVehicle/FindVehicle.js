@@ -6,7 +6,7 @@ import FindV from "../../assets/images/findVehicle/findVehicle.jpg";
 import FindV2 from "../../assets/images/findVehicle/findVehicle2.png";
 
 
-import "./FindVehicle.sass";
+import "./FindVehicle.scss";
 
 const FindVehicle = () => {
   return (

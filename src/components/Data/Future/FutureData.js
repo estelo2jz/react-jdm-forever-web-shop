@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { FutureDataContext } from "./FutureInventory";
 import { Link } from "react-router-dom";
 
-import "./styles/FutureData.sass";
+import "./styles/FutureData.scss";
 
 export default function CurrentData() {
   const value = useContext(FutureDataContext);
