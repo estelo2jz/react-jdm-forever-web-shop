@@ -4,7 +4,7 @@ import {
   BrowserRouter as Router,
   Link
 } from "react-router-dom";
-import './styles/Current.scss';
+import './styles/Current.sass';
 
 const Current = ({heading}) => {
   return (

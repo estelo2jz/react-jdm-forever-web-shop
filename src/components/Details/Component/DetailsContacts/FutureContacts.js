@@ -4,7 +4,7 @@ import { BsFillTelephoneFill } from 'react-icons/bs';
 import FutureTab from '../DetailsTabs/FutureTab';
 
 
-import './styles/main.scss';
+import './styles/main.sass';
 
 const FutureContact = () => {
   return (

@@ -3,7 +3,7 @@ import { BsFillTelephoneFill } from 'react-icons/bs';
 
 import SoldTab from '../DetailsTabs/SoldTab';
 
-import './styles/main.scss';
+import './styles/main.sass';
 
 
 

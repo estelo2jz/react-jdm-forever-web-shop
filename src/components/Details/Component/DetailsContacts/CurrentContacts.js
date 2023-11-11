@@ -5,7 +5,7 @@ import CurrentTab from '../DetailsTabs/CurrentTab';
 
 
 
-import './styles/main.scss';
+import './styles/main.sass';
 
 
 const CurrentContact = () => {

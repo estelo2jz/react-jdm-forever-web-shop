@@ -15,7 +15,7 @@ import JDMLOGO from "../assets/images/home/jdmlover3.png";
 import { GiCarSeat } from "react-icons/gi";
 import { BiMenuAltRight } from "react-icons/bi";
 
-import "./Header/Header.scss";
+import "./Header/Header.sass";
 
 export default function Header() {
   const [menu, setMenu] = useState(false);

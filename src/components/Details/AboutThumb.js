@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './AboutThumb.scss';
+import './AboutThumb.sass';
 
 export default function AboutThumb({ aboutUs, setIndex }) {
   return (

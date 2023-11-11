@@ -2,7 +2,7 @@ import React, { useContext } from 'react'
 import { CurrentDataContext } from './CurrentInventory';
 import { Link } from 'react-router-dom'
 
-import './styles/CurrentData.scss';
+import './styles/CurrentData.sass';
 
 export default function CurrentData() {
   const value = useContext(CurrentDataContext)

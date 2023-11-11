@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './FindForm.scss';
+import './FindForm.sass';
 
 const FindForm = () => {
   return (

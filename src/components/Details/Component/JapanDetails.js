@@ -6,7 +6,7 @@ import JapanContacts from './DetailsContacts/JapanContacts';
 
 import { Link } from 'react-router-dom'
 
-// import './styles/JapanDetails.scss';
+// import './styles/JapanDetails.sass';
 import HeaderInventory from '../../Home/HeaderInventory';
 
 export default function JapanDetails() {

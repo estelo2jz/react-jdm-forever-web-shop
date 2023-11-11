@@ -6,7 +6,7 @@ import MaintenanceThumb from './MaintenanceThumb';
 import ToBeImportedThumb from './ToBeImportedThumb';
 import AboutThumb from './AboutThumb';
 
-import '../Details/DetailsTab.scss'
+import '../Details/DetailsTab.sass'
 
 const DetailsTab = () => {
   const { id } = useParams();

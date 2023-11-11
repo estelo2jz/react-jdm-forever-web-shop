@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './ToBeImported.scss';
+import './ToBeImported.sass';
 
 export default function ToBeImportedThumb({ toBeImported, setIndex }) {
   return (

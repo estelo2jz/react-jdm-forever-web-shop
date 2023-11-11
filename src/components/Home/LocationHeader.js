@@ -6,7 +6,7 @@ import MAP from '../../assets/images/home/map3.jpg'
 import JDMLOGO from '../../assets/images/home/jdmlover.png'
 
 
-import './styles/LocationHeader.scss';
+import './styles/LocationHeader.sass';
 
 const LocationHeader = () => {
   return (

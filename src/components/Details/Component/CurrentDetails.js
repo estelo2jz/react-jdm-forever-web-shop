@@ -5,7 +5,7 @@ import DetailsThumb from '../../DetailsThumb';
 import CurrentContacts from './DetailsContacts/CurrentContacts';
 import { Link } from 'react-router-dom'
 
-// import './styles/CurrentDetails.scss';
+// import './styles/CurrentDetails.sass';
 import HeaderInventory from '../../Home/HeaderInventory';
 
 export default function CurrentDetails() {
