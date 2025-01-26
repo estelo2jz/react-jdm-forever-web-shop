@@ -136,21 +136,21 @@ const FutureTab = () => {
                   <span>{product.mileage}</span>
                 </div>
 
-                <div className="details__mod-list">
+                {/* <div className="details__mod-list">
                   <div className="details__mod-list-heading">
                     MOD LIST
                   </div>
                   <div className="details__mod-list-container">
                     <DescThumb modList={product.modList} setIndex={setIndex} />
                   </div>
-                </div>
+                </div> */}
 
-                <div className="details__main-service">
+                {/* <div className="details__main-service">
                   <div className="details__main-service-heading">
                     <p>MAINTENANCE & SERVICE</p>
                   </div>
                   <MaintenanceThumb maintenanceService={product.maintenanceService} setIndex={setIndex} />
-                </div>
+                </div> */}
               </div>
               <div className="details__imported">
                 <div className="details__imported-heading">

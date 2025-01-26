@@ -137,7 +137,7 @@ const DetailsTab = () => {
                   <span>{product.mileage}</span>
                 </div>
 
-                <div className="details__mod-list">
+                {/* <div className="details__mod-list">
                   <div className="details__mod-list-heading">
                     MOD LIST
                   </div>
@@ -151,7 +151,7 @@ const DetailsTab = () => {
                     <p>MAINTENANCE & SERVICE</p>
                   </div>
                   <MaintenanceThumb maintenanceService={product.maintenanceService} setIndex={setIndex} />
-                </div>
+                </div> */}
               </div>
               <div className="details__imported">
                 <div className="details__imported-heading">
