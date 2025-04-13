@@ -31,12 +31,13 @@
     ]
   },
   "optimization": {
+    "portableRecords": true,
     "scripts": true,
     "styles": {
       "minify": false,
       "inlineCritical": false
     },
-    "fonts": true
+    "fonts": true,
   },
   "browserslist": {
     "production": [

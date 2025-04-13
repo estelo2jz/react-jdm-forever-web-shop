@@ -7,7 +7,7 @@ import { FutureDataProvider} from './components/Data/Future/FutureInventory';
 import { JapanDataProvider } from './components/Data/Japan/JapanInventory';
 import  { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import { DataProvider } from './components/DataProvider'
-// import ScrollToTop from './components/ScrollToTop';
+import ScrollToTop from './components/ScrollToTop';
 
 import Details from './components/Details'
 import Home from './components/Home/Home';
@@ -41,7 +41,7 @@ function App() {
             <DataProvider>
               <div className="App">
                 <Router>
-                  {/* <ScrollToTop> */}
+                  <ScrollToTop>
                     <Header />
                     <div className="App__container">
                       <section>
@@ -68,7 +68,7 @@ function App() {
                       </section>
                     </div>
                     <Footer />
-                  {/* </ScrollToTop> */}
+                  </ScrollToTop>
                 </Router>
               </div>
             </DataProvider>
