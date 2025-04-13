@@ -5,7 +5,7 @@ import { ImInstagram, ImYoutube2, ImRocket, ImLocation } from "react-icons/im";
 import { BsFillTelephoneFill } from "react-icons/bs";
 
 import JDMLOVER from "../../assets/images/home/jdmlover.png";
-import pcevolvers from "../../assets/pcevolversNObg.png"
+import pcevolvers from "../../assets/jdmspark.png"
 import "./Footer.scss";
 
 const Footer = () => {

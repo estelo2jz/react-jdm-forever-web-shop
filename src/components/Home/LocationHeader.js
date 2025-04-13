@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import { BsFillTelephoneFill } from 'react-icons/bs';
 import MAP from '../../assets/images/home/map3.jpg'
 import JDMLOGO from '../../assets/images/home/jdmlover.png'
-import pcevolvers from "../../assets/pcevolvers.png"
+import pcevolvers from "../../assets/jdmspark.png"
 
 
 
