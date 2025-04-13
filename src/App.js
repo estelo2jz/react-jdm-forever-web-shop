@@ -16,6 +16,7 @@ import Footer from './components/Footer/Footer';
 import Contact from '../src/pages/Contact/Contact';
 import FindVehicle from '../src/pages/FindVehicle/FindVehicle';
 import News from '../src/pages/News/News';
+import Shop from "./components/Shop/Shop"
 import FAQ from '../src/pages/FAQ/FAQ';
 
 import Inventory from '../src/pages/Inventory/Inventory';
@@ -54,6 +55,7 @@ function App() {
 
                           <Route path="/car-finder" exact element={<FindVehicle />} />
                           <Route path="/media" exact element={<News />} />
+                          <Route path="/shop" exact element={<Shop />} />
                           <Route path="/contact" exact element={<Contact />} />
                           <Route path="/faq-and-info" exact element={<FAQ />} />
                           <Route path="/california-buyer" exact element={<Buyer />} />

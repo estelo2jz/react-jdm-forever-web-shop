@@ -72,6 +72,14 @@ export default function Header() {
                 Home
               </ReactBootStrap.Nav.Link>
             </Link>
+            <Link className="header__link" to="/car-finder">
+              <ReactBootStrap.Nav.Link
+                className="header__links"
+                href="#pricing"
+              >
+                Find Your Vehicle
+              </ReactBootStrap.Nav.Link>
+            </Link>
             <ReactBootStrap.NavDropdown
               className="header__dropdown"
               title="Inventory"
@@ -100,31 +108,23 @@ export default function Header() {
               {/* <ReactBootStrap.NavDropdown.Divider /> */}
               {/* <ReactBootStrap.NavDropdown.Item href="#action/3.4">Separated link</ReactBootStrap.NavDropdown.Item> */}
             </ReactBootStrap.NavDropdown>
-            <Link className="header__link" to="/car-finder">
-              <ReactBootStrap.Nav.Link
-                className="header__links"
-                href="#pricing"
-              >
-                Find Your Vehicle
-              </ReactBootStrap.Nav.Link>
-            </Link>
-            <Link className="header__link" to="/">
+            {/* <Link className="header__link" to="/shop">
               <ReactBootStrap.Nav.Link
                 className="header__links"
                 href="#pricing"
               >
                 Shop
               </ReactBootStrap.Nav.Link>
-            </Link>
+            </Link> */}
           </ReactBootStrap.Nav>
           <ReactBootStrap.Nav className="header__bottom">
-          <ReactBootStrap.NavDropdown
+            <ReactBootStrap.NavDropdown
               className="header__dropdown"
               title="News"
               id="collasible-nav-dropdown"
             >
               <ReactBootStrap.NavDropdown.Item className="header__dropdown-links">
-                <Link className="header__dropdown-links" to="/">
+                <Link className="header__dropdown-links" to="/media">
                   Media
                 </Link>
               </ReactBootStrap.NavDropdown.Item>
@@ -141,17 +141,17 @@ export default function Header() {
             >
               <ReactBootStrap.NavDropdown.Item className="header__dropdown-links">
                 <Link className="header__dropdown-links" to="/california-buyer">
-                Cali-BUYER
+                  Cali-BUYER
                 </Link>
               </ReactBootStrap.NavDropdown.Item>
               <ReactBootStrap.NavDropdown.Item className="header__dropdown-links">
                 <Link className="header__dropdown-links" to="/faq-and-info">
-                FAQ | INFO
+                  FAQ | INFO
                 </Link>
               </ReactBootStrap.NavDropdown.Item>
               <ReactBootStrap.NavDropdown.Item className="header__dropdown-links">
                 <Link className="header__dropdown-links" to="/contact">
-                CONTACT
+                  CONTACT
                 </Link>
               </ReactBootStrap.NavDropdown.Item>
             </ReactBootStrap.NavDropdown>

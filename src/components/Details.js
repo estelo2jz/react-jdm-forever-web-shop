@@ -1,12 +1,10 @@
 import React, { useContext, useState, useRef } from "react";
-import { useParams } from "react-router-dom";
+import { useParams, Link } from "react-router-dom";
 import { DataContext } from "./DataProvider";
 import DetailsThumb from "./DetailsThumb";
 import DetailsContact from "./Details/DetailsContact";
-import { Link } from "react-router-dom";
-
-import "./Details/Details.scss";
 import HeaderInventory from "./Home/HeaderInventory";
+import "./Details/Details.scss";
 
 export default function Details() {
   const { id } = useParams();
@@ -16,9 +14,7 @@ export default function Details() {
   const [index, setIndex] = useState(0);
   const imgDiv = useRef();
 
-  const details = products.filter((product, index) => {
-    return product._id === id;
-  });
+  const details = products?.filter((product) => product._id === id);
 
   const handleMouseMove = (e) => {
     const { left, top, width, height } = e.target.getBoundingClientRect();
@@ -27,79 +23,52 @@ export default function Details() {
     imgDiv.current.style.backgroundPosition = `${x}% ${y}%`;
   };
 
+  if (!details?.length) return <p className="details__loading">Loading vehicle details...</p>;
+
   return (
     <>
       {details.map((product) => (
-        <div className="details" key={product._id}>
+        <section className="details" key={product._id}>
           <div className="details__header">
-            <div className="details-header__fullname">
-              <p>{product.fullName}</p>
+            <h2 className="details__title">{product.fullName}</h2>
+            <div className="details__price">${product.price.toLocaleString()}</div>
+          </div>
+
+          <div className="details__content">
+            <div className="details__media">
+              <div
+                className="details__image-main"
+                ref={imgDiv}
+                onMouseMove={handleMouseMove}
+                onMouseLeave={() => (imgDiv.current.style.backgroundPosition = "center")}
+                style={{ backgroundImage: `url(${product.images[index]})` }}
+              ></div>
+              <DetailsThumb images={product.images} setIndex={setIndex} />
             </div>
-            <div className="details__price">
-              <h3>${product.price}</h3>
+
+            <div className="details__specs">
+              {[
+                ["Year", product.year],
+                ["Make", product.make],
+                ["Model", product.model],
+                ["Body Color", product.bodyColor],
+                ["Stock #", product.stockNumber],
+                ["VIN", product.vin],
+                ["Miles", product.miles],
+                ["Engine Size", product.engineSize],
+                ["Transmission", product.transmissionType],
+              ].map(([label, value]) => (
+                <div className="spec-item" key={label}>
+                  <span>{label}</span>
+                  <span>{value}</span>
+                </div>
+              ))}
             </div>
           </div>
-          <div className="box-details">
-            <div className="box-img">
-                <div className="box-img-container">
-                  <div
-                    className="box-img-main"
-                    onMouseMove={handleMouseMove}
-                    style={{ backgroundImage: `url(${product.images[index]})` }}
-                    ref={imgDiv}
-                    onMouseLeave={() =>
-                      (imgDiv.current.style.backgroundPosition = `center`)
-                    }
-                  />
-                </div>
-                <div className="box-img__options-img">
-                  <DetailsThumb className="box-img__img" images={product.images} setIndex={setIndex} />
-                </div>
-            </div>
-            <div className="box-specs-container">
-              <div className="box-specs-items">
-                <p className="box-specs-">
-                  <span>YEAR</span>
-                  <span>{product.year}</span>
-                </p>
-                <p className="box-specs-items">
-                  <span>MAKE</span>
-                  <span>{product.make}</span>
-                </p>
-                <p className="box-specs-items">
-                  <span>MODEL</span>
-                  <span>{product.model}</span>
-                </p>
-                <p className="box-specs-items">
-                  <span>BODY COLOR</span>
-                  <span>{product.bodyColor}</span>
-                </p>
-                <p className="box-specs-items">
-                  <span>STOCK</span>
-                  <span>{product.stockNumber}</span>
-                </p>
-                <p className="box-specs-items">
-                  <span>VIN</span>
-                  <span>{product.vin}</span>
-                </p>
-                <p className="box-specs-items">
-                  <span>MILEs</span>
-                  <span>{product.miles}</span>
-                </p>
-                <p className="box-specs-items">
-                  <span>ENGINE SIZE</span>
-                  <span>{product.engineSize}</span>
-                </p>
-                <p className="box-specs-items">
-                  <span>TRANSMISSION TYPE</span>
-                  <span>{product.transmissionType}</span>
-                </p>
-              </div>
-            </div>
-          </div>
+
           <DetailsContact />
           <HeaderInventory />
-        </div>
+        </section>
       ))}
     </>
   );

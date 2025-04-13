@@ -2,26 +2,44 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  height: 100%;
-  
+  gap: 0.75rem;
+  width: 100%;
+  padding: 1rem 0;
+  animation: fadeInUp 0.8s ease forwards;
+
   p {
-    padding: 10px 5px !important;
-    width: 400px;
-    // height: 100%;
+    width: 100%;
+    max-width: 400px;
     background-color: #efefef;
-    margin: 5px 3px;
-    display: flex;
-    justify-content: center;
+    padding: 0.75rem;
+    margin: 0.25rem;
     font-size: clamp(13px, 1.5vw, 15px);
-    // align-items: center;
     text-align: center;
-  }
-}
+    font-weight: 500;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
 
-@media only screen and (max-width: 1000px) {
-  .thumb {
-    .p {
-
+    &:hover {
+      background-color: #d71345;
+      color: #fff;
+      transform: translateY(-3px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
     }
   }
 }
+
+// Entry animation
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+// Responsive tweaks
+@media only screen

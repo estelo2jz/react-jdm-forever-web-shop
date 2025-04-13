@@ -1,0 +1,96 @@
+.shop {
+  padding: 2rem;
+  animation: fadeInUp 0.6s ease;
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+
+    h1 {
+      font-size: 2rem;
+      font-weight: bold;
+    }
+
+    select {
+      padding: 0.5rem 1rem;
+      border-radius: 6px;
+      font-size: 1rem;
+    }
+  }
+
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+  }
+
+  &__card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+
+    &:hover {
+      transform: translateY(-5px);
+    }
+
+    .shop__image {
+      height: 200px;
+      background-size: cover;
+      background-position: center;
+    }
+
+    .shop__info {
+      padding: 1rem;
+      text-align: center;
+
+      h2 {
+        font-size: 1.2rem;
+        margin: 0.5rem 0;
+      }
+
+      p {
+        font-size: 1rem;
+        font-weight: bold;
+        color: #d71345;
+      }
+
+      button {
+        margin-top: 1rem;
+        padding: 0.5rem 1rem;
+        background-color: #000;
+        color: #fff;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+
+        &:hover {
+          background-color: #d71345;
+        }
+      }
+    }
+  }
+
+  &__footer {
+    margin-top: 3rem;
+    text-align: center;
+    font-size: 0.95rem;
+    color: #666;
+  }
+}
+
+// Animation
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

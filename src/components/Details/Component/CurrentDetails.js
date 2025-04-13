@@ -1,6 +1,6 @@
 import React, { useContext, useState, useRef } from 'react'
 import { useParams } from 'react-router-dom'
-import {CurrentDataContext} from '../../Data/Current/CurrentInventory';
+import { CurrentDataContext } from '../../Data/Current/CurrentInventory';
 import DetailsThumb from '../../DetailsThumb';
 import CurrentContacts from './DetailsContacts/CurrentContacts';
 import { Link } from 'react-router-dom'
@@ -44,70 +44,37 @@ export default function CurrentDetails() {
             </div>
             <div className="box-details">
               <div className="box-img">
-                <div className="box-img-container" onMouseMove={handleMouseMove}
-                  style={{ backgroundImage: `url(${product.images[index]})` }} ref={imgDiv}
-                  onMouseLeave={() => imgDiv.current.style.backgroundPosition = `center`}
+                <div
+                  className="box-img__main"
+                  ref={imgDiv}
+                  onMouseMove={handleMouseMove}
+                  onMouseLeave={() => (imgDiv.current.style.backgroundPosition = 'center')}
+                  style={{ backgroundImage: `url(${product.images[index]})` }}
                 />
-                <div>
+                <div className="box-img__thumbs">
                   <DetailsThumb images={product.images} setIndex={setIndex} />
                 </div>
               </div>
+
               <div className="box-specs-container">
-                <p className="box-specs-items">
-                  <span>YEAR</span>
-                  <span>
-                    {product.year}
-                  </span>
-                </p>
-                <p className="box-specs-items">
-                  <span>MAKE</span>
-                  <span>
-                    {product.make}
-                  </span>
-                </p>
-                <p className="box-specs-items">
-                  <span>MODEL</span>
-                  <span>
-                    {product.model}
-                  </span>
-                </p>
-                <p className="box-specs-items">
-                  <span>BODY COLOR</span>
-                  <span>
-                    {product.bodyColor}
-                  </span>
-                </p>
-                <p className="box-specs-items">
-                  <span>STOCK</span>
-                  <span>
-                    {product.stockNumber}
-                  </span>
-                </p>
-                <p className="box-specs-items">
-                  <span>VIN</span>
-                  <span>
-                    {product.vin}
-                  </span>
-                </p>
-                <p className="box-specs-items">
-                  <span>MILEs</span>
-                  <span>
-                    {product.miles}
-                  </span>
-                </p>
-                <p className="box-specs-items">
-                  <span>ENGINE SIZE</span>
-                  <span>
-                    {product.engineSize}
-                  </span>
-                </p>
-                <p className="box-specs-items">
-                  <span>TRANSMISSION TYPE</span>
-                  <span>
-                    {product.transmissionType}
-                  </span>
-                </p>
+                {[
+                  ['YEAR', product.year],
+                  ['MAKE', product.make],
+                  ['MODEL', product.model],
+                  ['BODY COLOR', product.bodyColor],
+                  ['STOCK', product.stockNumber],
+                  ['VIN', product.vin],
+                  ['MILES', product.miles],
+                  ['ENGINE SIZE', product.engineSize],
+                  ['TRANSMISSION TYPE', product.transmissionType],
+                ].map(([label, value], index) => (
+                  <div className="box-specs__item" key={index}>
+                    <span className="box-specs__label">{label}</span>
+                    <span className="box-specs__value">{value}</span>
+                  </div>
+                ))}
               </div>
+
             </div>
             <CurrentContacts />
             <HeaderInventory />
