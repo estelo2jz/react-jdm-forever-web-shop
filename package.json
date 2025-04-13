@@ -30,15 +30,6 @@
       "react-app/jest"
     ]
   },
-  "optimization": {
-    "portableRecords": true,
-    "scripts": true,
-    "styles": {
-      "minify": false,
-      "inlineCritical": false
-    },
-    "fonts": true,
-  },
   "browserslist": {
     "production": [
       ">0.2%",
