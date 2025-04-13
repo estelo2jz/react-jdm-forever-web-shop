@@ -11,7 +11,7 @@ import { JapanDataProvider } from "./Data/Japan/JapanInventory";
 import { DataContext } from "./DataProvider";
 
 import JDMLOGO from "../assets/images/home/jdmlover3.png";
-import pcevolvers from "../assets/pcevolversNObg.png"
+import pcevolvers from "../assets/jdmspark.png"
 
 import { GiCarSeat } from "react-icons/gi";
 import { BiMenuAltRight } from "react-icons/bi";
