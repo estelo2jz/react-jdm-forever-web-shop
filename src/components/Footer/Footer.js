@@ -65,7 +65,7 @@ const Footer = () => {
         <a href="https://estelo.net/" target="_blank" rel="noreferrer">
           <ImRocket />
         </a>
-        <p>EBUILD</p>
+        <p>E</p>
       </div>
     </footer>
   );
