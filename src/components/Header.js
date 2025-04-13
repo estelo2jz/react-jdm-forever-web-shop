@@ -125,7 +125,7 @@ export default function Header() {
                 </Link>
               </ReactBootStrap.NavDropdown.Item>
               <ReactBootStrap.NavDropdown.Item className="header__dropdown-links">
-                <Link className="header__dropdown-links" to="/">
+                <Link className="header__dropdown-links" to="/blog">
                   Blog
                 </Link>
               </ReactBootStrap.NavDropdown.Item>

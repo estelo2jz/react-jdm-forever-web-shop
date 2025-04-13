@@ -47,18 +47,21 @@ const Footer = () => {
 
         <nav className="footer__nav">
           {[
-            "Home",
-            "Inventory",
-            "Find Your Vehicle",
-            "Title/Registration",
-            "Service",
-            "California Buyer",
-            "FAQ | Info",
-            "Contact"
-          ].map((label, index) => (
-            <Link key={index} to="#" className="footer__nav-link">{label}</Link>
+            { label: "Home", path: "/" },
+            { label: "Inventory", path: "/inventory" },
+            { label: "Find Your Vehicle", path: "/car-finder" },
+            { label: "Title/Registration", path: "/title-registration" },
+            { label: "Service", path: "/service" },
+            { label: "California Buyer", path: "/california-buyer" },
+            { label: "FAQ | Info", path: "/faq-and-info" },
+            { label: "Contact", path: "/contact" }
+          ].map(({ label, path }, index) => (
+            <Link key={index} to={path} className="footer__nav-link">
+              {label}
+            </Link>
           ))}
         </nav>
+
       </section>
 
       <div className="footer__bottom">

@@ -11,13 +11,14 @@ import ScrollToTop from './components/ScrollToTop';
 
 import Details from './components/Details'
 import Home from './components/Home/Home';
-import Cart from './components/Cart'
 import Footer from './components/Footer/Footer';
 import Contact from '../src/pages/Contact/Contact';
 import FindVehicle from '../src/pages/FindVehicle/FindVehicle';
 import News from '../src/pages/News/News';
 import Shop from "./components/Shop/Shop"
 import FAQ from '../src/pages/FAQ/FAQ';
+import Service from "../src/components/Service/Service"
+import Blog from "../src/components/Blog/Blog"
 
 import Inventory from '../src/pages/Inventory/Inventory';
 import CurrentPage from '../src/pages/Inventory/CurrentPage';
@@ -59,6 +60,8 @@ function App() {
                           <Route path="/contact" exact element={<Contact />} />
                           <Route path="/faq-and-info" exact element={<FAQ />} />
                           <Route path="/california-buyer" exact element={<Buyer />} />
+                          <Route path="/service" exact element={<Service />} />
+                          <Route path="/blog" exact element={<Blog />} />
                           <Route path="/inventory/:id" exact element={<Details />} />
                           <Route path="/inventory/sold/:id" exact element={<SoldDetails />} />
                           <Route path="/inventory/current/:id" exact element={<CurrentDetails />} />

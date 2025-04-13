@@ -1,0 +1,98 @@
+.service {
+  padding: 100px 20px;
+  background: #f9f9f9;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+
+  &__heading {
+    max-width: 800px;
+    margin: 0 auto 60px;
+
+    h1 {
+      font-size: clamp(2rem, 5vw, 3rem);
+      color: #dc3545;
+      font-weight: 800;
+    }
+
+    p {
+      font-size: 1.1rem;
+      color: #666;
+      margin-top: 10px;
+    }
+  }
+
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 2rem;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  &__card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 30px 20px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+
+    &:hover {
+      transform: translateY(-6px);
+    }
+
+    .service__icon {
+      font-size: 3rem;
+      color: #dc3545;
+      margin-bottom: 15px;
+    }
+
+    h2 {
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: #2c2c2c;
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: #555;
+      font-size: 0.95rem;
+    }
+  }
+
+  &__cta {
+    margin-top: 60px;
+
+    .service__btn {
+      padding: 14px 32px;
+      font-size: 1rem;
+      font-weight: 700;
+      background: #000000;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      text-decoration: none;
+      transition: background 0.3s ease;
+
+      &:hover {
+        background: #dc3545;
+      }
+    }
+  }
+}
+
+// 📱 Responsive tweaks
+@media screen and (max-width: 500px) {
+  .service {
+    &__heading h1 {
+      font-size: 2rem;
+    }
+
+    &__card h2 {
+      font-size: 1.2rem;
+    }
+
+    &__cta .service__btn {
+      width: 100%;
+    }
+  }
+}
