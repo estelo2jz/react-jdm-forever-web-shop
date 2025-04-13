@@ -5,6 +5,7 @@ import { ImInstagram, ImYoutube2, ImRocket, ImLocation } from "react-icons/im";
 import { BsFillTelephoneFill } from "react-icons/bs";
 
 import JDMLOVER from "../../assets/images/home/jdmlover.png";
+import pcevolvers from "../../assets/pcevolversNObg.png"
 import "./Footer.scss";
 
 const Footer = () => {
@@ -29,7 +30,7 @@ const Footer = () => {
       <section className="footer__main">
         <div className="footer__logo">
           <Link to="/">
-            <img src={JDMLOVER} alt="JDM Lover Logo" />
+            <img src={pcevolvers} alt="JDM Lover Logo" />
           </Link>
         </div>
 

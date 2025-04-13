@@ -11,6 +11,7 @@ import { JapanDataProvider } from "./Data/Japan/JapanInventory";
 import { DataContext } from "./DataProvider";
 
 import JDMLOGO from "../assets/images/home/jdmlover3.png";
+import pcevolvers from "../assets/pcevolversNObg.png"
 
 import { GiCarSeat } from "react-icons/gi";
 import { BiMenuAltRight } from "react-icons/bi";
@@ -47,12 +48,7 @@ export default function Header() {
       >
         <ReactBootStrap.Navbar.Brand className="header__container" href="#home">
           <Link className="logo__link" to="/">
-            {/* <img src={JDMLOGO} alt="" /> */}
-            <span>JDM</span>
-            <span>
-              <GiCarSeat />
-            </span>
-            <span>over</span>
+            <img src={pcevolvers} alt="logo" />
           </Link>
         </ReactBootStrap.Navbar.Brand>
         <ReactBootStrap.Navbar.Toggle
