@@ -1,43 +1,35 @@
 .shop {
   padding: 2rem;
-  animation: fadeInUp 0.6s ease;
+  animation: fadeIn 0.6s ease-in;
 
-  &__header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  &__title {
+    font-size: 2rem;
+    text-align: center;
     margin-bottom: 2rem;
-
-    h1 {
-      font-size: 2rem;
-      font-weight: bold;
-    }
-
-    select {
-      padding: 0.5rem 1rem;
-      border-radius: 6px;
-      font-size: 1rem;
-    }
+    font-weight: bold;
   }
 
   &__grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
     gap: 2rem;
+    align-items: stretch;
   }
 
   &__card {
     background: #fff;
     border-radius: 10px;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
     overflow: hidden;
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 
     &:hover {
       transform: translateY(-5px);
+      box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
     }
 
     .shop__image {
+      width: 100%;
       height: 200px;
       background-size: cover;
       background-position: center;
@@ -48,8 +40,9 @@
       text-align: center;
 
       h2 {
-        font-size: 1.2rem;
+        font-size: 1rem;
         margin: 0.5rem 0;
+        font-weight: 600;
       }
 
       p {
@@ -59,7 +52,7 @@
       }
 
       button {
-        margin-top: 1rem;
+        margin-top: 0.75rem;
         padding: 0.5rem 1rem;
         background-color: #000;
         color: #fff;
@@ -74,23 +67,21 @@
       }
     }
   }
-
-  &__footer {
-    margin-top: 3rem;
-    text-align: center;
-    font-size: 0.95rem;
-    color: #666;
-  }
 }
 
-// Animation
-@keyframes fadeInUp {
+@keyframes fadeIn {
   from {
     opacity: 0;
-    transform: translateY(30px);
+    transform: translateY(20px);
   }
   to {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+@media (max-width: 768px) {
+  .shop__grid {
+    grid-template-columns: 1fr;
   }
 }

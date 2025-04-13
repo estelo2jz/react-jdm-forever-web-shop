@@ -1,60 +1,63 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Shop.scss";
 
-const dummyProducts = [
+const accessories = [
   {
     id: 1,
-    name: "Nissan Skyline GT-R",
-    image: "https://source.unsplash.com/600x400/?nissan,skyline",
-    price: 85000,
+    name: "JDM Rising Sun Sticker",
+    image: "https://source.unsplash.com/300x300/?sticker,red",
+    price: 5.99,
   },
   {
     id: 2,
-    name: "Toyota Supra MK4",
-    image: "https://source.unsplash.com/600x400/?toyota,supra",
-    price: 95000,
+    name: "Carbon Fiber Shift Knob",
+    image: "https://source.unsplash.com/300x300/?shift,knob",
+    price: 24.99,
   },
   {
     id: 3,
-    name: "Mazda RX-7",
-    image: "https://source.unsplash.com/600x400/?mazda,rx7",
-    price: 75000,
+    name: "Turbocharger Keychain",
+    image: "https://source.unsplash.com/300x300/?keychain,turbo",
+    price: 7.5,
   },
+  {
+    id: 4,
+    name: "Vinyl Windshield Banner",
+    image: "https://source.unsplash.com/300x300/?banner,car",
+    price: 14.95,
+  },
+  {
+    id: 5,
+    name: "Custom License Plate Frame",
+    image: "https://source.unsplash.com/300x300/?license,frame",
+    price: 12.0,
+  },
+  {
+    id: 6,
+    name: "Fuel Cut Decal Pack",
+    image: "https://source.unsplash.com/300x300/?jdm,decal",
+    price: 9.5,
+  }
 ];
 
-export default function Shop() {
-  const [products] = useState(dummyProducts);
-
+const Shop = () => {
   return (
-    <div className="shop">
-      <header className="shop__header">
-        <h1>Available Inventory</h1>
-        <div className="shop__controls">
-          <select>
-            <option value="default">Sort by</option>
-            <option value="price-asc">Price: Low to High</option>
-            <option value="price-desc">Price: High to Low</option>
-          </select>
-        </div>
-      </header>
-
-      <section className="shop__grid">
-        {products.map((car) => (
-          <div className="shop__card" key={car.id}>
-            <div className="shop__image" style={{ backgroundImage: `url(${car.image})` }}></div>
+    <section className="shop">
+      <h1 className="shop__title">Stickers & Accessories</h1>
+      <div className="shop__grid">
+        {accessories.map((item) => (
+          <div key={item.id} className="shop__card">
+            <div className="shop__image" style={{ backgroundImage: `url(${item.image})` }}></div>
             <div className="shop__info">
-              <h2>{car.name}</h2>
-              <p>${car.price.toLocaleString()}</p>
-              <button>View Details</button>
+              <h2>{item.name}</h2>
+              <p>${item.price.toFixed(2)}</p>
+              <button>Add to Cart</button>
             </div>
           </div>
         ))}
-      </section>
-
-      <footer className="shop__footer">
-        <p>Page 1 of 1</p>
-        {/* Pagination controls could go here */}
-      </footer>
-    </div>
+      </div>
+    </section>
   );
-}
+};
+
+export default Shop;
