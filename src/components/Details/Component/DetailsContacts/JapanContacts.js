@@ -14,7 +14,7 @@ const JapanContact = () => {
       <div className="details-contact__details">
         <JapanTab />
       </div>
-      <div className="details-contact__form">
+      {/* <div className="details-contact__form">
         <div className="details-contact__form-number">
           <div className="details-contact__logo"><BsFillTelephoneFill /></div>
           <div className="details-contact__number">844-523-2233</div>
@@ -40,7 +40,7 @@ const JapanContact = () => {
             </div>
           </form>
         </div>
-      </div>
+      </div> */}
     </div>
   )
 }

@@ -249,3 +249,180 @@
     }
   }
 }
+
+
+
+.tabs-template__specs-dynamic {
+  margin-top: 3rem;
+
+  p {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  .tabs-template__specs-engine-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1rem;
+  }
+
+  .tabs-template__specs-engine-children {
+    background: #fff;
+    border-radius: 1rem;
+    padding: 1.2rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+    span:first-child {
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: #999;
+      margin-bottom: 0.4rem;
+      text-transform: uppercase;
+    }
+
+    span:last-child {
+      font-size: 1.1rem;
+      font-weight: 500;
+      color: #222;
+      word-break: break-word;
+    }
+
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+    }
+  }
+}
+
+
+.supercar__tab-container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: 'Inter', sans-serif;
+  color: #0f0f0f;
+}
+
+.supercar__overview-card {
+  text-align: center;
+  background: linear-gradient(135deg, #111, #222);
+  color: #fff;
+  padding: 2rem;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.supercar__subtitle {
+  font-size: 1.1rem;
+  color: #aaa;
+  margin-top: 0.5rem;
+}
+
+.supercar__builder {
+  display: block;
+  margin-top: 1rem;
+  font-size: 0.95rem;
+  color: #ccc;
+}
+
+.supercar__spec-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.supercar__spec-card {
+  background: #fff;
+  border-radius: 1rem;
+  padding: 1.2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: translateY(-4px);
+  }
+
+  .supercar__spec-label {
+    font-size: 0.75rem;
+    color: #888;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  .supercar__spec-value {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #333;
+    margin-top: 0.3rem;
+  }
+}
+
+.supercar__section {
+  margin-top: 3rem;
+
+  h3 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    border-left: 4px solid #ff3c00;
+    padding-left: 1rem;
+    color: #111;
+  }
+}
+
+
+.details__mod-list,
+.details__main-service {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background-color: #1c1c1c;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(255, 77, 77, 0.08);
+  transition: all 0.3s ease;
+  border: 1px solid #2a2a2a;
+
+  &:hover {
+    box-shadow: 0 0 25px rgba(255, 77, 77, 0.15);
+  }
+}
+
+.details__mod-list-heading,
+.details__main-service-heading p {
+  font-size: 1.4rem;
+  color: #f24b4b;
+  font-weight: bold;
+  margin-bottom: 1.25rem;
+  letter-spacing: 0.5px;
+}
+
+.details__mod-list-container,
+.maintenance-thumb__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+}
+
+.card {
+  background-color: #2a2a2a;
+  padding: 1rem;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 0.95rem;
+  text-align: center;
+  transition: transform 0.3s ease, background 0.3s ease;
+  border: 1px solid transparent;
+
+  &:hover {
+    transform: translateY(-4px);
+    background: #333;
+    border-color: #f24b4b;
+  }
+}

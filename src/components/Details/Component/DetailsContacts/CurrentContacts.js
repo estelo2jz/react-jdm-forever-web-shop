@@ -14,7 +14,7 @@ const CurrentContact = () => {
       <div className="details-contact__details">
         <CurrentTab />
       </div>
-      <div className="details-contact__form">
+      {/* <div className="details-contact__form">
         <div className="details-contact__form-number">
           <div className="details-contact__logo"><BsFillTelephoneFill /></div>
           <div className="details-contact__number">844-523-2233</div>
@@ -40,7 +40,7 @@ const CurrentContact = () => {
             </div>
           </form>
         </div>
-      </div>
+      </div> */}
     </div>
   )
 }
