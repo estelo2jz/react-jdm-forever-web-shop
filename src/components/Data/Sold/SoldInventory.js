@@ -114,7 +114,7 @@ export const SoldDataProvider = (props) => {
   "make": "Toyota",
   "price": "SOLD",
   "images": [
-    "Toyota1988CruiserVXDieselTurbo"
+    Toyota1988CruiserVXDieselTurbo
   ],
   "fullNameWithAddress": "FOR SALE IN CYPRESS, CALIFORNIA",
   "fullName": "1988 TOYOTA LAND CRUISER VX DIESEL TURBO",
