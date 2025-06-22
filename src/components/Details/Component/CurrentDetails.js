@@ -62,16 +62,13 @@ export default function CurrentDetails() {
                 className="box-img__main"
                 ref={imgDiv}
                 onMouseMove={handleMouseMove}
-                onMouseLeave={() => (imgDiv.current.style.backgroundPosition = 'center')}
+                onMouseLeave={() => (<img src={product.images[index]} alt="product" />)}
                 onTouchStart={handleTouchStart}
                 onTouchEnd={(e) => handleTouchEnd(e, product)}
                 style={{
                   backgroundImage: `url(${product.images[index]})`,
                 }}
               />
-              {/* <small style={{ textAlign: 'center', display: 'block', marginTop: '10px', color: '#777' }}>
-                Swipe left/right on image
-              </small> */}
 
 
               <div className="box-img__thumbs">
