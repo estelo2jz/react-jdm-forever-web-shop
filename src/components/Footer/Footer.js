@@ -67,9 +67,10 @@ const Footer = () => {
       <div className="footer__bottom">
         <p>POWERED BY</p>
         <a href="https://estelo.net/" target="_blank" rel="noreferrer">
-          <ImRocket />
+          {/* <ImRocket /> */}
+        <p>EMA</p>
+
         </a>
-        <p>E</p>
       </div>
     </footer>
   );

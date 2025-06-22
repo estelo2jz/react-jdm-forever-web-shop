@@ -1,7 +1,7 @@
 import React from "react";
-import "../components/Details/styles/DetailsThumb.scss";
+import "./Details/styles/DetailsThumb.scss";
 
-export default function DetailsThumb({ images, setIndex, activeIndex }) {
+export default function DetailsThumb({ images, setIndex }) {
   if (!images || images.length === 0) return null;
 
   const handleNext = () => {
@@ -14,8 +14,12 @@ export default function DetailsThumb({ images, setIndex, activeIndex }) {
 
   return (
     <div className="thumb-overlay">
-      <button className="thumb-btn left" onClick={handlePrev}>‹</button>
-      <button className="thumb-btn right" onClick={handleNext}>›</button>
+      <button className="thumb-btn left" onClick={handlePrev}>
+        <span>‹</span>
+      </button>
+      <button className="thumb-btn right" onClick={handleNext}>
+        <span>›</span>
+      </button>
     </div>
   );
 }
