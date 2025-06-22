@@ -360,3 +360,150 @@
     }
   }
 }
+
+
+
+.thumb-slider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+  position: relative;
+
+  &__btn {
+    background-color: #111;
+    color: #fff;
+    font-size: 2rem;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: background 0.3s ease;
+
+    &:hover {
+      background-color: #d71345;
+    }
+  }
+
+  &__image {
+    width: 120px;
+    height: 90px;
+    overflow: hidden;
+    border-radius: 8px;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      border: 2px solid #ccc;
+    }
+  }
+}
+
+.details__image-main {
+  transition: background-image 0.5s ease-in-out;
+  position: relative;
+}
+
+
+
+
+.details__media {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.details__image-main {
+  position: relative;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.thumb-overlay {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1rem;
+  pointer-events: none;
+
+  .thumb-btn {
+    pointer-events: all;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    border: none;
+    font-size: 2rem;
+    padding: 0.5rem 1rem;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    z-index: 5;
+
+    &:hover {
+      background: #d71345;
+    }
+  }
+}
+
+.details__specs {
+  width: 100%;
+  max-width: 600px;
+  margin: 2rem auto;
+  background: #fafafa;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+}
+
+.spec-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.8rem 0;
+  border-bottom: 1px solid #eee;
+  font-size: 1rem;
+
+  span:first-child {
+    color: #888;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 0.9rem;
+  }
+
+  span:last-child {
+    font-weight: 600;
+    color: #222;
+    max-width: 60%;
+    text-align: right;
+  }
+}
+
+.details__title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #111;
+}
+
+.details__price {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  background-color: #d71345;
+  color: white;
+  display: inline-block;
+  padding: 0.5rem 1.5rem;
+  border-radius: 8px;
+  margin: 0 auto 1.5rem;
+}

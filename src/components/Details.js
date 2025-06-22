@@ -39,11 +39,15 @@ export default function Details() {
               <div
                 className="details__image-main"
                 ref={imgDiv}
+                onClick={() => setIndex((prev) => (prev + 1) % product.images.length)}
                 onMouseMove={handleMouseMove}
                 onMouseLeave={() => (imgDiv.current.style.backgroundPosition = "center")}
                 style={{ backgroundImage: `url(${product.images[index]})` }}
               ></div>
-              <DetailsThumb images={product.images} setIndex={setIndex} />
+
+              <DetailsThumb images={product.images} setIndex={setIndex} activeIndex={index} />
+<small className="details__hint">(Click image to view next)</small>
+
             </div>
 
             <div className="details__specs">
